@@ -407,7 +407,7 @@ def merge(base, inc):
     for k in ['ciudad', 'provincia', 'ccaa', 'web_oficial', 'lat', 'lng']:
         if not base.get(k) and inc.get(k): base[k] = inc[k]
     if base.get('precio') is None and inc.get('precio') is not None: base['precio'] = inc['precio']
-    for k in ['fin_status', 'runnea_confirmada', 'cp_organiza', 'fin_slug', 'fuente_oficial_confirmada']:
+    for k in ['fin_status', 'runnea_confirmada', 'cp_organiza', 'fin_slug', 'fuente_oficial_confirmada', 'curada_organizacion']:
         if inc.get(k) and not base.get(k): base[k] = inc[k]
     # nombre preferido: el mas informativo (mas largo sin ser redundante)
     if inc['nombre'] and len(inc['nombre']) > len(base['nombre'] or ''):
@@ -518,6 +518,16 @@ def aplicar_overrides(races):
             if ov.get('web_oficial') and not r.get('web_oficial'):
                 r['web_oficial'] = ov['web_oficial']
 
+# ---------- EVENTOS CURADOS (fuentes no automatizables) ----------
+def load_curated():
+    path=os.path.join(ROOT,'data','curated_events.json')
+    if not os.path.exists(path): return []
+    out=[]
+    for r in json.load(open(path)):
+        x=dict(r); x.setdefault('lat',None);x.setdefault('lng',None); names={f.get('nombre','') for f in x.get('fuentes',[])}; x['fuente_oficial_confirmada']=any(n in {'spartan_deka_oficial','spartan_oficial','ironman_oficial'} for n in names); x['curada_organizacion']=not x['fuente_oficial_confirmada']
+        out.append(x)
+    print(f'curados: {len(out)}');return out
+
 # ---------- NIVEL DE VALIDACION ----------
 def limpia_url(u):
     if not u: return u
@@ -532,6 +542,8 @@ def limpia_url(u):
 def nivel(r, n_fuentes_agenda):
     if r.get('fuente_oficial_confirmada'):
         return 'confirmada_web_oficial'
+    if r.get('curada_organizacion'):
+        return 'confirmada_organizacion'
     if r.get('runnea_confirmada') or r.get('fin_status') == 'confirmed':
         return 'confirmada_organizacion'
     if r.get('fin_status') == 'tba' and n_fuentes_agenda <= 1:
@@ -550,8 +562,9 @@ def main():
     hyrox = load_hyrox()
     hyatlon = load_hyatlon()
     spartan = load_spartan()
+    curated = load_curated()
     rw = load_rw()
-    agendas = cp + fin + tri + run + hyrox + hyatlon + spartan
+    agendas = cp + fin + tri + run + hyrox + hyatlon + spartan + curated
     merged = []
     for r in agendas:
         hit = None

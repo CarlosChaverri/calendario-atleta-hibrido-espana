@@ -1,0 +1,422 @@
+[
+ {
+  "nombre": "DEKA FIT Barcelona Otoño",
+  "modalidad": "hibrida",
+  "fecha": "2026-09-26",
+  "ciudad": "Barcelona",
+  "provincia": "Barcelona",
+  "ccaa": "Cataluña",
+  "precio": 60,
+  "web_oficial": "https://es.spartan.com/es/races/deka-barcelona-otono",
+  "fuentes": [
+   {
+    "nombre": "spartan_deka_oficial",
+    "url": "https://es.spartan.com/es/races/deka-barcelona-otono"
+   }
+  ]
+ },
+ {
+  "nombre": "DEKA FIT Guadalajara",
+  "modalidad": "hibrida",
+  "fecha": "2026-10-24",
+  "ciudad": "Guadalajara",
+  "provincia": "Guadalajara",
+  "ccaa": "Castilla-La Mancha",
+  "precio": 60,
+  "web_oficial": "https://es.spartan.com/es/races/deka-guadalajara",
+  "fuentes": [
+   {
+    "nombre": "spartan_deka_oficial",
+    "url": "https://es.spartan.com/es/races/deka-guadalajara"
+   }
+  ]
+ },
+ {
+  "nombre": "DEKA FIT Alicante",
+  "modalidad": "hibrida",
+  "fecha": "2026-10-31",
+  "ciudad": "Alicante",
+  "provincia": "Alicante",
+  "ccaa": "Comunitat Valenciana",
+  "precio": 80,
+  "web_oficial": "https://es.spartan.com/es/races/deka-alicante",
+  "fuentes": [
+   {
+    "nombre": "spartan_deka_oficial",
+    "url": "https://es.spartan.com/es/races/deka-alicante"
+   }
+  ]
+ },
+ {
+  "nombre": "DEKA FIT Tenerife",
+  "modalidad": "hibrida",
+  "fecha": "2026-11-21",
+  "ciudad": "Santa Cruz de Tenerife",
+  "provincia": "Santa Cruz de Tenerife",
+  "ccaa": "Canarias",
+  "precio": 60,
+  "web_oficial": "https://es.spartan.com/es/races/deka-tenerife",
+  "fuentes": [
+   {
+    "nombre": "spartan_deka_oficial",
+    "url": "https://es.spartan.com/es/races/deka-tenerife"
+   }
+  ]
+ },
+ {
+  "nombre": "DEKA FIT Torremolinos",
+  "modalidad": "hibrida",
+  "fecha": "2027-02-27",
+  "ciudad": "Torremolinos",
+  "provincia": "Málaga",
+  "ccaa": "Andalucía",
+  "precio": 72,
+  "web_oficial": "https://es.spartan.com/es/races/deka-torremolinos",
+  "fuentes": [
+   {
+    "nombre": "spartan_deka_oficial",
+    "url": "https://es.spartan.com/es/races/deka-torremolinos"
+   }
+  ]
+ },
+ {
+  "nombre": "DEKA FIT Toledo",
+  "modalidad": "hibrida",
+  "fecha": "2027-03-06",
+  "ciudad": "Toledo",
+  "provincia": "Toledo",
+  "ccaa": "Castilla-La Mancha",
+  "precio": 72,
+  "web_oficial": "https://es.spartan.com/es/races/deka-toledo-2027",
+  "fuentes": [
+   {
+    "nombre": "spartan_deka_oficial",
+    "url": "https://es.spartan.com/es/races/deka-toledo-2027"
+   }
+  ]
+ },
+ {
+  "nombre": "DEKA FIT Barcelona Primavera",
+  "modalidad": "hibrida",
+  "fecha": "2027-03-20",
+  "ciudad": "Barcelona",
+  "provincia": "Barcelona",
+  "ccaa": "Cataluña",
+  "precio": 72,
+  "web_oficial": "https://es.spartan.com/es/races/deka-barcelona-primavera",
+  "fuentes": [
+   {
+    "nombre": "spartan_deka_oficial",
+    "url": "https://es.spartan.com/es/races/deka-barcelona-primavera"
+   }
+  ]
+ },
+ {
+  "nombre": "DEKA FIT Valencia",
+  "modalidad": "hibrida",
+  "fecha": "2027-04-03",
+  "ciudad": "Valencia",
+  "provincia": "Valencia",
+  "ccaa": "Comunitat Valenciana",
+  "precio": 72,
+  "web_oficial": "https://es.spartan.com/es/races/deka-valencia-2027",
+  "fuentes": [
+   {
+    "nombre": "spartan_deka_oficial",
+    "url": "https://es.spartan.com/es/races/deka-valencia-2027"
+   }
+  ]
+ },
+ {
+  "nombre": "DEKA FIT Ibiza",
+  "modalidad": "hibrida",
+  "fecha": "2027-04-17",
+  "ciudad": "Sant Agustí des Vedrà",
+  "provincia": "Illes Balears",
+  "ccaa": "Illes Balears",
+  "precio": 72,
+  "web_oficial": "https://es.spartan.com/es/races/deka-ibiza-2027",
+  "fuentes": [
+   {
+    "nombre": "spartan_deka_oficial",
+    "url": "https://es.spartan.com/es/races/deka-ibiza-2027"
+   }
+  ]
+ },
+ {
+  "nombre": "DEKA FIT Vigo",
+  "modalidad": "hibrida",
+  "fecha": "2027-06-26",
+  "ciudad": "Vigo",
+  "provincia": "Pontevedra",
+  "ccaa": "Galicia",
+  "precio": 72,
+  "web_oficial": "https://es.spartan.com/es/races/deka-vigo-2027",
+  "fuentes": [
+   {
+    "nombre": "spartan_deka_oficial",
+    "url": "https://es.spartan.com/es/races/deka-vigo-2027"
+   }
+  ]
+ },
+ {
+  "nombre": "Spartan Madrid Trifecta Weekend",
+  "modalidad": "obstaculos",
+  "fecha": "2027-05-08",
+  "ciudad": "San Agustín del Guadalix",
+  "provincia": "Madrid",
+  "ccaa": "Comunidad de Madrid",
+  "precio": null,
+  "web_oficial": "https://es.spartan.com/es/races/madrid",
+  "fuentes": [
+   {
+    "nombre": "spartan_oficial",
+    "url": "https://es.spartan.com/es/races/madrid"
+   }
+  ]
+ },
+ {
+  "nombre": "Ibiza Sprint Triathlon",
+  "modalidad": "triatlon_sprint",
+  "fecha": "2026-10-25",
+  "ciudad": "Ibiza",
+  "provincia": "Illes Balears",
+  "ccaa": "Illes Balears",
+  "precio": null,
+  "web_oficial": "https://www.ahotu.com/es/evento/ibiza-sprint-triathlon",
+  "fuentes": [
+   {
+    "nombre": "ahotu_inscripcion",
+    "url": "https://www.ahotu.com/es/evento/ibiza-sprint-triathlon"
+   }
+  ]
+ },
+ {
+  "nombre": "TotalTri Mallorca Triatló",
+  "modalidad": "triatlon_media",
+  "fecha": "2027-03-21",
+  "ciudad": "Capdepera",
+  "provincia": "Illes Balears",
+  "ccaa": "Illes Balears",
+  "precio": null,
+  "web_oficial": "https://www.ahotu.com/es/evento/total-tri-mallorca-triatlo",
+  "fuentes": [
+   {
+    "nombre": "ahotu_inscripcion",
+    "url": "https://www.ahotu.com/es/evento/total-tri-mallorca-triatlo"
+   }
+  ]
+ },
+ {
+  "nombre": "Challenge Mogán Gran Canaria",
+  "modalidad": "triatlon_media",
+  "fecha": "2027-04-17",
+  "ciudad": "Mogán",
+  "provincia": "Las Palmas",
+  "ccaa": "Canarias",
+  "precio": null,
+  "web_oficial": "https://www.ahotu.com/es/evento/challenge-mogan-gran-canaria",
+  "fuentes": [
+   {
+    "nombre": "ahotu_inscripcion",
+    "url": "https://www.ahotu.com/es/evento/challenge-mogan-gran-canaria"
+   }
+  ]
+ },
+ {
+  "nombre": "Challenge Salou Triathlon",
+  "modalidad": "triatlon_media",
+  "fecha": "2027-05-09",
+  "ciudad": "Salou",
+  "provincia": "Tarragona",
+  "ccaa": "Cataluña",
+  "precio": null,
+  "web_oficial": "https://www.ahotu.com/es/evento/challenge-salou-triathlon",
+  "fuentes": [
+   {
+    "nombre": "ahotu_inscripcion",
+    "url": "https://www.ahotu.com/es/evento/challenge-salou-triathlon"
+   }
+  ]
+ },
+ {
+  "nombre": "IRONCAT L'Ampolla Triathlon",
+  "modalidad": "triatlon_media",
+  "fecha": "2026-10-10",
+  "ciudad": "L'Ampolla",
+  "provincia": "Tarragona",
+  "ccaa": "Cataluña",
+  "precio": null,
+  "web_oficial": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon",
+  "fuentes": [
+   {
+    "nombre": "ahotu_calendario",
+    "url": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon"
+   }
+  ]
+ },
+ {
+  "nombre": "IRONCAT L'Ampolla Triathlon",
+  "modalidad": "triatlon_larga",
+  "fecha": "2026-10-10",
+  "ciudad": "L'Ampolla",
+  "provincia": "Tarragona",
+  "ccaa": "Cataluña",
+  "precio": null,
+  "web_oficial": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon",
+  "fuentes": [
+   {
+    "nombre": "ahotu_calendario",
+    "url": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon"
+   }
+  ]
+ },
+ {
+  "nombre": "ICAN Triathlon Gandia",
+  "modalidad": "triatlon_media",
+  "fecha": "2026-10-17",
+  "ciudad": "Gandia",
+  "provincia": "Valencia",
+  "ccaa": "Comunitat Valenciana",
+  "precio": null,
+  "web_oficial": "https://www.ahotu.com/es/evento/ican-triathlon",
+  "fuentes": [
+   {
+    "nombre": "ahotu_calendario",
+    "url": "https://www.ahotu.com/es/evento/ican-triathlon"
+   }
+  ]
+ },
+ {
+  "nombre": "ICAN Triathlon Gandia",
+  "modalidad": "triatlon_larga",
+  "fecha": "2026-10-17",
+  "ciudad": "Gandia",
+  "provincia": "Valencia",
+  "ccaa": "Comunitat Valenciana",
+  "precio": null,
+  "web_oficial": "https://www.ahotu.com/es/evento/ican-triathlon",
+  "fuentes": [
+   {
+    "nombre": "ahotu_calendario",
+    "url": "https://www.ahotu.com/es/evento/ican-triathlon"
+   }
+  ]
+ },
+ {
+  "nombre": "IRONMAN 70.3 Málaga",
+  "modalidad": "triatlon_media",
+  "fecha": "2026-10-18",
+  "ciudad": "Málaga",
+  "provincia": "Málaga",
+  "ccaa": "Andalucía",
+  "precio": null,
+  "web_oficial": "https://www.ironman.com/races/im703-malaga",
+  "fuentes": [
+   {
+    "nombre": "ironman_oficial",
+    "url": "https://www.ironman.com/races/im703-malaga"
+   },
+   {
+    "nombre": "ahotu_calendario",
+    "url": "https://www.ahotu.com/es/evento/ironman-70-3-malaga"
+   }
+  ]
+ },
+ {
+  "nombre": "10K Ciudad Lineal",
+  "modalidad": "10k",
+  "fecha": "2026-10-04",
+  "ciudad": "Madrid",
+  "provincia": "Madrid",
+  "ccaa": "Comunidad de Madrid",
+  "precio": 5.5,
+  "web_oficial": "https://www.rockthesport.com/es/evento/v-10-km-de-la-ciudad-lineal-2026",
+  "fuentes": [
+   {
+    "nombre": "rockthesport_inscripcion",
+    "url": "https://www.rockthesport.com/es/evento/v-10-km-de-la-ciudad-lineal-2026"
+   }
+  ]
+ },
+ {
+  "nombre": "Binter NightRun Zaragoza",
+  "modalidad": "5k",
+  "fecha": "2026-09-26",
+  "ciudad": "Zaragoza",
+  "provincia": "Zaragoza",
+  "ccaa": "Aragón",
+  "precio": 25,
+  "web_oficial": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026",
+  "fuentes": [
+   {
+    "nombre": "rockthesport_inscripcion",
+    "url": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026"
+   }
+  ]
+ },
+ {
+  "nombre": "Binter NightRun Zaragoza",
+  "modalidad": "10k",
+  "fecha": "2026-09-26",
+  "ciudad": "Zaragoza",
+  "provincia": "Zaragoza",
+  "ccaa": "Aragón",
+  "precio": 25,
+  "web_oficial": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026",
+  "fuentes": [
+   {
+    "nombre": "rockthesport_inscripcion",
+    "url": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026"
+   }
+  ]
+ },
+ {
+  "nombre": "Gladius Race Santacara",
+  "modalidad": "obstaculos",
+  "fecha": "2026-10-17",
+  "ciudad": "Santacara",
+  "provincia": "Navarra",
+  "ccaa": "Navarra",
+  "precio": null,
+  "web_oficial": "https://www.rockthesport.com/es/evento/santacara-gladius-race-2026",
+  "fuentes": [
+   {
+    "nombre": "rockthesport_inscripcion",
+    "url": "https://www.rockthesport.com/es/evento/santacara-gladius-race-2026"
+   }
+  ]
+ },
+ {
+  "nombre": "Valkiria Race",
+  "modalidad": "obstaculos",
+  "fecha": "2026-09-26",
+  "ciudad": "Barreiros",
+  "provincia": "Lugo",
+  "ccaa": "Galicia",
+  "precio": null,
+  "web_oficial": "https://www.rockthesport.com/es/evento/valkiria-race-2026",
+  "fuentes": [
+   {
+    "nombre": "rockthesport_inscripcion",
+    "url": "https://www.rockthesport.com/es/evento/valkiria-race-2026"
+   }
+  ]
+ },
+ {
+  "nombre": "Gladiators Day Haro",
+  "modalidad": "obstaculos",
+  "fecha": "2026-09-26",
+  "ciudad": "Haro",
+  "provincia": "La Rioja",
+  "ccaa": "La Rioja",
+  "precio": null,
+  "web_oficial": "https://www.rockthesport.com/es/evento/gladiatorsday-haro-2026",
+  "fuentes": [
+   {
+    "nombre": "rockthesport_inscripcion",
+    "url": "https://www.rockthesport.com/es/evento/gladiatorsday-haro-2026"
+   }
+  ]
+ }
+]
