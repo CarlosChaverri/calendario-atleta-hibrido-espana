@@ -524,7 +524,7 @@ def load_curated():
     if not os.path.exists(path): return []
     out=[]
     for r in json.load(open(path)):
-        x=dict(r); x.setdefault('lat',None);x.setdefault('lng',None); names={f.get('nombre','') for f in x.get('fuentes',[])}; x['fuente_oficial_confirmada']=any(n in {'spartan_deka_oficial','spartan_oficial','ironman_oficial'} for n in names); x['curada_organizacion']=not x['fuente_oficial_confirmada']
+        x=dict(r); x.setdefault('lat',None);x.setdefault('lng',None); names={f.get('nombre','') for f in x.get('fuentes',[])}; x['fuente_oficial_confirmada']=any(n in {'spartan_deka_oficial','spartan_oficial','ironman_oficial','organizador_oficial'} for n in names); x['curada_organizacion']=not x['fuente_oficial_confirmada']
         out.append(x)
     print(f'curados: {len(out)}');return out
 
