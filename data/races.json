@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-14T07:59:05",
+ "generado": "2026-09-14T10:04:33",
  "carreras": [
   {
    "id": "fc79d8ce34c1",
@@ -35,8 +35,8 @@
    "ciudad": null,
    "provincia": "Soria",
    "ccaa": "Castilla y León",
-   "lat": 41.6012505,
-   "lng": -2.721938,
+   "lat": 41.7156092,
+   "lng": -2.276903,
    "precio": 18,
    "precio_texto": "desde 18 €",
    "web_oficial": "https://mediomaratonabelanton.es/",
@@ -733,6 +733,39 @@
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-09-14",
    "web_estado": "activa"
+  },
+  {
+   "id": "1dd42a0f6037",
+   "nombre": "49 Media Maratón Popular de Moratalaz",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": true,
+   "ciudad": "Madrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "lat": 40.4237276,
+   "lng": -3.6899043,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://aamoratalaz.com/inscripciones",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/media-maraton-popular-de-moratalaz"
+    },
+    {
+     "nombre": "deporticket",
+     "url": "https://www.deporticket.com/"
+    },
+    {
+     "nombre": "reglamento oficial (PDF)",
+     "url": "https://deporticket.blob.core.windows.net/deporticket/26-reglamento/261108-49a-media-maraton-de-moratalaz-reglamento.pdf"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
   },
   {
    "id": "1f7699c9b84c",
@@ -2096,6 +2129,31 @@
     {
      "nombre": "finishers",
      "url": "https://www.finishers.com/event/lugo-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "ac454b3592e5",
+   "nombre": "Run Festival Tossa de Mar",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-05-16",
+   "fecha_confirmada": true,
+   "ciudad": "Tossa de Mar",
+   "provincia": "Girona",
+   "ccaa": "Cataluña",
+   "lat": 41.71667,
+   "lng": 2.93333,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://runfestivaltossa.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/run-festival-tossa-de-mar"
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",

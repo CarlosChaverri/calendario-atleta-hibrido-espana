@@ -1,17 +1,17 @@
 {
- "generado": "2026-09-14T07:59:05",
+ "generado": "2026-09-14T10:04:33",
  "total": 145,
  "por_modalidad": {
   "maraton": 32,
   "medio_maraton": 113
  },
  "por_nivel": {
-  "por_verificar": 18,
+  "por_verificar": 17,
   "fecha_estimada": 67,
-  "confirmada_organizacion": 60
+  "confirmada_organizacion": 61
  },
  "sin_coordenadas": 0,
  "con_precio": 45,
- "con_web_oficial": 127,
- "visibles": 60
+ "con_web_oficial": 128,
+ "visibles": 61
 }

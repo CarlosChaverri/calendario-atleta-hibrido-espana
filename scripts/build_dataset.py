@@ -385,6 +385,25 @@ def limpia_ciudad(c):
         c = c[0].upper() + c[1:]
     return c
 
+# Overrides curados: aportan fuentes de evidencia verificadas a mano (p. ej. una plataforma
+# de inscripción no automatizable). Las reglas de nivel deciden el resultado, no el override.
+def aplicar_overrides(races):
+    path = os.path.join(ROOT, 'data', 'overrides.json')
+    if not os.path.exists(path):
+        return
+    overs = json.load(open(path))
+    for ov in overs:
+        m = ov.get('match', {})
+        for r in races:
+            if m.get('fecha') and r['fecha'] != m['fecha']: continue
+            if m.get('modalidad') and r['modalidad'] != m['modalidad']: continue
+            if m.get('nombre') and norm(m['nombre']) not in norm(r['nombre']): continue
+            urls = {f['url'] for f in r['fuentes']}
+            for f in ov.get('fuentes', []):
+                if f['url'] not in urls: r['fuentes'].append(f)
+            if ov.get('web_oficial') and not r.get('web_oficial'):
+                r['web_oficial'] = ov['web_oficial']
+
 # ---------- NIVEL DE VALIDACION ----------
 def limpia_url(u):
     if not u: return u
@@ -430,6 +449,7 @@ def main():
                     m['fuentes'].append(e['fuentes'][0]); n_rw += 1
                 break
     print(f'contraste RW aplicado a {n_rw} carreras')
+    aplicar_overrides(merged)
     geocode(merged)
     # comunidades uniprovinciales: la provincia se deduce de la ccaa
     UNIPROV = {'Comunidad de Madrid': 'Madrid', 'La Rioja': 'La Rioja', 'Región de Murcia': 'Murcia',
@@ -451,7 +471,7 @@ def main():
     out = []
     for r in merged:
         noms = {f['nombre'] for f in r['fuentes']}
-        n_agenda = len({'carreraspopulares', 'finishers', 'runnea'} & noms)
+        n_agenda = len({'carreraspopulares', 'finishers', 'runnea', 'deporticket'} & noms)
         nv = nivel(r, n_agenda)
         rid = hashlib.md5((slugify(r['nombre'] or '') + r['fecha'] + r['modalidad']).encode()).hexdigest()[:12]
         out.append({

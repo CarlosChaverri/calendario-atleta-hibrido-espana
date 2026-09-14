@@ -1,0 +1,10 @@
+[
+ {
+  "match": {"nombre": "moratalaz", "fecha": "2026-11-08", "modalidad": "medio_maraton"},
+  "fuentes": [
+   {"nombre": "deporticket", "url": "https://www.deporticket.com/"},
+   {"nombre": "reglamento oficial (PDF)", "url": "https://deporticket.blob.core.windows.net/deporticket/26-reglamento/261108-49a-media-maraton-de-moratalaz-reglamento.pdf"}
+  ],
+  "web_oficial": "https://aamoratalaz.com/inscripciones"
+ }
+]
