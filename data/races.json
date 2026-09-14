@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-14T09:44:25",
+ "generado": "2026-09-14T07:59:05",
  "carreras": [
   {
    "id": "fc79d8ce34c1",
@@ -2096,31 +2096,6 @@
     {
      "nombre": "finishers",
      "url": "https://www.finishers.com/event/lugo-half-marathon"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-09-14",
-   "web_estado": "activa"
-  },
-  {
-   "id": "ac454b3592e5",
-   "nombre": "Run Festival Tossa de Mar",
-   "modalidad": "medio_maraton",
-   "fecha": "2027-05-16",
-   "fecha_confirmada": true,
-   "ciudad": "Tossa de Mar",
-   "provincia": "Girona",
-   "ccaa": "Cataluña",
-   "lat": 41.71667,
-   "lng": 2.93333,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://runfestivaltossa.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/run-festival-tossa-de-mar"
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",

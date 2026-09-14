@@ -1,5 +1,5 @@
 {
- "generado": "2026-09-14T09:44:25",
+ "generado": "2026-09-14T07:59:05",
  "carreras": [
   {
    "id": "7a37aae58264",
@@ -3112,9 +3112,9 @@
      "url": "https://www.finishers.com/event/cordoba-half-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-09-14",
-   "web_estado": "caida"
+   "web_estado": "activa_sin_fecha"
   },
   {
    "id": "5d7da8d22357",
@@ -3162,9 +3162,9 @@
      "url": "https://www.finishers.com/event/empuries-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-09-14",
-   "web_estado": "caida"
+   "web_estado": "activa_sin_fecha"
   },
   {
    "id": "89f7898fd710",
@@ -3187,9 +3187,9 @@
      "url": "https://www.finishers.com/event/empuries-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-09-14",
-   "web_estado": "caida"
+   "web_estado": "activa_sin_fecha"
   },
   {
    "id": "c2acd3f98deb",
@@ -3600,7 +3600,7 @@
    "nombre": "Run Festival Tossa de Mar",
    "modalidad": "medio_maraton",
    "fecha": "2027-05-16",
-   "fecha_confirmada": true,
+   "fecha_confirmada": false,
    "ciudad": "Tossa de Mar",
    "provincia": "Girona",
    "ccaa": "Cataluña",
@@ -3616,9 +3616,9 @@
      "url": "https://www.finishers.com/event/run-festival-tossa-de-mar"
     }
    ],
-   "nivel_validacion": "confirmada_web_oficial",
+   "nivel_validacion": "por_verificar",
    "ultima_comprobacion": "2026-09-14",
-   "web_estado": "activa"
+   "web_estado": "caida"
   },
   {
    "id": "c5b9cfa079c8",
