@@ -1,0 +1,2156 @@
+{
+ "generado": "2026-09-14T09:44:25",
+ "carreras": [
+  {
+   "id": "fc79d8ce34c1",
+   "nombre": "L'Olla de Núria 2026",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-09-20",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Girona",
+   "ccaa": "Cataluña",
+   "lat": 41.9793006,
+   "lng": 2.8199439,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://olladenuria.cat/",
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/l8217olla-vall-de-nuria/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "c8b3a8613728",
+   "nombre": "Medio Maratón Abel Antón Ciudad de Soria 2026",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-09-26",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Soria",
+   "ccaa": "Castilla y León",
+   "lat": 41.6012505,
+   "lng": -2.721938,
+   "precio": 18,
+   "precio_texto": "desde 18 €",
+   "web_oficial": "https://mediomaratonabelanton.es/",
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/medio-maraton-abel-anton-ciudad-de-soria/"
+    },
+    {
+     "nombre": "runnersworld",
+     "url": "https://www.runnersworld.com/es/training/a70075791/calendario-carreras-medio-maraton-espana-2026/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "31920ea62982",
+   "nombre": "Marbella Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-09-27",
+   "fecha_confirmada": true,
+   "ciudad": "Marbella",
+   "provincia": "Málaga",
+   "ccaa": "Andalucía",
+   "lat": 36.51543,
+   "lng": -4.88583,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.run-on.es/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/marbella-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "bd01e3b712cc",
+   "nombre": "Media Maratón Ciudad de Valladolid",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-09-27",
+   "fecha_confirmada": true,
+   "ciudad": "Valladolid",
+   "provincia": "Valladolid",
+   "ccaa": "Castilla y León",
+   "lat": 41.65518,
+   "lng": -4.72372,
+   "precio": 18,
+   "precio_texto": "desde 18 €",
+   "web_oficial": "https://mediasmaratones.com/carreras/media-maraton-valladolid/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/media-maraton-ciudad-de-valladolid"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/valladolid-half-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-valladolid/"
+    },
+    {
+     "nombre": "runnersworld",
+     "url": "https://www.runnersworld.com/es/training/a70075791/calendario-carreras-medio-maraton-espana-2026/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "f2b805886a92",
+   "nombre": "Zumaia Flysch Trail 2026",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-03",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Gipuzkoa",
+   "ccaa": "País Vasco",
+   "lat": 43.1445278,
+   "lng": -2.2037955,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://zumaiaflyschtrail.eus/es/",
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/zumaia-flysch-trail/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "09d84cac1d3c",
+   "nombre": "Logroño Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-04",
+   "fecha_confirmada": true,
+   "ciudad": "Logroño",
+   "provincia": "La Rioja",
+   "ccaa": "La Rioja",
+   "lat": 42.46667,
+   "lng": -2.45,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://maratonlogrono.es",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/logrono-marathon"
+    },
+    {
+     "nombre": "runnersworld",
+     "url": "https://www.runnersworld.com/es/training/a70075791/calendario-carreras-medio-maraton-espana-2026/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "9c351df7f45d",
+   "nombre": "Maratón de Logroño 2026",
+   "modalidad": "maraton",
+   "fecha": "2026-10-04",
+   "fecha_confirmada": true,
+   "ciudad": "Logroño",
+   "provincia": "La Rioja",
+   "ccaa": "La Rioja",
+   "lat": 42.46667,
+   "lng": -2.45,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://maratonlogrono.es",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/logrono-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-de-logrono/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "d6d153fd56d3",
+   "nombre": "Medio Maratón Ciudad de Albacete",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-04",
+   "fecha_confirmada": true,
+   "ciudad": "Albacete",
+   "provincia": "Albacete",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 38.994349,
+   "lng": -1.8585424,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://albaceterunning.com/medio-maraton/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/media-maraton-ciudad-de-albacete"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/ciudad-de-albacete-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "0db350ba2c7d",
+   "nombre": "Rural Kutxa San Sebastian Semi-Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-04",
+   "fecha_confirmada": true,
+   "ciudad": "Saint-Sébastien",
+   "provincia": "Gipuzkoa",
+   "ccaa": "País Vasco",
+   "lat": 43.318334,
+   "lng": -1.9812313,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://www.mediomaratonsansebastianruralkutxa.com/fr",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/rural-kutxa-san-sebastian-half-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/medio-maraton-san-sebastian/"
+    },
+    {
+     "nombre": "runnersworld",
+     "url": "https://www.runnersworld.com/es/training/a70075791/calendario-carreras-medio-maraton-espana-2026/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "dae373ae56bc",
+   "nombre": "Media Maratón Gijón 2026",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-10",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Asturias",
+   "ccaa": "Asturias",
+   "lat": 43.5449422,
+   "lng": -5.66275,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://mmgijon.321go.es/",
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-gijon/"
+    },
+    {
+     "nombre": "runnersworld",
+     "url": "https://www.runnersworld.com/es/training/a70075791/calendario-carreras-medio-maraton-espana-2026/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "d0799de82126",
+   "nombre": "Estepona Garden of the Costa del Sol Marathon",
+   "modalidad": "maraton",
+   "fecha": "2026-10-11",
+   "fecha_confirmada": true,
+   "ciudad": "Estepona",
+   "provincia": "Málaga",
+   "ccaa": "Andalucía",
+   "lat": 36.42764,
+   "lng": -5.14589,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://web.rockthesport.com/fr/event/maratonestepona",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/estepona-coast-of-the-sun-garden-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "9f8551a321fc",
+   "nombre": "Maratón Estepona 2026",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-11",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Málaga",
+   "ccaa": "Andalucía",
+   "lat": 36.4268068,
+   "lng": -5.1468484,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://www.maratoncostadelsol.com/",
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-estepona/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "685f3401ab02",
+   "nombre": "Media Maratón Medina de las Torres",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-11",
+   "fecha_confirmada": true,
+   "ciudad": "Medina de las Torres",
+   "provincia": "Badajoz",
+   "ccaa": "Extremadura",
+   "lat": 38.33333,
+   "lng": -6.4,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mediasmaratones.com/carreras/media-maraton-medina-de-las-torres/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/media-maraton-medina-de-las-torres"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/medina-de-las-torres-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "859634147c5c",
+   "nombre": "Media Maratón de Tordesillas 2026",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-11",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Valladolid",
+   "ccaa": "Castilla y León",
+   "lat": 41.500851,
+   "lng": -5.00053,
+   "precio": 12,
+   "precio_texto": "desde 12 €",
+   "web_oficial": "http://mmaratontordesillas.es",
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-de-tordesillas/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "82dd1ebd9672",
+   "nombre": "Bilbao Night Running Fest 2026",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-17",
+   "fecha_confirmada": true,
+   "ciudad": "Bilbao",
+   "provincia": "Bizkaia",
+   "ccaa": "País Vasco",
+   "lat": 43.2630126,
+   "lng": -2.9349852,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://www.bilbaonightrun.com/en-gb",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/bilbao-night-running-fest"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-bilbao-night-marathon/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "e905fc23b937",
+   "nombre": "Palma de Mallorca Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-18",
+   "fecha_confirmada": true,
+   "ciudad": "Palma de Mallorca",
+   "provincia": "Illes Balears",
+   "ccaa": "Illes Balears",
+   "lat": 39.56939,
+   "lng": 2.65024,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.palmademallorcamarathon.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/palma-de-mallorca-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "37f8a6177663",
+   "nombre": "Pontevedra Half-Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-18",
+   "fecha_confirmada": true,
+   "ciudad": "Pontevedra",
+   "provincia": "Pontevedra",
+   "ccaa": "Galicia",
+   "lat": 42.431,
+   "lng": -8.64435,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mediasmaratones.com/carreras/media-maraton-pontevedra/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/pontevedra-half-marathon"
+    },
+    {
+     "nombre": "runnersworld",
+     "url": "https://www.runnersworld.com/es/training/a70075791/calendario-carreras-medio-maraton-espana-2026/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "d728e6458228",
+   "nombre": "Quijote Marathon Ciudad Real",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-18",
+   "fecha_confirmada": true,
+   "ciudad": "Ciudad Real",
+   "provincia": "Ciudad Real",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 38.98626,
+   "lng": -3.92907,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://quijotemaraton.com/maraton/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/quijote-marathon-ciudad-real"
+    },
+    {
+     "nombre": "runnersworld",
+     "url": "https://www.runnersworld.com/es/training/a70075791/calendario-carreras-medio-maraton-espana-2026/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "4682ba7bff18",
+   "nombre": "Quijote Maraton de Ciudad Real",
+   "modalidad": "maraton",
+   "fecha": "2026-10-18",
+   "fecha_confirmada": true,
+   "ciudad": "Ciudad Real",
+   "provincia": "Ciudad Real",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 38.98626,
+   "lng": -3.92907,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://quijotemaraton.com/maraton/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/quijote-maraton-ciudad-real"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/quijote-marathon-ciudad-real"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "8b0c1171d1db",
+   "nombre": "Torrevieja Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-18",
+   "fecha_confirmada": true,
+   "ciudad": "Torrevieja",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 37.97872,
+   "lng": -0.68222,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mediasmaratones.com/carreras/media-maraton-torrevieja/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/torrevieja-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "31698cb7798b",
+   "nombre": "Tui Palma Marathon Mallorca",
+   "modalidad": "maraton",
+   "fecha": "2026-10-18",
+   "fecha_confirmada": true,
+   "ciudad": "Palma de Mallorca",
+   "provincia": "Illes Balears",
+   "ccaa": "Illes Balears",
+   "lat": 39.56939,
+   "lng": 2.65024,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://www.palmademallorcamarathon.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/palma-marathon-mallorca"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/palma-de-mallorca-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-palma/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "bac35e13682d",
+   "nombre": "Medio Maratón Valencia Trinidad Alfonso",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-25",
+   "fecha_confirmada": true,
+   "ciudad": "Valencia",
+   "provincia": "Valencia",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 39.4699075,
+   "lng": -0.3762881,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://www.valenciaciudaddelrunning.com/en/half/half-marathon/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/medio-maraton-valencia"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/valencia-half-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/medio-maraton-valencia/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "fe7d2f445929",
+   "nombre": "Media Maratón Huelva 21K 2026",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-01",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Huelva",
+   "ccaa": "Andalucía",
+   "lat": 37.2575874,
+   "lng": -6.9484945,
+   "precio": 3,
+   "precio_texto": "desde 3 €",
+   "web_oficial": null,
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-huelva-21k/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14"
+  },
+  {
+   "id": "8c6899f2706e",
+   "nombre": "Menorca Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-01",
+   "fecha_confirmada": true,
+   "ciudad": "Minorca",
+   "provincia": "Illes Balears",
+   "ccaa": "Illes Balears",
+   "lat": 39.9991163,
+   "lng": 3.8389047,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mitjamenorca.com/?page_id=186&lang=es",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/menorca-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "5d7b3305ffa5",
+   "nombre": "Marató dels Dements 2026",
+   "modalidad": "maraton",
+   "fecha": "2026-11-07",
+   "fecha_confirmada": true,
+   "ciudad": "Eslida",
+   "provincia": "Castellón",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 39.8794321,
+   "lng": -0.3079326,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://www.maratodelsdements.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/marato-dels-dements"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/marato-dels-dements/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "2baa374b6bca",
+   "nombre": "31 Mitja Marató Ciutat de Gandia",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": true,
+   "ciudad": "Gandia",
+   "provincia": "Valencia",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 38.968032,
+   "lng": -0.1844671,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mitjagandia.org/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/mitja-marato-gandia"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/gandia-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "1f7699c9b84c",
+   "nombre": "Gran Carrera del Mediterraneo 2026",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": true,
+   "ciudad": "Alicante",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 38.3459963,
+   "lng": -0.4906855,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://www.lagrancarreradelmediterraneo21k.com/en/v-gran-carrera-del-mediterraneo-21k/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/the-grand-mediterranean-21k-run"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/gran-carrera-del-mediterraneo/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "a1e206febbd2",
+   "nombre": "Malaga Marathon (Generali Maratón Málaga)",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": true,
+   "ciudad": "Málaga",
+   "provincia": "Málaga",
+   "ccaa": "Andalucía",
+   "lat": 36.721261,
+   "lng": -4.4212655,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.generalimaratonmalaga.com/marathon-malaga-en/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/malaga-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "3a79ccd6fc6f",
+   "nombre": "Malaga Marathon (Generali Maratón Málaga)",
+   "modalidad": "maraton",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": true,
+   "ciudad": "Málaga",
+   "provincia": "Málaga",
+   "ccaa": "Andalucía",
+   "lat": 36.721261,
+   "lng": -4.4212655,
+   "precio": 12,
+   "precio_texto": "desde 12 €",
+   "web_oficial": "https://www.generalimaratonmalaga.com/marathon-malaga-en/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/malaga-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-malaga/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "e43d55516962",
+   "nombre": "Media Maratón Ciudad de Cádiz 2026",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Cádiz",
+   "ccaa": "Andalucía",
+   "lat": 36.5297438,
+   "lng": -6.2928976,
+   "precio": 10,
+   "precio_texto": "desde 10 €",
+   "web_oficial": "https://mediamaratonciudaddecadiz.com/",
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-cadiz/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "5b9b4208ee89",
+   "nombre": "Xii Media Maratón Ávila Monumental y 10K",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": true,
+   "ciudad": "Ávila",
+   "provincia": "Ávila",
+   "ccaa": "Castilla y León",
+   "lat": 40.65724,
+   "lng": -4.69951,
+   "precio": 3,
+   "precio_texto": "desde 3 €",
+   "web_oficial": "http://www.mmavilamonumental.com/web/presentacion",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/media-maraton-avila-monumental"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/avila-half-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-avila/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "93c0fcd08a5d",
+   "nombre": "I Maratón Imperial de Toledo",
+   "modalidad": "maraton",
+   "fecha": "2026-11-15",
+   "fecha_confirmada": true,
+   "ciudad": "Toledo",
+   "provincia": "Toledo",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 39.8558913,
+   "lng": -4.024265,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://maratondetoledo.es/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/maraton-imperial-de-toledo"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-de-toledo/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "8a9426caa722",
+   "nombre": "Media Maratón Jaén 2026",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-15",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Jaén",
+   "ccaa": "Andalucía",
+   "lat": 37.7728858,
+   "lng": -3.7883289,
+   "precio": 12,
+   "precio_texto": "desde 12 €",
+   "web_oficial": "https://jaenciudaddelatletismo.es",
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-jaen/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "349bf5fffcd3",
+   "nombre": "Santa Cruz de Tenerife Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-15",
+   "fecha_confirmada": true,
+   "ciudad": "Santa Cruz de Tenerife",
+   "provincia": "Santa Cruz de Tenerife",
+   "ccaa": "Canarias",
+   "lat": 28.4636296,
+   "lng": -16.2518467,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://media.maratondetenerife.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/santa-cruz-de-tenerife-half-marathon"
+    },
+    {
+     "nombre": "runnersworld",
+     "url": "https://www.runnersworld.com/es/training/a70075791/calendario-carreras-medio-maraton-espana-2026/"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-tenerife/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "7d79cd566634",
+   "nombre": "Benidorm Half",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-21",
+   "fecha_confirmada": true,
+   "ciudad": "Benidorm",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 38.53816,
+   "lng": -0.13098,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://benidormhalf.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/benidorm-half"
+    },
+    {
+     "nombre": "runnersworld",
+     "url": "https://www.runnersworld.com/es/training/a70075791/calendario-carreras-medio-maraton-espana-2026/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "8f9dc20af991",
+   "nombre": "San Sebastián Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-22",
+   "fecha_confirmada": true,
+   "ciudad": "Saint-Sébastien",
+   "provincia": "Gipuzkoa",
+   "ccaa": "País Vasco",
+   "lat": 43.318334,
+   "lng": -1.9812313,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://zurichmaratonsansebastian.com/fr/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/san-sebastian-marathon"
+    },
+    {
+     "nombre": "runnersworld",
+     "url": "https://www.runnersworld.com/es/training/a70075791/calendario-carreras-medio-maraton-espana-2026/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "3597e8a8836a",
+   "nombre": "Zurich Maratón de San Sebastián",
+   "modalidad": "maraton",
+   "fecha": "2026-11-22",
+   "fecha_confirmada": true,
+   "ciudad": "San Sebastian",
+   "provincia": "Gipuzkoa",
+   "ccaa": "País Vasco",
+   "lat": 43.318334,
+   "lng": -1.9812313,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://zurichmaratonsansebastian.com/fr/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/zurich-maraton-donostia-san-sebastian"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/san-sebastian-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-de-donosti/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "5faf373986e5",
+   "nombre": "Elche – Alicante International Marathon",
+   "modalidad": "maraton",
+   "fecha": "2026-11-29",
+   "fecha_confirmada": true,
+   "ciudad": "Elche",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 38.2591174,
+   "lng": -0.7034053,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://maratonelchealicante.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/elche-alicante-international-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "09cd374c421b",
+   "nombre": "Seville Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-29",
+   "fecha_confirmada": true,
+   "ciudad": "Seville",
+   "provincia": "Sevilla",
+   "ccaa": "Andalucía",
+   "lat": 37.3890924,
+   "lng": -5.9844589,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.mediomaratondesevilla.es/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/seville-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "d076cd84cb6d",
+   "nombre": "Lanzarote International Marathon 2026",
+   "modalidad": "maraton",
+   "fecha": "2026-12-03",
+   "fecha_confirmada": true,
+   "ciudad": "Costa Teguise",
+   "provincia": "Las Palmas",
+   "ccaa": "Canarias",
+   "lat": 28.9981141,
+   "lng": -13.4929633,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://www.lanzaroteinternationalmarathon.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/lanzarote-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-de-lanzarote/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "f6306b4a6380",
+   "nombre": "Lanzarote Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-12-03",
+   "fecha_confirmada": true,
+   "ciudad": "Costa Teguise",
+   "provincia": "Las Palmas",
+   "ccaa": "Canarias",
+   "lat": 28.9981141,
+   "lng": -13.4929633,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.lanzaroteinternationalmarathon.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/lanzarote-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "dc98f33a7884",
+   "nombre": "Maratón Valencia 2026",
+   "modalidad": "maraton",
+   "fecha": "2026-12-06",
+   "fecha_confirmada": true,
+   "ciudad": "Valencia",
+   "provincia": "Valencia",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 39.4699075,
+   "lng": -0.3762881,
+   "precio": 5,
+   "precio_texto": "desde 5 €",
+   "web_oficial": "https://www.valenciaciudaddelrunning.com/maraton/maraton/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/valencia-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-valencia/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "7ff3da8a1e50",
+   "nombre": "Valencia Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-12-06",
+   "fecha_confirmada": true,
+   "ciudad": "Valencia",
+   "provincia": "Valencia",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 39.4699075,
+   "lng": -0.3762881,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.valenciaciudaddelrunning.com/maraton/maraton/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/valencia-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "10fc04a8d6ab",
+   "nombre": "Sitges (Barcelone)",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-01-10",
+   "fecha_confirmada": true,
+   "ciudad": "Sitges",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 41.23506,
+   "lng": 1.81193,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.zonavipevents.com/carreras/mitja-sitges/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/sitges-barcelone"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "3772c05a50a7",
+   "nombre": "La Mitja Granollers 2027 Media Maratón",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-01-24",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 41.6079555,
+   "lng": 2.2876008,
+   "precio": 4,
+   "precio_texto": "desde 4 €",
+   "web_oficial": "https://www.lamitja.cat/",
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/la-mitja-granollers-media-maraton/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "2d7f4156cbe1",
+   "nombre": "Mitja Marató Santa Pola 2027 Media Maratón",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-01-24",
+   "fecha_confirmada": true,
+   "ciudad": "Santa Pola",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 38.19165,
+   "lng": -0.5658,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://mitjasantapola.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/international-half-marathon-of-santa-pola"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/mitja-marato-santa-pola/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "707a490b12f0",
+   "nombre": "Almagro Marathon",
+   "modalidad": "maraton",
+   "fecha": "2027-01-30",
+   "fecha_confirmada": true,
+   "ciudad": "Almagro",
+   "provincia": "Ciudad Real",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 38.888238,
+   "lng": -3.7118218,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/almagro-marathon-2"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14"
+  },
+  {
+   "id": "6f4bdccb1cdd",
+   "nombre": "Media Maratón Castellón 2027",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-01-31",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Castellón",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 39.9860347,
+   "lng": -0.0377354,
+   "precio": 4,
+   "precio_texto": "desde 4 €",
+   "web_oficial": "https://www.mediamaratoncastello.com/",
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/mitja-marato-castello/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "9de26d0f9960",
+   "nombre": "TotalEnergies Murcia Costa Cálida Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-02-07",
+   "fecha_confirmada": true,
+   "ciudad": "Murcia",
+   "provincia": "Murcia",
+   "ccaa": "Región de Murcia",
+   "lat": 37.9922399,
+   "lng": -1.1306544,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.maratonmurcia.com/en/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/murcia-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "5179225f0999",
+   "nombre": "TotalEnergies Murcia Costa Cálida Marathon",
+   "modalidad": "maraton",
+   "fecha": "2027-02-07",
+   "fecha_confirmada": true,
+   "ciudad": "Murcia",
+   "provincia": "Murcia",
+   "ccaa": "Región de Murcia",
+   "lat": 37.9922399,
+   "lng": -1.1306544,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://www.maratonmurcia.com/en/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/murcia-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-murcia/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "ba6aeaa2b9f2",
+   "nombre": "Hyundai Mitja Marató de Barcelona",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-02-14",
+   "fecha_confirmada": true,
+   "ciudad": "Barcelona",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 41.3850639,
+   "lng": 2.1734035,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://www.edreamsmitjabarcelona.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/mitja-marato-de-barcelona"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/barcelona-half-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-barcelona/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "55ea537b3369",
+   "nombre": "Maratón Castellón 2027",
+   "modalidad": "maraton",
+   "fecha": "2027-02-14",
+   "fecha_confirmada": true,
+   "ciudad": "Castellon",
+   "provincia": "Castellón",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 39.9860347,
+   "lng": -0.0377354,
+   "precio": 5,
+   "precio_texto": "desde 5 €",
+   "web_oficial": "https://www.maratonbpcastellon.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/maraton-bp-castellon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-de-castellon/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "3aeedc100209",
+   "nombre": "International Half Marathon of Alicante",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-02-21",
+   "fecha_confirmada": true,
+   "ciudad": "Alicante",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 38.3459963,
+   "lng": -0.4906855,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mediamaratondealicante.com/en/organization/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/alicante-half-marathon-and-10k"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "fa3460320bed",
+   "nombre": "Seville Marathon",
+   "modalidad": "maraton",
+   "fecha": "2027-02-21",
+   "fecha_confirmada": true,
+   "ciudad": "Seville",
+   "provincia": "Sevilla",
+   "ccaa": "Andalucía",
+   "lat": 37.3890924,
+   "lng": -5.9844589,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.zurichmaratonsevilla.es/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/seville-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "5afdd61ec993",
+   "nombre": "Zurich Maratón de Sevilla",
+   "modalidad": "maraton",
+   "fecha": "2027-02-21",
+   "fecha_confirmada": true,
+   "ciudad": "Sevilla",
+   "provincia": "Sevilla",
+   "ccaa": "Andalucía",
+   "lat": 37.3886303,
+   "lng": -5.9953403,
+   "precio": 5,
+   "precio_texto": "desde 5 €",
+   "web_oficial": "https://www.zurichmaratonsevilla.es/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/zurich-maraton-sevilla"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-sevilla/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "5603158f93a4",
+   "nombre": "Bidassoa Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-02-28",
+   "fecha_confirmada": true,
+   "ciudad": "Irun",
+   "provincia": "Gipuzkoa",
+   "ccaa": "País Vasco",
+   "lat": 43.33904,
+   "lng": -1.78938,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mediamaratondelbidasoa.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/bidasoa-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "8100398c1a1b",
+   "nombre": "Mitja de Cambrils 2027",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-02-28",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Tarragona",
+   "ccaa": "Cataluña",
+   "lat": 41.0679423,
+   "lng": 1.0657579,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://mitjadecambrils.com/",
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/mitja-marato-cambrils/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "3b9dd201fc61",
+   "nombre": "Malaga Half Marathon (TotalEnergies)",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-03-07",
+   "fecha_confirmada": true,
+   "ciudad": "Málaga",
+   "provincia": "Málaga",
+   "ccaa": "Andalucía",
+   "lat": 36.721261,
+   "lng": -4.4212655,
+   "precio": 5,
+   "precio_texto": "desde 5 €",
+   "web_oficial": "https://www.mediamaratonmalaga.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/malaga-half-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-de-malaga/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "0c61696ebf34",
+   "nombre": "Salamanca Half-Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-03-07",
+   "fecha_confirmada": true,
+   "ciudad": "Salamanca",
+   "provincia": "Salamanca",
+   "ccaa": "Castilla y León",
+   "lat": 40.96882,
+   "lng": -5.66388,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.mediamaratonsalamanca.es/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/salamanca-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "48a5f745f4fa",
+   "nombre": "Badajoz Marathon",
+   "modalidad": "maraton",
+   "fecha": "2027-03-14",
+   "fecha_confirmada": true,
+   "ciudad": "Badajoz",
+   "provincia": "Badajoz",
+   "ccaa": "Extremadura",
+   "lat": 38.87789,
+   "lng": -6.97061,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/badajoz-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14"
+  },
+  {
+   "id": "2707896c4afa",
+   "nombre": "Media Maratón Zaragoza 2027",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-03-14",
+   "fecha_confirmada": true,
+   "ciudad": "Zaragoza",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "lat": 41.6488226,
+   "lng": -0.8890853,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://mediamaratonzaragoza.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/zaragoza-half-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-zaragoza/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "a38546bd4155",
+   "nombre": "Zurich Marató Barcelona",
+   "modalidad": "maraton",
+   "fecha": "2027-03-14",
+   "fecha_confirmada": true,
+   "ciudad": "Barcelona",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 41.3850639,
+   "lng": 2.1734035,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://www.zurichmaratobarcelona.es/en/?_ga=2.59058857.520346075.1632748253-1085386517.1623234603",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/zurich-marato-barcelona"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/barcelona-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-barcelona/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "2591bdc5b727",
+   "nombre": "Media Maratón Zubiri Pamplona 2027",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-03-21",
+   "fecha_confirmada": true,
+   "ciudad": null,
+   "provincia": "Navarra",
+   "ccaa": "Navarra",
+   "lat": 42.9261287,
+   "lng": -1.5074416,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://www.zubiripamplona.com/",
+   "ubicacion_aproximada": true,
+   "fuentes": [
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-zubiri-pamplona/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "6efebf03ca73",
+   "nombre": "Movistar Madrid Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-04-04",
+   "fecha_confirmada": true,
+   "ciudad": "Madrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "lat": 40.4167754,
+   "lng": -3.7037902,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "http://www.mediomaratonmadrid.es/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/madrid-half-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/medio-maraton-madrid/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "df42fc8331e8",
+   "nombre": "Santa Eulària Ibiza Marathon 2027",
+   "modalidad": "maraton",
+   "fecha": "2027-04-10",
+   "fecha_confirmada": true,
+   "ciudad": "Santa Eularia des Riu",
+   "provincia": "Illes Balears",
+   "ccaa": "Illes Balears",
+   "lat": 38.9067339,
+   "lng": 1.4205983,
+   "precio": 5,
+   "precio_texto": "desde 5 €",
+   "web_oficial": "https://www.ibizamarathon.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/ibiza-marathon"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/santa-eularia-ibiza-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/ibiza-marathon/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "4d5649b2b52f",
+   "nombre": "Chiclana Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-04-11",
+   "fecha_confirmada": true,
+   "ciudad": "Chiclana de la Frontera",
+   "provincia": "Cádiz",
+   "ccaa": "Andalucía",
+   "lat": 36.41976,
+   "lng": -6.14367,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mediamaratonciudaddechiclana.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/chiclana-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "20c222d3a6df",
+   "nombre": "Gran Bahía Vig-Bay Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-04-11",
+   "fecha_confirmada": true,
+   "ciudad": "Vigo",
+   "provincia": "Pontevedra",
+   "ccaa": "Galicia",
+   "lat": 42.23282,
+   "lng": -8.72264,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://vig-bay.com/en/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/gran-bahia-vig-bay-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "56edbaa12cb4",
+   "nombre": "Media Maratón Elche 2027",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-04-11",
+   "fecha_confirmada": true,
+   "ciudad": "Elche",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 38.2591174,
+   "lng": -0.7034053,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://mediaelche.es/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/elche-half-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/media-maraton-elche/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "7481961414ae",
+   "nombre": "Mann-filter Maratón de Zaragoza",
+   "modalidad": "maraton",
+   "fecha": "2027-04-18",
+   "fecha_confirmada": true,
+   "ciudad": "Zaragoza",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "lat": 41.6488226,
+   "lng": -0.8890853,
+   "precio": 15,
+   "precio_texto": "desde 15 €",
+   "web_oficial": "https://www.zaragozamaraton.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/mann-filter-maraton-de-zaragoza"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/zaragoza-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-zaragoza/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "c2acd3f98deb",
+   "nombre": "Girona Greenway Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-04-25",
+   "fecha_confirmada": true,
+   "ciudad": "Girona",
+   "provincia": "Girona",
+   "ccaa": "Cataluña",
+   "lat": 41.9794005,
+   "lng": 2.8214264,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.maratonviasverdes.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/girona-greenway-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "52bcb325e544",
+   "nombre": "Girona Greenway Marathon",
+   "modalidad": "maraton",
+   "fecha": "2027-04-25",
+   "fecha_confirmada": true,
+   "ciudad": "Girona",
+   "provincia": "Girona",
+   "ccaa": "Cataluña",
+   "lat": 41.9794005,
+   "lng": 2.8214264,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.maratonviasverdes.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/girona-greenway-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "643116288c91",
+   "nombre": "Madrid Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-04-25",
+   "fecha_confirmada": true,
+   "ciudad": "Madrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "lat": 40.4167754,
+   "lng": -3.7037902,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://rocknrollmadridrun.com/?lang=fr",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/madrid-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "0ebbd244a91b",
+   "nombre": "Maratón Madrid 2027",
+   "modalidad": "maraton",
+   "fecha": "2027-04-25",
+   "fecha_confirmada": true,
+   "ciudad": "Madrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "lat": 40.4167754,
+   "lng": -3.7037902,
+   "precio": 19,
+   "precio_texto": "desde 19 €",
+   "web_oficial": "https://rocknrollmadridrun.com/?lang=fr",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/madrid-marathon"
+    },
+    {
+     "nombre": "runnea",
+     "url": "https://www.runnea.com/carreras-populares/maraton-madrid/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "c54de8136aea",
+   "nombre": "XIV Azuqueca Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-05-09",
+   "fecha_confirmada": true,
+   "ciudad": "Azuqueca de Henares",
+   "provincia": "Guadalajara",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 40.56566,
+   "lng": -3.26753,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mediamaratonazuqueca.es",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/xiv-azuqueca-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "9f4395cea5b4",
+   "nombre": "Formentera Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-05-16",
+   "fecha_confirmada": true,
+   "ciudad": "Formentera del Segura",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 38.0852505,
+   "lng": -0.7455581,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://marato-formentera.com/informacion-basica/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/formentera-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "c73b4ec15bd8",
+   "nombre": "Lugo Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-05-16",
+   "fecha_confirmada": true,
+   "ciudad": "Lugo",
+   "provincia": "Lugo",
+   "ccaa": "Galicia",
+   "lat": 43.0097384,
+   "lng": -7.5567582,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mmcidadelugo.com/gl/web/evento/detalle/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/lugo-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "ac454b3592e5",
+   "nombre": "Run Festival Tossa de Mar",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-05-16",
+   "fecha_confirmada": true,
+   "ciudad": "Tossa de Mar",
+   "provincia": "Girona",
+   "ccaa": "Cataluña",
+   "lat": 41.71667,
+   "lng": 2.93333,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://runfestivaltossa.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/run-festival-tossa-de-mar"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  },
+  {
+   "id": "ee4d5f633d1a",
+   "nombre": "Half-Marathon Bajo Pas Ayto de Piélagos",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-09-11",
+   "fecha_confirmada": true,
+   "ciudad": "Oruña",
+   "provincia": "Cantabria",
+   "ccaa": "Cantabria",
+   "lat": 43.40337,
+   "lng": -3.95261,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.mediomaratonbajopas.es/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/half-marathon-bajo-pas-ayto-de-pielagos"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-09-14",
+   "web_estado": "activa"
+  }
+ ]
+}

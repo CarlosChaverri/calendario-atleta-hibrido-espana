@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendario Atleta Híbrido España - Medias maratones y maratones</title>
+<meta name="description" content="Mapa y buscador de medias maratones y maratones de España con fecha confirmada, precio y web oficial.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,700;0,800;1,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <h1>Calendario <em>atleta híbrido</em> España</h1>
+    <p class="tagline">Todas las medias maratones y maratones de España, verificadas cada 15 días.</p>
+    <p class="stats" id="stats"></p>
+  </div>
+</header>
+
+<section class="filtros" id="filtros">
+  <button id="f-toggle" type="button">Filtros ▼</button>
+  <div class="filtros-fila">
+    <div class="segmented" id="f-modalidad">
+      <button data-v="" class="activo">Todas</button>
+      <button data-v="medio_maraton">Media maratón</button>
+      <button data-v="maraton">Maratón</button>
+    </div>
+    <input type="search" id="f-texto" placeholder="Buscar por nombre o ciudad">
+  </div>
+  <div class="filtros-fila">
+    <select id="f-ccaa"><option value="">Comunidad autónoma</option></select>
+    <select id="f-provincia"><option value="">Provincia</option></select>
+    <select id="f-mes"><option value="">Cualquier mes</option></select>
+    <select id="f-nivel">
+      <option value="">Cualquier validación</option>
+      <option value="confirmada_web_oficial">Confirmada por web oficial</option>
+      <option value="confirmada_organizacion">Confirmada por organización</option>
+      <option value="fecha_estimada">Fecha estimada</option>
+      <option value="por_verificar">Por verificar</option>
+    </select>
+  </div>
+  <div class="filtros-fila">
+    <label class="rango">Precio máx. <input type="range" id="f-precio" min="0" max="120" value="120" step="5"><span id="f-precio-v">sin límite</span></label>
+    <label class="check"><input type="checkbox" id="f-solo-precio"> Solo con precio conocido</label>
+    <label class="check"><input type="checkbox" id="f-solo-confirmadas"> Solo confirmadas</label>
+  </div>
+  <div class="filtros-fila">
+    <input type="text" id="f-ciudad" placeholder="Cerca de... (p. ej. Madrid)">
+    <select id="f-radio">
+      <option value="50">50 km</option>
+      <option value="100" selected>100 km</option>
+      <option value="200">200 km</option>
+    </select>
+    <select id="f-orden">
+      <option value="fecha">Ordenar: fecha</option>
+      <option value="precio">Ordenar: precio</option>
+      <option value="distancia">Ordenar: distancia</option>
+      <option value="cercania">Ordenar: cercanía</option>
+    </select>
+    <button id="f-limpiar" class="limpiar">Limpiar filtros</button>
+  </div>
+</section>
+
+<main>
+  <div id="mapa"></div>
+  <section class="listado">
+    <div class="listado-head">
+      <h2 id="contador"></h2>
+      <label class="check"><input type="checkbox" id="f-bounds" checked> Solo las visibles en el mapa</label>
+    </div>
+    <div id="lista"></div>
+    <p id="lista-vacia" class="vacia" hidden>No hay carreras con esos filtros.</p>
+  </section>
+</main>
+
+<aside id="ficha" class="ficha" hidden>
+  <button class="ficha-cerrar" id="ficha-cerrar" aria-label="Cerrar">×</button>
+  <div id="ficha-contenido"></div>
+</aside>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <h3>Niveles de validación</h3>
+      <ul class="niveles">
+        <li><span class="dot n1"></span><strong>Confirmada por web oficial</strong>: la web de la carrera responde y muestra la fecha.</li>
+        <li><span class="dot n2"></span><strong>Confirmada por la organización</strong>: una fuente la da por confirmada o aparece en varias agendas.</li>
+        <li><span class="dot n3"></span><strong>Fecha estimada</strong>: fecha aproximada aún sin confirmar.</li>
+        <li><span class="dot n4"></span><strong>Por verificar</strong>: aparece en una sola agenda o su web oficial no responde.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Fuentes</h3>
+      <p>Datos cruzados de <a href="https://carreraspopulares.com" rel="nofollow">carreraspopulares.com</a>, <a href="https://www.finishers.com" rel="nofollow">Finishers</a>, <a href="https://www.runnea.com" rel="nofollow">Runnea</a> y <a href="https://www.runnersworld.com/es/" rel="nofollow">Runner's World España</a>. Si falta un dato (precio, web oficial) se indica como no disponible: nada se inventa.</p>
+      <p id="actualizado"></p>
+    </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
