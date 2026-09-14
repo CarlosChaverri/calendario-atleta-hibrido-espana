@@ -152,3 +152,6 @@ footer a { color: #fff; }
 .ficha{display:block}.ficha:not(.visible){transform:translateX(110%)}
 .stats{white-space:normal}
 .ficha{transition:transform .22s ease}.ficha.visible{transform:translateX(0)}
+.card{text-decoration:none}
+.card-link{display:inline-block;margin-left:6px;color:var(--acento);font-size:13px;transition:transform .15s}
+.card:hover .card-link{transform:translate(2px,-2px)}

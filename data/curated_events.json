@@ -1,1142 +1,1354 @@
 [
- {
-  "nombre": "DEKA FIT Barcelona Otoño",
-  "modalidad": "hibrida",
-  "fecha": "2026-09-26",
-  "ciudad": "Barcelona",
-  "provincia": "Barcelona",
-  "ccaa": "Cataluña",
-  "precio": 60,
-  "web_oficial": "https://es.spartan.com/es/races/deka-barcelona-otono",
-  "fuentes": [
-   {
-    "nombre": "spartan_deka_oficial",
-    "url": "https://es.spartan.com/es/races/deka-barcelona-otono"
-   }
-  ]
- },
- {
-  "nombre": "DEKA FIT Guadalajara",
-  "modalidad": "hibrida",
-  "fecha": "2026-10-24",
-  "ciudad": "Guadalajara",
-  "provincia": "Guadalajara",
-  "ccaa": "Castilla-La Mancha",
-  "precio": 60,
-  "web_oficial": "https://es.spartan.com/es/races/deka-guadalajara",
-  "fuentes": [
-   {
-    "nombre": "spartan_deka_oficial",
-    "url": "https://es.spartan.com/es/races/deka-guadalajara"
-   }
-  ]
- },
- {
-  "nombre": "DEKA FIT Alicante",
-  "modalidad": "hibrida",
-  "fecha": "2026-10-31",
-  "ciudad": "Alicante",
-  "provincia": "Alicante",
-  "ccaa": "Comunitat Valenciana",
-  "precio": 80,
-  "web_oficial": "https://es.spartan.com/es/races/deka-alicante",
-  "fuentes": [
-   {
-    "nombre": "spartan_deka_oficial",
-    "url": "https://es.spartan.com/es/races/deka-alicante"
-   }
-  ]
- },
- {
-  "nombre": "DEKA FIT Tenerife",
-  "modalidad": "hibrida",
-  "fecha": "2026-11-21",
-  "ciudad": "Santa Cruz de Tenerife",
-  "provincia": "Santa Cruz de Tenerife",
-  "ccaa": "Canarias",
-  "precio": 60,
-  "web_oficial": "https://es.spartan.com/es/races/deka-tenerife",
-  "fuentes": [
-   {
-    "nombre": "spartan_deka_oficial",
-    "url": "https://es.spartan.com/es/races/deka-tenerife"
-   }
-  ]
- },
- {
-  "nombre": "DEKA FIT Torremolinos",
-  "modalidad": "hibrida",
-  "fecha": "2027-02-27",
-  "ciudad": "Torremolinos",
-  "provincia": "Málaga",
-  "ccaa": "Andalucía",
-  "precio": 72,
-  "web_oficial": "https://es.spartan.com/es/races/deka-torremolinos",
-  "fuentes": [
-   {
-    "nombre": "spartan_deka_oficial",
-    "url": "https://es.spartan.com/es/races/deka-torremolinos"
-   }
-  ]
- },
- {
-  "nombre": "DEKA FIT Toledo",
-  "modalidad": "hibrida",
-  "fecha": "2027-03-06",
-  "ciudad": "Toledo",
-  "provincia": "Toledo",
-  "ccaa": "Castilla-La Mancha",
-  "precio": 72,
-  "web_oficial": "https://es.spartan.com/es/races/deka-toledo-2027",
-  "fuentes": [
-   {
-    "nombre": "spartan_deka_oficial",
-    "url": "https://es.spartan.com/es/races/deka-toledo-2027"
-   }
-  ]
- },
- {
-  "nombre": "DEKA FIT Barcelona Primavera",
-  "modalidad": "hibrida",
-  "fecha": "2027-03-20",
-  "ciudad": "Barcelona",
-  "provincia": "Barcelona",
-  "ccaa": "Cataluña",
-  "precio": 72,
-  "web_oficial": "https://es.spartan.com/es/races/deka-barcelona-primavera",
-  "fuentes": [
-   {
-    "nombre": "spartan_deka_oficial",
-    "url": "https://es.spartan.com/es/races/deka-barcelona-primavera"
-   }
-  ]
- },
- {
-  "nombre": "DEKA FIT Valencia",
-  "modalidad": "hibrida",
-  "fecha": "2027-04-03",
-  "ciudad": "Valencia",
-  "provincia": "Valencia",
-  "ccaa": "Comunitat Valenciana",
-  "precio": 72,
-  "web_oficial": "https://es.spartan.com/es/races/deka-valencia-2027",
-  "fuentes": [
-   {
-    "nombre": "spartan_deka_oficial",
-    "url": "https://es.spartan.com/es/races/deka-valencia-2027"
-   }
-  ]
- },
- {
-  "nombre": "DEKA FIT Ibiza",
-  "modalidad": "hibrida",
-  "fecha": "2027-04-17",
-  "ciudad": "Sant Agustí des Vedrà",
-  "provincia": "Illes Balears",
-  "ccaa": "Illes Balears",
-  "precio": 72,
-  "web_oficial": "https://es.spartan.com/es/races/deka-ibiza-2027",
-  "fuentes": [
-   {
-    "nombre": "spartan_deka_oficial",
-    "url": "https://es.spartan.com/es/races/deka-ibiza-2027"
-   }
-  ]
- },
- {
-  "nombre": "DEKA FIT Vigo",
-  "modalidad": "hibrida",
-  "fecha": "2027-06-26",
-  "ciudad": "Vigo",
-  "provincia": "Pontevedra",
-  "ccaa": "Galicia",
-  "precio": 72,
-  "web_oficial": "https://es.spartan.com/es/races/deka-vigo-2027",
-  "fuentes": [
-   {
-    "nombre": "spartan_deka_oficial",
-    "url": "https://es.spartan.com/es/races/deka-vigo-2027"
-   }
-  ]
- },
- {
-  "nombre": "Spartan Madrid Trifecta Weekend",
-  "modalidad": "obstaculos",
-  "fecha": "2027-05-08",
-  "ciudad": "San Agustín del Guadalix",
-  "provincia": "Madrid",
-  "ccaa": "Comunidad de Madrid",
-  "precio": null,
-  "web_oficial": "https://es.spartan.com/es/races/madrid",
-  "fuentes": [
-   {
-    "nombre": "spartan_oficial",
-    "url": "https://es.spartan.com/es/races/madrid"
-   }
-  ]
- },
- {
-  "nombre": "Ibiza Sprint Triathlon",
-  "modalidad": "triatlon_sprint",
-  "fecha": "2026-10-25",
-  "ciudad": "Ibiza",
-  "provincia": "Illes Balears",
-  "ccaa": "Illes Balears",
-  "precio": null,
-  "web_oficial": "https://www.ahotu.com/es/evento/ibiza-sprint-triathlon",
-  "fuentes": [
-   {
-    "nombre": "ahotu_inscripcion",
-    "url": "https://www.ahotu.com/es/evento/ibiza-sprint-triathlon"
-   }
-  ]
- },
- {
-  "nombre": "TotalTri Mallorca Triatló",
-  "modalidad": "triatlon_media",
-  "fecha": "2027-03-21",
-  "ciudad": "Capdepera",
-  "provincia": "Illes Balears",
-  "ccaa": "Illes Balears",
-  "precio": null,
-  "web_oficial": "https://www.ahotu.com/es/evento/total-tri-mallorca-triatlo",
-  "fuentes": [
-   {
-    "nombre": "ahotu_inscripcion",
-    "url": "https://www.ahotu.com/es/evento/total-tri-mallorca-triatlo"
-   }
-  ]
- },
- {
-  "nombre": "Challenge Mogán Gran Canaria",
-  "modalidad": "triatlon_media",
-  "fecha": "2027-04-17",
-  "ciudad": "Mogán",
-  "provincia": "Las Palmas",
-  "ccaa": "Canarias",
-  "precio": null,
-  "web_oficial": "https://www.ahotu.com/es/evento/challenge-mogan-gran-canaria",
-  "fuentes": [
-   {
-    "nombre": "ahotu_inscripcion",
-    "url": "https://www.ahotu.com/es/evento/challenge-mogan-gran-canaria"
-   }
-  ]
- },
- {
-  "nombre": "Challenge Salou Triathlon",
-  "modalidad": "triatlon_media",
-  "fecha": "2027-05-09",
-  "ciudad": "Salou",
-  "provincia": "Tarragona",
-  "ccaa": "Cataluña",
-  "precio": null,
-  "web_oficial": "https://www.ahotu.com/es/evento/challenge-salou-triathlon",
-  "fuentes": [
-   {
-    "nombre": "ahotu_inscripcion",
-    "url": "https://www.ahotu.com/es/evento/challenge-salou-triathlon"
-   }
-  ]
- },
- {
-  "nombre": "IRONCAT L'Ampolla Triathlon",
-  "modalidad": "triatlon_media",
-  "fecha": "2026-10-10",
-  "ciudad": "L'Ampolla",
-  "provincia": "Tarragona",
-  "ccaa": "Cataluña",
-  "precio": null,
-  "web_oficial": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon",
-  "fuentes": [
-   {
-    "nombre": "ahotu_calendario",
-    "url": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon"
-   }
-  ]
- },
- {
-  "nombre": "IRONCAT L'Ampolla Triathlon",
-  "modalidad": "triatlon_larga",
-  "fecha": "2026-10-10",
-  "ciudad": "L'Ampolla",
-  "provincia": "Tarragona",
-  "ccaa": "Cataluña",
-  "precio": null,
-  "web_oficial": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon",
-  "fuentes": [
-   {
-    "nombre": "ahotu_calendario",
-    "url": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon"
-   }
-  ]
- },
- {
-  "nombre": "ICAN Triathlon Gandia",
-  "modalidad": "triatlon_media",
-  "fecha": "2026-10-17",
-  "ciudad": "Gandia",
-  "provincia": "Valencia",
-  "ccaa": "Comunitat Valenciana",
-  "precio": null,
-  "web_oficial": "https://www.ahotu.com/es/evento/ican-triathlon",
-  "fuentes": [
-   {
-    "nombre": "ahotu_calendario",
-    "url": "https://www.ahotu.com/es/evento/ican-triathlon"
-   }
-  ]
- },
- {
-  "nombre": "ICAN Triathlon Gandia",
-  "modalidad": "triatlon_larga",
-  "fecha": "2026-10-17",
-  "ciudad": "Gandia",
-  "provincia": "Valencia",
-  "ccaa": "Comunitat Valenciana",
-  "precio": null,
-  "web_oficial": "https://www.ahotu.com/es/evento/ican-triathlon",
-  "fuentes": [
-   {
-    "nombre": "ahotu_calendario",
-    "url": "https://www.ahotu.com/es/evento/ican-triathlon"
-   }
-  ]
- },
- {
-  "nombre": "IRONMAN 70.3 Málaga",
-  "modalidad": "triatlon_media",
-  "fecha": "2026-10-18",
-  "ciudad": "Málaga",
-  "provincia": "Málaga",
-  "ccaa": "Andalucía",
-  "precio": null,
-  "web_oficial": "https://www.ironman.com/races/im703-malaga",
-  "fuentes": [
-   {
-    "nombre": "ironman_oficial",
-    "url": "https://www.ironman.com/races/im703-malaga"
-   },
-   {
-    "nombre": "ahotu_calendario",
-    "url": "https://www.ahotu.com/es/evento/ironman-70-3-malaga"
-   }
-  ]
- },
- {
-  "nombre": "10K Ciudad Lineal",
-  "modalidad": "10k",
-  "fecha": "2026-10-04",
-  "ciudad": "Madrid",
-  "provincia": "Madrid",
-  "ccaa": "Comunidad de Madrid",
-  "precio": 5.5,
-  "web_oficial": "https://www.rockthesport.com/es/evento/v-10-km-de-la-ciudad-lineal-2026",
-  "fuentes": [
-   {
-    "nombre": "rockthesport_inscripcion",
-    "url": "https://www.rockthesport.com/es/evento/v-10-km-de-la-ciudad-lineal-2026"
-   }
-  ]
- },
- {
-  "nombre": "Binter NightRun Zaragoza",
-  "modalidad": "5k",
-  "fecha": "2026-09-26",
-  "ciudad": "Zaragoza",
-  "provincia": "Zaragoza",
-  "ccaa": "Aragón",
-  "precio": 25,
-  "web_oficial": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026",
-  "fuentes": [
-   {
-    "nombre": "rockthesport_inscripcion",
-    "url": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026"
-   }
-  ]
- },
- {
-  "nombre": "Binter NightRun Zaragoza",
-  "modalidad": "10k",
-  "fecha": "2026-09-26",
-  "ciudad": "Zaragoza",
-  "provincia": "Zaragoza",
-  "ccaa": "Aragón",
-  "precio": 25,
-  "web_oficial": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026",
-  "fuentes": [
-   {
-    "nombre": "rockthesport_inscripcion",
-    "url": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026"
-   }
-  ]
- },
- {
-  "nombre": "Gladius Race Santacara",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-17",
-  "ciudad": "Santacara",
-  "provincia": "Navarra",
-  "ccaa": "Navarra",
-  "precio": null,
-  "web_oficial": "https://www.rockthesport.com/es/evento/santacara-gladius-race-2026",
-  "fuentes": [
-   {
-    "nombre": "rockthesport_inscripcion",
-    "url": "https://www.rockthesport.com/es/evento/santacara-gladius-race-2026"
-   }
-  ]
- },
- {
-  "nombre": "Valkiria Race",
-  "modalidad": "obstaculos",
-  "fecha": "2026-09-26",
-  "ciudad": "Barreiros",
-  "provincia": "Lugo",
-  "ccaa": "Galicia",
-  "precio": null,
-  "web_oficial": "https://www.rockthesport.com/es/evento/valkiria-race-2026",
-  "fuentes": [
-   {
-    "nombre": "rockthesport_inscripcion",
-    "url": "https://www.rockthesport.com/es/evento/valkiria-race-2026"
-   }
-  ]
- },
- {
-  "nombre": "Gladiators Day Haro",
-  "modalidad": "obstaculos",
-  "fecha": "2026-09-26",
-  "ciudad": "Haro",
-  "provincia": "La Rioja",
-  "ccaa": "La Rioja",
-  "precio": null,
-  "web_oficial": "https://www.rockthesport.com/es/evento/gladiatorsday-haro-2026",
-  "fuentes": [
-   {
-    "nombre": "rockthesport_inscripcion",
-    "url": "https://www.rockthesport.com/es/evento/gladiatorsday-haro-2026"
-   }
-  ]
- },
- {
-  "nombre": "Atlantis Race Carballo",
-  "modalidad": "obstaculos",
-  "fecha": "2026-09-19",
-  "ciudad": "Carballo",
-  "provincia": "A Coruña",
-  "ccaa": "Galicia",
-  "precio": null,
-  "web_oficial": "https://olarivers.com/eventos/atlantis-race-concello-de-carballo/",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://olarivers.com/eventos/atlantis-race-concello-de-carballo/"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Iberus Race OCR Milagro",
-  "modalidad": "obstaculos",
-  "fecha": "2026-09-19",
-  "ciudad": "Milagro",
-  "provincia": "Navarra",
-  "ccaa": "Navarra",
-  "precio": null,
-  "web_oficial": "https://web.rockthesport.com/es/event/iberus-race-ocr-milagro-2026",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://web.rockthesport.com/es/event/iberus-race-ocr-milagro-2026"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Pirate Race Bétera",
-  "modalidad": "obstaculos",
-  "fecha": "2026-09-26",
-  "ciudad": "Bétera",
-  "provincia": "Valencia",
-  "ccaa": "Comunitat Valenciana",
-  "precio": null,
-  "web_oficial": "https://web.rockthesport.com/es/event/pirate-race-betera",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://web.rockthesport.com/es/event/pirate-race-betera"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Salvaje Race San Fernando",
-  "modalidad": "obstaculos",
-  "fecha": "2026-09-26",
-  "ciudad": "San Fernando",
-  "provincia": "Cádiz",
-  "ccaa": "Andalucía",
-  "precio": null,
-  "web_oficial": "https://web.rockthesport.com/es/event/salvaje-race-san-fernando",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://web.rockthesport.com/es/event/salvaje-race-san-fernando"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Desafío Madrid",
-  "modalidad": "obstaculos",
-  "fecha": "2026-09-27",
-  "ciudad": "Alcorcón",
-  "provincia": "Madrid",
-  "ccaa": "Comunidad de Madrid",
-  "precio": null,
-  "web_oficial": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-madrid",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-madrid"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Games Series A Estrada",
-  "modalidad": "hibrida",
-  "fecha": "2026-09-27",
-  "ciudad": "A Estrada",
-  "provincia": "Pontevedra",
-  "ccaa": "Galicia",
-  "precio": null,
-  "web_oficial": "https://gamesseries.gal/es/web/evento/3190/",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://gamesseries.gal/es/web/evento/3190/"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Santuario Race",
-  "modalidad": "obstaculos",
-  "fecha": "2026-09-27",
-  "ciudad": "Malpartida de Cáceres",
-  "provincia": "Cáceres",
-  "ccaa": "Extremadura",
-  "precio": null,
-  "web_oficial": "https://www.chipserena.es/web-evento/13029-santuario-race-2026",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://www.chipserena.es/web-evento/13029-santuario-race-2026"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Lince Extreme Running",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-03",
-  "ciudad": "Punta Umbría",
-  "provincia": "Huelva",
-  "ccaa": "Andalucía",
-  "precio": null,
-  "web_oficial": "https://www.linceextremerunning.es/",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://www.linceextremerunning.es/"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Cantabrian Race Cabárceno",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-03",
-  "ciudad": "Cabárceno",
-  "provincia": "Cantabria",
-  "ccaa": "Cantabria",
-  "precio": null,
-  "web_oficial": "https://nortea.es/ocr/cabarceno",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://nortea.es/ocr/cabarceno"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Desafío Boot Camp Vigo",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-04",
-  "ciudad": "Vigo",
-  "provincia": "Pontevedra",
-  "ccaa": "Galicia",
-  "precio": null,
-  "web_oficial": "https://ccnorte.com/evento/detalle/page/1/id/3226/desafio-boot-camp-vigo-2026",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://ccnorte.com/evento/detalle/page/1/id/3226/desafio-boot-camp-vigo-2026"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "OCR Crossfast Race",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-04",
-  "ciudad": "Santa Cruz de Tenerife",
-  "provincia": "Santa Cruz de Tenerife",
-  "ccaa": "Canarias",
-  "precio": null,
-  "web_oficial": "https://inscripciones.chronotrackcanarias.com/inscripcion/ocr-crossfast-race-santa-cruz-de-tenerife-2026/",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://inscripciones.chronotrackcanarias.com/inscripcion/ocr-crossfast-race-santa-cruz-de-tenerife-2026/"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "OCR Mencey Nocturna La Laguna",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-10",
-  "ciudad": "La Laguna",
-  "provincia": "Santa Cruz de Tenerife",
-  "ccaa": "Canarias",
-  "precio": null,
-  "web_oficial": "https://inscripciones.chronotrackcanarias.com/inscripcion/ocr-mencey-nocturna-la-laguna-2026/",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://inscripciones.chronotrackcanarias.com/inscripcion/ocr-mencey-nocturna-la-laguna-2026/"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Desafío Pinar Extremo",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-11",
-  "ciudad": "San Roque",
-  "provincia": "Cádiz",
-  "ccaa": "Andalucía",
-  "precio": null,
-  "web_oficial": "https://gesconchip.es/prueba/informacion/iii-desafio-pinar-extremo",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://gesconchip.es/prueba/informacion/iii-desafio-pinar-extremo"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Invictus Santoña",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-11",
-  "ciudad": "Santoña",
-  "provincia": "Cantabria",
-  "ccaa": "Cantabria",
-  "precio": null,
-  "web_oficial": "https://web.rockthesport.com/es/event/invictus-santona-2026",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://web.rockthesport.com/es/event/invictus-santona-2026"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "La Última Fortaleza Lanjarón",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-11",
-  "ciudad": "Lanjarón",
-  "provincia": "Granada",
-  "ccaa": "Andalucía",
-  "precio": null,
-  "web_oficial": "https://www.global-tempo.com/carreras.php?id=3291",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://www.global-tempo.com/carreras.php?id=3291"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Barcelona Spartan Weekend",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-17",
-  "ciudad": "Santa Susanna",
-  "provincia": "Barcelona",
-  "ccaa": "Cataluña",
-  "precio": null,
-  "web_oficial": "https://www.spartan.com/en/race/detail/10073/overview",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://www.spartan.com/en/race/detail/10073/overview"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Desafío Sierra de Cádiz",
-  "modalidad": "hibrida",
-  "fecha": "2026-10-17",
-  "ciudad": "Ubrique",
-  "provincia": "Cádiz",
-  "ccaa": "Andalucía",
-  "precio": null,
-  "web_oficial": "https://www.runnink.com/evento/desafio-sierra-de-cadiz/123",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://www.runnink.com/evento/desafio-sierra-de-cadiz/123"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Badajoz Race Hybrid Calamonte",
-  "modalidad": "hibrida",
-  "fecha": "2026-10-25",
-  "ciudad": "Calamonte",
-  "provincia": "Badajoz",
-  "ccaa": "Extremadura",
-  "precio": null,
-  "web_oficial": "https://www.dip-badajoz.es/badajozrace/eventos/12872",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://www.dip-badajoz.es/badajozrace/eventos/12872"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Bestial Race El Hierro",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-24",
-  "ciudad": "El Pinar de El Hierro",
-  "provincia": "Santa Cruz de Tenerife",
-  "ccaa": "Canarias",
-  "precio": null,
-  "web_oficial": "https://ocrbestial.com/bestial-race-el-hierro/",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://ocrbestial.com/bestial-race-el-hierro/"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Survivor Madrid Quijorna",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-24",
-  "ciudad": "Quijorna",
-  "provincia": "Madrid",
-  "ccaa": "Comunidad de Madrid",
-  "precio": null,
-  "web_oficial": "https://survivor-race.com/carreras/survivor-madrid-quijorna/",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://survivor-race.com/carreras/survivor-madrid-quijorna/"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Desafío Rincón de la Victoria",
-  "modalidad": "obstaculos",
-  "fecha": "2026-10-25",
-  "ciudad": "Rincón de la Victoria",
-  "provincia": "Málaga",
-  "ccaa": "Andalucía",
-  "precio": null,
-  "web_oficial": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-malaga",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-malaga"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Extreme OCR Telde",
-  "modalidad": "obstaculos",
-  "fecha": "2026-11-07",
-  "ciudad": "Telde",
-  "provincia": "Las Palmas",
-  "ccaa": "Canarias",
-  "precio": null,
-  "web_oficial": "https://tripasioneventos.com/en/event/extreme-2/",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://tripasioneventos.com/en/event/extreme-2/"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Supera't Alcoy",
-  "modalidad": "obstaculos",
-  "fecha": "2026-11-08",
-  "ciudad": "Alcoy",
-  "provincia": "Alicante",
-  "ccaa": "Comunitat Valenciana",
-  "precio": null,
-  "web_oficial": "https://web.rockthesport.com/es/event/superat-2026",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://web.rockthesport.com/es/event/superat-2026"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Playa Cambriles Race",
-  "modalidad": "obstaculos",
-  "fecha": "2026-11-22",
-  "ciudad": "Castell de Ferro",
-  "provincia": "Granada",
-  "ccaa": "Andalucía",
-  "precio": null,
-  "web_oficial": "https://www.global-tempo.com/carreras.php?id=3202",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://www.global-tempo.com/carreras.php?id=3202"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Desafío Vega Baja Redován",
-  "modalidad": "obstaculos",
-  "fecha": "2026-11-22",
-  "ciudad": "Redován",
-  "provincia": "Alicante",
-  "ccaa": "Comunitat Valenciana",
-  "precio": null,
-  "web_oficial": "https://crono4sports.com/evento/desafio-vega-baja-redovan-by-medieval",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://crono4sports.com/evento/desafio-vega-baja-redovan-by-medieval"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Málaga Throwdown",
-  "modalidad": "hibrida",
-  "fecha": "2026-11-27",
-  "ciudad": "Torremolinos",
-  "provincia": "Málaga",
-  "ccaa": "Andalucía",
-  "precio": null,
-  "web_oficial": "https://malagathrowdown.es/",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://malagathrowdown.es/"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Poseidon Sea Neptune Race",
-  "modalidad": "obstaculos",
-  "fecha": "2026-12-05",
-  "ciudad": "Torrenueva Costa",
-  "provincia": "Granada",
-  "ccaa": "Andalucía",
-  "precio": null,
-  "web_oficial": "https://www.global-tempo.com/carreras.php?id=3100",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://www.global-tempo.com/carreras.php?id=3100"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Bestial Race Gran Canaria",
-  "modalidad": "obstaculos",
-  "fecha": "2026-12-05",
-  "ciudad": "Arucas",
-  "provincia": "Las Palmas",
-  "ccaa": "Canarias",
-  "precio": null,
-  "web_oficial": "https://ocrbestial.com/bestial-race-gran-canaria/",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://ocrbestial.com/bestial-race-gran-canaria/"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Medieval Xtrem Race Peñíscola",
-  "modalidad": "obstaculos",
-  "fecha": "2026-12-13",
-  "ciudad": "Peñíscola",
-  "provincia": "Castellón",
-  "ccaa": "Comunitat Valenciana",
-  "precio": null,
-  "web_oficial": "https://www.crono4sports.es/info_fusion.php?Evento=2415",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://www.crono4sports.es/info_fusion.php?Evento=2415"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Fungo Race",
-  "modalidad": "obstaculos",
-  "fecha": "2027-03-14",
-  "ciudad": "El Puerto de Santa María",
-  "provincia": "Cádiz",
-  "ccaa": "Andalucía",
-  "precio": null,
-  "web_oficial": "https://www.runnink.com/evento/fungo-race/130",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://www.runnink.com/evento/fungo-race/130"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Survivor Alicante",
-  "modalidad": "obstaculos",
-  "fecha": "2027-04-10",
-  "ciudad": "Alicante",
-  "provincia": "Alicante",
-  "ccaa": "Comunitat Valenciana",
-  "precio": null,
-  "web_oficial": "https://survivor-race.com/carreras/survivor-alicante/",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://survivor-race.com/carreras/survivor-alicante/"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Desafío Valencia",
-  "modalidad": "obstaculos",
-  "fecha": "2027-04-18",
-  "ciudad": "Valencia",
-  "provincia": "Valencia",
-  "ccaa": "Comunitat Valenciana",
-  "precio": null,
-  "web_oficial": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-valencia",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-valencia"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Desafío de los 300",
-  "modalidad": "obstaculos",
-  "fecha": "2027-04-24",
-  "ciudad": "Ceuta",
-  "provincia": "Ceuta",
-  "ccaa": "Ceuta",
-  "precio": null,
-  "web_oficial": "https://gesconchip.es/prueba/informacion/x-desafio-de-los-300",
-  "fuentes": [
-   {
-    "nombre": "plataforma_inscripcion",
-    "url": "https://gesconchip.es/prueba/informacion/x-desafio-de-los-300"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Desafío Barcelona",
-  "modalidad": "obstaculos",
-  "fecha": "2027-05-16",
-  "ciudad": "Pineda de Mar",
-  "provincia": "Barcelona",
-  "ccaa": "Cataluña",
-  "precio": null,
-  "web_oficial": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-barcelona",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-barcelona"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Desafío Bizkaia",
-  "modalidad": "obstaculos",
-  "fecha": "2027-06-13",
-  "ciudad": "Gernika-Lumo",
-  "provincia": "Bizkaia",
-  "ccaa": "País Vasco",
-  "precio": null,
-  "web_oficial": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-bizkaia",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-bizkaia"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- },
- {
-  "nombre": "Survivor Barcelona",
-  "modalidad": "obstaculos",
-  "fecha": "2027-06-19",
-  "ciudad": "Cardona",
-  "provincia": "Barcelona",
-  "ccaa": "Cataluña",
-  "precio": null,
-  "web_oficial": "https://survivor-race.com/carreras/survivor-barcelona/",
-  "fuentes": [
-   {
-    "nombre": "organizador_oficial",
-    "url": "https://survivor-race.com/carreras/survivor-barcelona/"
-   },
-   {
-    "nombre": "running.life_lead",
-    "url": "https://running.life/carreras-obstaculos/espana"
-   }
-  ]
- }
+  {
+    "nombre": "DEKA FIT Barcelona Otoño",
+    "modalidad": "hibrida",
+    "fecha": "2026-09-26",
+    "ciudad": "Barcelona",
+    "provincia": "Barcelona",
+    "ccaa": "Cataluña",
+    "precio": 60,
+    "web_oficial": "https://es.spartan.com/es/races/deka-barcelona-otono",
+    "fuentes": [
+      {
+        "nombre": "spartan_deka_oficial",
+        "url": "https://es.spartan.com/es/races/deka-barcelona-otono"
+      }
+    ],
+    "lat": 41.3825802,
+    "lng": 2.177073
+  },
+  {
+    "nombre": "DEKA FIT Guadalajara",
+    "modalidad": "hibrida",
+    "fecha": "2026-10-24",
+    "ciudad": "Guadalajara",
+    "provincia": "Guadalajara",
+    "ccaa": "Castilla-La Mancha",
+    "precio": 60,
+    "web_oficial": "https://es.spartan.com/es/races/deka-guadalajara",
+    "fuentes": [
+      {
+        "nombre": "spartan_deka_oficial",
+        "url": "https://es.spartan.com/es/races/deka-guadalajara"
+      }
+    ],
+    "lat": 40.6326979,
+    "lng": -3.1646067
+  },
+  {
+    "nombre": "DEKA FIT Alicante",
+    "modalidad": "hibrida",
+    "fecha": "2026-10-31",
+    "ciudad": "Alicante",
+    "provincia": "Alicante",
+    "ccaa": "Comunitat Valenciana",
+    "precio": 80,
+    "web_oficial": "https://es.spartan.com/es/races/deka-alicante",
+    "fuentes": [
+      {
+        "nombre": "spartan_deka_oficial",
+        "url": "https://es.spartan.com/es/races/deka-alicante"
+      }
+    ],
+    "lat": 38.3436365,
+    "lng": -0.4881708
+  },
+  {
+    "nombre": "DEKA FIT Tenerife",
+    "modalidad": "hibrida",
+    "fecha": "2026-11-21",
+    "ciudad": "Santa Cruz de Tenerife",
+    "provincia": "Santa Cruz de Tenerife",
+    "ccaa": "Canarias",
+    "precio": 60,
+    "web_oficial": "https://es.spartan.com/es/races/deka-tenerife",
+    "fuentes": [
+      {
+        "nombre": "spartan_deka_oficial",
+        "url": "https://es.spartan.com/es/races/deka-tenerife"
+      }
+    ],
+    "lat": 28.467178,
+    "lng": -16.2507843
+  },
+  {
+    "nombre": "DEKA FIT Torremolinos",
+    "modalidad": "hibrida",
+    "fecha": "2027-02-27",
+    "ciudad": "Torremolinos",
+    "provincia": "Málaga",
+    "ccaa": "Andalucía",
+    "precio": 72,
+    "web_oficial": "https://es.spartan.com/es/races/deka-torremolinos",
+    "fuentes": [
+      {
+        "nombre": "spartan_deka_oficial",
+        "url": "https://es.spartan.com/es/races/deka-torremolinos"
+      }
+    ],
+    "lat": 36.6242841,
+    "lng": -4.4995448
+  },
+  {
+    "nombre": "DEKA FIT Toledo",
+    "modalidad": "hibrida",
+    "fecha": "2027-03-06",
+    "ciudad": "Toledo",
+    "provincia": "Toledo",
+    "ccaa": "Castilla-La Mancha",
+    "precio": 72,
+    "web_oficial": "https://es.spartan.com/es/races/deka-toledo-2027",
+    "fuentes": [
+      {
+        "nombre": "spartan_deka_oficial",
+        "url": "https://es.spartan.com/es/races/deka-toledo-2027"
+      }
+    ],
+    "lat": 39.8558913,
+    "lng": -4.024265
+  },
+  {
+    "nombre": "DEKA FIT Barcelona Primavera",
+    "modalidad": "hibrida",
+    "fecha": "2027-03-20",
+    "ciudad": "Barcelona",
+    "provincia": "Barcelona",
+    "ccaa": "Cataluña",
+    "precio": 72,
+    "web_oficial": "https://es.spartan.com/es/races/deka-barcelona-primavera",
+    "fuentes": [
+      {
+        "nombre": "spartan_deka_oficial",
+        "url": "https://es.spartan.com/es/races/deka-barcelona-primavera"
+      }
+    ],
+    "lat": 41.3825802,
+    "lng": 2.177073
+  },
+  {
+    "nombre": "DEKA FIT Valencia",
+    "modalidad": "hibrida",
+    "fecha": "2027-04-03",
+    "ciudad": "Valencia",
+    "provincia": "Valencia",
+    "ccaa": "Comunitat Valenciana",
+    "precio": 72,
+    "web_oficial": "https://es.spartan.com/es/races/deka-valencia-2027",
+    "fuentes": [
+      {
+        "nombre": "spartan_deka_oficial",
+        "url": "https://es.spartan.com/es/races/deka-valencia-2027"
+      }
+    ],
+    "lat": 39.4697065,
+    "lng": -0.3763353
+  },
+  {
+    "nombre": "DEKA FIT Ibiza",
+    "modalidad": "hibrida",
+    "fecha": "2027-04-17",
+    "ciudad": "Sant Agustí des Vedrà",
+    "provincia": "Illes Balears",
+    "ccaa": "Illes Balears",
+    "precio": 72,
+    "web_oficial": "https://es.spartan.com/es/races/deka-ibiza-2027",
+    "fuentes": [
+      {
+        "nombre": "spartan_deka_oficial",
+        "url": "https://es.spartan.com/es/races/deka-ibiza-2027"
+      }
+    ],
+    "lat": 38.9409472,
+    "lng": 1.2938289
+  },
+  {
+    "nombre": "DEKA FIT Vigo",
+    "modalidad": "hibrida",
+    "fecha": "2027-06-26",
+    "ciudad": "Vigo",
+    "provincia": "Pontevedra",
+    "ccaa": "Galicia",
+    "precio": 72,
+    "web_oficial": "https://es.spartan.com/es/races/deka-vigo-2027",
+    "fuentes": [
+      {
+        "nombre": "spartan_deka_oficial",
+        "url": "https://es.spartan.com/es/races/deka-vigo-2027"
+      }
+    ],
+    "lat": 42.1986395,
+    "lng": -8.727956
+  },
+  {
+    "nombre": "Spartan Madrid Trifecta Weekend",
+    "modalidad": "obstaculos",
+    "fecha": "2027-05-08",
+    "ciudad": "San Agustín del Guadalix",
+    "provincia": "Madrid",
+    "ccaa": "Comunidad de Madrid",
+    "precio": null,
+    "web_oficial": "https://es.spartan.com/es/races/madrid",
+    "fuentes": [
+      {
+        "nombre": "spartan_oficial",
+        "url": "https://es.spartan.com/es/races/madrid"
+      }
+    ],
+    "lat": 40.6793973,
+    "lng": -3.616004
+  },
+  {
+    "nombre": "Ibiza Sprint Triathlon",
+    "modalidad": "triatlon_sprint",
+    "fecha": "2026-10-25",
+    "ciudad": "Ibiza",
+    "provincia": "Illes Balears",
+    "ccaa": "Illes Balears",
+    "precio": null,
+    "web_oficial": "https://www.ahotu.com/es/evento/ibiza-sprint-triathlon",
+    "fuentes": [
+      {
+        "nombre": "ahotu_inscripcion",
+        "url": "https://www.ahotu.com/es/evento/ibiza-sprint-triathlon"
+      }
+    ],
+    "lat": 38.9743901,
+    "lng": 1.4197463
+  },
+  {
+    "nombre": "TotalTri Mallorca Triatló",
+    "modalidad": "triatlon_media",
+    "fecha": "2027-03-21",
+    "ciudad": "Capdepera",
+    "provincia": "Illes Balears",
+    "ccaa": "Illes Balears",
+    "precio": null,
+    "web_oficial": "https://www.ahotu.com/es/evento/total-tri-mallorca-triatlo",
+    "fuentes": [
+      {
+        "nombre": "ahotu_inscripcion",
+        "url": "https://www.ahotu.com/es/evento/total-tri-mallorca-triatlo"
+      }
+    ],
+    "lat": 39.7023418,
+    "lng": 3.4321679
+  },
+  {
+    "nombre": "Challenge Mogán Gran Canaria",
+    "modalidad": "triatlon_media",
+    "fecha": "2027-04-17",
+    "ciudad": "Mogán",
+    "provincia": "Las Palmas",
+    "ccaa": "Canarias",
+    "precio": null,
+    "web_oficial": "https://www.ahotu.com/es/evento/challenge-mogan-gran-canaria",
+    "fuentes": [
+      {
+        "nombre": "ahotu_inscripcion",
+        "url": "https://www.ahotu.com/es/evento/challenge-mogan-gran-canaria"
+      }
+    ],
+    "lat": 27.8524967,
+    "lng": -15.7294065
+  },
+  {
+    "nombre": "Challenge Salou Triathlon",
+    "modalidad": "triatlon_media",
+    "fecha": "2027-05-09",
+    "ciudad": "Salou",
+    "provincia": "Tarragona",
+    "ccaa": "Cataluña",
+    "precio": null,
+    "web_oficial": "https://www.ahotu.com/es/evento/challenge-salou-triathlon",
+    "fuentes": [
+      {
+        "nombre": "ahotu_inscripcion",
+        "url": "https://www.ahotu.com/es/evento/challenge-salou-triathlon"
+      }
+    ],
+    "lat": 41.0768193,
+    "lng": 1.1440411
+  },
+  {
+    "nombre": "IRONCAT L'Ampolla Triathlon",
+    "modalidad": "triatlon_media",
+    "fecha": "2026-10-10",
+    "ciudad": "L'Ampolla",
+    "provincia": "Tarragona",
+    "ccaa": "Cataluña",
+    "precio": null,
+    "web_oficial": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon",
+    "fuentes": [
+      {
+        "nombre": "ahotu_calendario",
+        "url": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon"
+      }
+    ],
+    "lat": 40.8122038,
+    "lng": 0.706957
+  },
+  {
+    "nombre": "IRONCAT L'Ampolla Triathlon",
+    "modalidad": "triatlon_larga",
+    "fecha": "2026-10-10",
+    "ciudad": "L'Ampolla",
+    "provincia": "Tarragona",
+    "ccaa": "Cataluña",
+    "precio": null,
+    "web_oficial": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon",
+    "fuentes": [
+      {
+        "nombre": "ahotu_calendario",
+        "url": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon"
+      }
+    ],
+    "lat": 40.8122038,
+    "lng": 0.706957
+  },
+  {
+    "nombre": "ICAN Triathlon Gandia",
+    "modalidad": "triatlon_media",
+    "fecha": "2026-10-17",
+    "ciudad": "Gandia",
+    "provincia": "Valencia",
+    "ccaa": "Comunitat Valenciana",
+    "precio": null,
+    "web_oficial": "https://www.ahotu.com/es/evento/ican-triathlon",
+    "fuentes": [
+      {
+        "nombre": "ahotu_calendario",
+        "url": "https://www.ahotu.com/es/evento/ican-triathlon"
+      }
+    ],
+    "lat": 38.9675925,
+    "lng": -0.1803423
+  },
+  {
+    "nombre": "ICAN Triathlon Gandia",
+    "modalidad": "triatlon_larga",
+    "fecha": "2026-10-17",
+    "ciudad": "Gandia",
+    "provincia": "Valencia",
+    "ccaa": "Comunitat Valenciana",
+    "precio": null,
+    "web_oficial": "https://www.ahotu.com/es/evento/ican-triathlon",
+    "fuentes": [
+      {
+        "nombre": "ahotu_calendario",
+        "url": "https://www.ahotu.com/es/evento/ican-triathlon"
+      }
+    ],
+    "lat": 38.9675925,
+    "lng": -0.1803423
+  },
+  {
+    "nombre": "IRONMAN 70.3 Málaga",
+    "modalidad": "triatlon_media",
+    "fecha": "2026-10-18",
+    "ciudad": "Málaga",
+    "provincia": "Málaga",
+    "ccaa": "Andalucía",
+    "precio": null,
+    "web_oficial": "https://www.ironman.com/races/im703-malaga",
+    "fuentes": [
+      {
+        "nombre": "ironman_oficial",
+        "url": "https://www.ironman.com/races/im703-malaga"
+      },
+      {
+        "nombre": "ahotu_calendario",
+        "url": "https://www.ahotu.com/es/evento/ironman-70-3-malaga"
+      }
+    ],
+    "lat": 36.7647913,
+    "lng": -4.4422005
+  },
+  {
+    "nombre": "10K Ciudad Lineal",
+    "modalidad": "10k",
+    "fecha": "2026-10-04",
+    "ciudad": "Madrid",
+    "provincia": "Madrid",
+    "ccaa": "Comunidad de Madrid",
+    "precio": 5.5,
+    "web_oficial": "https://www.rockthesport.com/es/evento/v-10-km-de-la-ciudad-lineal-2026",
+    "fuentes": [
+      {
+        "nombre": "rockthesport_inscripcion",
+        "url": "https://www.rockthesport.com/es/evento/v-10-km-de-la-ciudad-lineal-2026"
+      }
+    ],
+    "lat": 40.4237276,
+    "lng": -3.6899043
+  },
+  {
+    "nombre": "Binter NightRun Zaragoza",
+    "modalidad": "5k",
+    "fecha": "2026-09-26",
+    "ciudad": "Zaragoza",
+    "provincia": "Zaragoza",
+    "ccaa": "Aragón",
+    "precio": 25,
+    "web_oficial": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026",
+    "fuentes": [
+      {
+        "nombre": "rockthesport_inscripcion",
+        "url": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026"
+      }
+    ],
+    "lat": 41.6915847,
+    "lng": -0.9101268
+  },
+  {
+    "nombre": "Binter NightRun Zaragoza",
+    "modalidad": "10k",
+    "fecha": "2026-09-26",
+    "ciudad": "Zaragoza",
+    "provincia": "Zaragoza",
+    "ccaa": "Aragón",
+    "precio": 25,
+    "web_oficial": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026",
+    "fuentes": [
+      {
+        "nombre": "rockthesport_inscripcion",
+        "url": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026"
+      }
+    ],
+    "lat": 41.6915847,
+    "lng": -0.9101268
+  },
+  {
+    "nombre": "Gladius Race Santacara",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-17",
+    "ciudad": "Santacara",
+    "provincia": "Navarra",
+    "ccaa": "Navarra",
+    "precio": null,
+    "web_oficial": "https://www.rockthesport.com/es/evento/santacara-gladius-race-2026",
+    "fuentes": [
+      {
+        "nombre": "rockthesport_inscripcion",
+        "url": "https://www.rockthesport.com/es/evento/santacara-gladius-race-2026"
+      }
+    ],
+    "lat": 42.3755477,
+    "lng": -1.5477333
+  },
+  {
+    "nombre": "Valkiria Race",
+    "modalidad": "obstaculos",
+    "fecha": "2026-09-26",
+    "ciudad": "Barreiros",
+    "provincia": "Lugo",
+    "ccaa": "Galicia",
+    "precio": null,
+    "web_oficial": "https://www.rockthesport.com/es/evento/valkiria-race-2026",
+    "fuentes": [
+      {
+        "nombre": "rockthesport_inscripcion",
+        "url": "https://www.rockthesport.com/es/evento/valkiria-race-2026"
+      }
+    ],
+    "lat": 43.514168,
+    "lng": -7.2505546
+  },
+  {
+    "nombre": "Gladiators Day Haro",
+    "modalidad": "obstaculos",
+    "fecha": "2026-09-26",
+    "ciudad": "Haro",
+    "provincia": "La Rioja",
+    "ccaa": "La Rioja",
+    "precio": null,
+    "web_oficial": "https://www.rockthesport.com/es/evento/gladiatorsday-haro-2026",
+    "fuentes": [
+      {
+        "nombre": "rockthesport_inscripcion",
+        "url": "https://www.rockthesport.com/es/evento/gladiatorsday-haro-2026"
+      }
+    ],
+    "lat": 42.5768922,
+    "lng": -2.8466768
+  },
+  {
+    "nombre": "Atlantis Race Carballo",
+    "modalidad": "obstaculos",
+    "fecha": "2026-09-19",
+    "ciudad": "Carballo",
+    "provincia": "A Coruña",
+    "ccaa": "Galicia",
+    "precio": null,
+    "web_oficial": "https://olarivers.com/eventos/atlantis-race-concello-de-carballo/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://olarivers.com/eventos/atlantis-race-concello-de-carballo/"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 43.2086195,
+    "lng": -8.6668237
+  },
+  {
+    "nombre": "Iberus Race OCR Milagro",
+    "modalidad": "obstaculos",
+    "fecha": "2026-09-19",
+    "ciudad": "Milagro",
+    "provincia": "Navarra",
+    "ccaa": "Navarra",
+    "precio": null,
+    "web_oficial": "https://web.rockthesport.com/es/event/iberus-race-ocr-milagro-2026",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://web.rockthesport.com/es/event/iberus-race-ocr-milagro-2026"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 42.2418183,
+    "lng": -1.7628016
+  },
+  {
+    "nombre": "Pirate Race Bétera",
+    "modalidad": "obstaculos",
+    "fecha": "2026-09-26",
+    "ciudad": "Bétera",
+    "provincia": "Valencia",
+    "ccaa": "Comunitat Valenciana",
+    "precio": null,
+    "web_oficial": "https://web.rockthesport.com/es/event/pirate-race-betera",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://web.rockthesport.com/es/event/pirate-race-betera"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 39.5917307,
+    "lng": -0.4622695
+  },
+  {
+    "nombre": "Salvaje Race San Fernando",
+    "modalidad": "obstaculos",
+    "fecha": "2026-09-26",
+    "ciudad": "San Fernando",
+    "provincia": "Cádiz",
+    "ccaa": "Andalucía",
+    "precio": null,
+    "web_oficial": "https://web.rockthesport.com/es/event/salvaje-race-san-fernando",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://web.rockthesport.com/es/event/salvaje-race-san-fernando"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 36.4646672,
+    "lng": -6.1983492
+  },
+  {
+    "nombre": "Desafío Madrid",
+    "modalidad": "obstaculos",
+    "fecha": "2026-09-27",
+    "ciudad": "Alcorcón",
+    "provincia": "Madrid",
+    "ccaa": "Comunidad de Madrid",
+    "precio": null,
+    "web_oficial": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-madrid",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-madrid"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 40.3492998,
+    "lng": -3.8284295
+  },
+  {
+    "nombre": "Games Series A Estrada",
+    "modalidad": "hibrida",
+    "fecha": "2026-09-27",
+    "ciudad": "A Estrada",
+    "provincia": "Pontevedra",
+    "ccaa": "Galicia",
+    "precio": null,
+    "web_oficial": "https://gamesseries.gal/es/web/evento/3190/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://gamesseries.gal/es/web/evento/3190/"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 42.6809545,
+    "lng": -8.4357972
+  },
+  {
+    "nombre": "Santuario Race",
+    "modalidad": "obstaculos",
+    "fecha": "2026-09-27",
+    "ciudad": "Malpartida de Cáceres",
+    "provincia": "Cáceres",
+    "ccaa": "Extremadura",
+    "precio": null,
+    "web_oficial": "https://www.chipserena.es/web-evento/13029-santuario-race-2026",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://www.chipserena.es/web-evento/13029-santuario-race-2026"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 39.4458422,
+    "lng": -6.5046747
+  },
+  {
+    "nombre": "Lince Extreme Running",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-03",
+    "ciudad": "Punta Umbría",
+    "provincia": "Huelva",
+    "ccaa": "Andalucía",
+    "precio": null,
+    "web_oficial": "https://www.linceextremerunning.es/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://www.linceextremerunning.es/"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 37.1830237,
+    "lng": -6.9662203
+  },
+  {
+    "nombre": "Cantabrian Race Cabárceno",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-03",
+    "ciudad": "Cabárceno",
+    "provincia": "Cantabria",
+    "ccaa": "Cantabria",
+    "precio": null,
+    "web_oficial": "https://nortea.es/ocr/cabarceno",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://nortea.es/ocr/cabarceno"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 43.3582415,
+    "lng": -3.8228879
+  },
+  {
+    "nombre": "Desafío Boot Camp Vigo",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-04",
+    "ciudad": "Vigo",
+    "provincia": "Pontevedra",
+    "ccaa": "Galicia",
+    "precio": null,
+    "web_oficial": "https://ccnorte.com/evento/detalle/page/1/id/3226/desafio-boot-camp-vigo-2026",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://ccnorte.com/evento/detalle/page/1/id/3226/desafio-boot-camp-vigo-2026"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 42.1986395,
+    "lng": -8.727956
+  },
+  {
+    "nombre": "OCR Crossfast Race",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-04",
+    "ciudad": "Santa Cruz de Tenerife",
+    "provincia": "Santa Cruz de Tenerife",
+    "ccaa": "Canarias",
+    "precio": null,
+    "web_oficial": "https://inscripciones.chronotrackcanarias.com/inscripcion/ocr-crossfast-race-santa-cruz-de-tenerife-2026/",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://inscripciones.chronotrackcanarias.com/inscripcion/ocr-crossfast-race-santa-cruz-de-tenerife-2026/"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 28.467178,
+    "lng": -16.2507843
+  },
+  {
+    "nombre": "OCR Mencey Nocturna La Laguna",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-10",
+    "ciudad": "La Laguna",
+    "provincia": "Santa Cruz de Tenerife",
+    "ccaa": "Canarias",
+    "precio": null,
+    "web_oficial": "https://inscripciones.chronotrackcanarias.com/inscripcion/ocr-mencey-nocturna-la-laguna-2026/",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://inscripciones.chronotrackcanarias.com/inscripcion/ocr-mencey-nocturna-la-laguna-2026/"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 28.4857715,
+    "lng": -16.3159422
+  },
+  {
+    "nombre": "Desafío Pinar Extremo",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-11",
+    "ciudad": "San Roque",
+    "provincia": "Cádiz",
+    "ccaa": "Andalucía",
+    "precio": null,
+    "web_oficial": "https://gesconchip.es/prueba/informacion/iii-desafio-pinar-extremo",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://gesconchip.es/prueba/informacion/iii-desafio-pinar-extremo"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 36.2100586,
+    "lng": -5.3868293
+  },
+  {
+    "nombre": "Invictus Santoña",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-11",
+    "ciudad": "Santoña",
+    "provincia": "Cantabria",
+    "ccaa": "Cantabria",
+    "precio": null,
+    "web_oficial": "https://web.rockthesport.com/es/event/invictus-santona-2026",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://web.rockthesport.com/es/event/invictus-santona-2026"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 43.4449362,
+    "lng": -3.4553628
+  },
+  {
+    "nombre": "La Última Fortaleza Lanjarón",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-11",
+    "ciudad": "Lanjarón",
+    "provincia": "Granada",
+    "ccaa": "Andalucía",
+    "precio": null,
+    "web_oficial": "https://www.global-tempo.com/carreras.php?id=3291",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://www.global-tempo.com/carreras.php?id=3291"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 36.9181138,
+    "lng": -3.4801561
+  },
+  {
+    "nombre": "Barcelona Spartan Weekend",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-17",
+    "ciudad": "Santa Susanna",
+    "provincia": "Barcelona",
+    "ccaa": "Cataluña",
+    "precio": null,
+    "web_oficial": "https://www.spartan.com/en/race/detail/10073/overview",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://www.spartan.com/en/race/detail/10073/overview"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 41.6357256,
+    "lng": 2.7065933
+  },
+  {
+    "nombre": "Desafío Sierra de Cádiz",
+    "modalidad": "hibrida",
+    "fecha": "2026-10-17",
+    "ciudad": "Ubrique",
+    "provincia": "Cádiz",
+    "ccaa": "Andalucía",
+    "precio": null,
+    "web_oficial": "https://www.runnink.com/evento/desafio-sierra-de-cadiz/123",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://www.runnink.com/evento/desafio-sierra-de-cadiz/123"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 36.6769347,
+    "lng": -5.4457808
+  },
+  {
+    "nombre": "Badajoz Race Hybrid Calamonte",
+    "modalidad": "hibrida",
+    "fecha": "2026-10-25",
+    "ciudad": "Calamonte",
+    "provincia": "Badajoz",
+    "ccaa": "Extremadura",
+    "precio": null,
+    "web_oficial": "https://www.dip-badajoz.es/badajozrace/eventos/12872",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://www.dip-badajoz.es/badajozrace/eventos/12872"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 38.8749753,
+    "lng": -6.3826203
+  },
+  {
+    "nombre": "Bestial Race El Hierro",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-24",
+    "ciudad": "El Pinar de El Hierro",
+    "provincia": "Santa Cruz de Tenerife",
+    "ccaa": "Canarias",
+    "precio": null,
+    "web_oficial": "https://ocrbestial.com/bestial-race-el-hierro/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://ocrbestial.com/bestial-race-el-hierro/"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 27.6850443,
+    "lng": -18.0016356
+  },
+  {
+    "nombre": "Survivor Madrid Quijorna",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-24",
+    "ciudad": "Quijorna",
+    "provincia": "Madrid",
+    "ccaa": "Comunidad de Madrid",
+    "precio": null,
+    "web_oficial": "https://survivor-race.com/carreras/survivor-madrid-quijorna/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://survivor-race.com/carreras/survivor-madrid-quijorna/"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 40.4290833,
+    "lng": -4.0565378
+  },
+  {
+    "nombre": "Desafío Rincón de la Victoria",
+    "modalidad": "obstaculos",
+    "fecha": "2026-10-25",
+    "ciudad": "Rincón de la Victoria",
+    "provincia": "Málaga",
+    "ccaa": "Andalucía",
+    "precio": null,
+    "web_oficial": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-malaga",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-malaga"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 36.7162109,
+    "lng": -4.2793767
+  },
+  {
+    "nombre": "Extreme OCR Telde",
+    "modalidad": "obstaculos",
+    "fecha": "2026-11-07",
+    "ciudad": "Telde",
+    "provincia": "Las Palmas",
+    "ccaa": "Canarias",
+    "precio": null,
+    "web_oficial": "https://tripasioneventos.com/en/event/extreme-2/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://tripasioneventos.com/en/event/extreme-2/"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 27.9984538,
+    "lng": -15.4166761
+  },
+  {
+    "nombre": "Supera't Alcoy",
+    "modalidad": "obstaculos",
+    "fecha": "2026-11-08",
+    "ciudad": "Alcoy",
+    "provincia": "Alicante",
+    "ccaa": "Comunitat Valenciana",
+    "precio": null,
+    "web_oficial": "https://web.rockthesport.com/es/event/superat-2026",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://web.rockthesport.com/es/event/superat-2026"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 38.6982348,
+    "lng": -0.4747619
+  },
+  {
+    "nombre": "Playa Cambriles Race",
+    "modalidad": "obstaculos",
+    "fecha": "2026-11-22",
+    "ciudad": "Castell de Ferro",
+    "provincia": "Granada",
+    "ccaa": "Andalucía",
+    "precio": null,
+    "web_oficial": "https://www.global-tempo.com/carreras.php?id=3202",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://www.global-tempo.com/carreras.php?id=3202"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 36.7224798,
+    "lng": -3.3591422
+  },
+  {
+    "nombre": "Desafío Vega Baja Redován",
+    "modalidad": "obstaculos",
+    "fecha": "2026-11-22",
+    "ciudad": "Redován",
+    "provincia": "Alicante",
+    "ccaa": "Comunitat Valenciana",
+    "precio": null,
+    "web_oficial": "https://crono4sports.com/evento/desafio-vega-baja-redovan-by-medieval",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://crono4sports.com/evento/desafio-vega-baja-redovan-by-medieval"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 38.1151709,
+    "lng": -0.9069281
+  },
+  {
+    "nombre": "Málaga Throwdown",
+    "modalidad": "hibrida",
+    "fecha": "2026-11-27",
+    "ciudad": "Torremolinos",
+    "provincia": "Málaga",
+    "ccaa": "Andalucía",
+    "precio": null,
+    "web_oficial": "https://malagathrowdown.es/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://malagathrowdown.es/"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 36.6242841,
+    "lng": -4.4995448
+  },
+  {
+    "nombre": "Poseidon Sea Neptune Race",
+    "modalidad": "obstaculos",
+    "fecha": "2026-12-05",
+    "ciudad": "Torrenueva Costa",
+    "provincia": "Granada",
+    "ccaa": "Andalucía",
+    "precio": null,
+    "web_oficial": "https://www.global-tempo.com/carreras.php?id=3100",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://www.global-tempo.com/carreras.php?id=3100"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 36.7087686,
+    "lng": -3.4805521
+  },
+  {
+    "nombre": "Bestial Race Gran Canaria",
+    "modalidad": "obstaculos",
+    "fecha": "2026-12-05",
+    "ciudad": "Arucas",
+    "provincia": "Las Palmas",
+    "ccaa": "Canarias",
+    "precio": null,
+    "web_oficial": "https://ocrbestial.com/bestial-race-gran-canaria/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://ocrbestial.com/bestial-race-gran-canaria/"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 28.119048,
+    "lng": -15.5210575
+  },
+  {
+    "nombre": "Medieval Xtrem Race Peñíscola",
+    "modalidad": "obstaculos",
+    "fecha": "2026-12-13",
+    "ciudad": "Peñíscola",
+    "provincia": "Castellón",
+    "ccaa": "Comunitat Valenciana",
+    "precio": null,
+    "web_oficial": "https://www.crono4sports.es/info_fusion.php?Evento=2415",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://www.crono4sports.es/info_fusion.php?Evento=2415"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 40.3577844,
+    "lng": 0.4073793
+  },
+  {
+    "nombre": "Fungo Race",
+    "modalidad": "obstaculos",
+    "fecha": "2027-03-14",
+    "ciudad": "El Puerto de Santa María",
+    "provincia": "Cádiz",
+    "ccaa": "Andalucía",
+    "precio": null,
+    "web_oficial": "https://www.runnink.com/evento/fungo-race/130",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://www.runnink.com/evento/fungo-race/130"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 36.6004006,
+    "lng": -6.2252702
+  },
+  {
+    "nombre": "Survivor Alicante",
+    "modalidad": "obstaculos",
+    "fecha": "2027-04-10",
+    "ciudad": "Alicante",
+    "provincia": "Alicante",
+    "ccaa": "Comunitat Valenciana",
+    "precio": null,
+    "web_oficial": "https://survivor-race.com/carreras/survivor-alicante/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://survivor-race.com/carreras/survivor-alicante/"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 38.3436365,
+    "lng": -0.4881708
+  },
+  {
+    "nombre": "Desafío Valencia",
+    "modalidad": "obstaculos",
+    "fecha": "2027-04-18",
+    "ciudad": "Valencia",
+    "provincia": "Valencia",
+    "ccaa": "Comunitat Valenciana",
+    "precio": null,
+    "web_oficial": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-valencia",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-valencia"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 39.4697065,
+    "lng": -0.3763353
+  },
+  {
+    "nombre": "Desafío de los 300",
+    "modalidad": "obstaculos",
+    "fecha": "2027-04-24",
+    "ciudad": "Ceuta",
+    "provincia": "Ceuta",
+    "ccaa": "Ceuta",
+    "precio": null,
+    "web_oficial": "https://gesconchip.es/prueba/informacion/x-desafio-de-los-300",
+    "fuentes": [
+      {
+        "nombre": "plataforma_inscripcion",
+        "url": "https://gesconchip.es/prueba/informacion/x-desafio-de-los-300"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 35.894422,
+    "lng": -5.3558174
+  },
+  {
+    "nombre": "Desafío Barcelona",
+    "modalidad": "obstaculos",
+    "fecha": "2027-05-16",
+    "ciudad": "Pineda de Mar",
+    "provincia": "Barcelona",
+    "ccaa": "Cataluña",
+    "precio": null,
+    "web_oficial": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-barcelona",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-barcelona"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 41.6276807,
+    "lng": 2.6898707
+  },
+  {
+    "nombre": "Desafío Bizkaia",
+    "modalidad": "obstaculos",
+    "fecha": "2027-06-13",
+    "ciudad": "Gernika-Lumo",
+    "provincia": "Bizkaia",
+    "ccaa": "País Vasco",
+    "precio": null,
+    "web_oficial": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-bizkaia",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-bizkaia"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 43.3143976,
+    "lng": -2.6778593
+  },
+  {
+    "nombre": "Survivor Barcelona",
+    "modalidad": "obstaculos",
+    "fecha": "2027-06-19",
+    "ciudad": "Cardona",
+    "provincia": "Barcelona",
+    "ccaa": "Cataluña",
+    "precio": null,
+    "web_oficial": "https://survivor-race.com/carreras/survivor-barcelona/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://survivor-race.com/carreras/survivor-barcelona/"
+      },
+      {
+        "nombre": "running.life_lead",
+        "url": "https://running.life/carreras-obstaculos/espana"
+      }
+    ],
+    "lat": 41.9142758,
+    "lng": 1.68133
+  },
+  {
+    "nombre": "Challenge Barcelona Triathlon",
+    "modalidad": "triatlon_media",
+    "fecha": "2026-10-25",
+    "ciudad": "Barcelona",
+    "provincia": "Barcelona",
+    "ccaa": "Cataluña",
+    "lat": 41.3850639,
+    "lng": 2.1734035,
+    "precio": null,
+    "web_oficial": "https://www.triathlon.barcelona/ca/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://www.triathlon.barcelona/ca/"
+      },
+      {
+        "nombre": "triathlons_descubrimiento",
+        "url": "https://www.triathlons.com/fr/events/challenge-barcelona-triathlon_hhKRk"
+      }
+    ]
+  },
+  {
+    "nombre": "Challenge Barcelona Triathlon",
+    "modalidad": "triatlon_olimpico",
+    "fecha": "2026-10-25",
+    "ciudad": "Barcelona",
+    "provincia": "Barcelona",
+    "ccaa": "Cataluña",
+    "lat": 41.3850639,
+    "lng": 2.1734035,
+    "precio": null,
+    "web_oficial": "https://www.triathlon.barcelona/ca/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://www.triathlon.barcelona/ca/"
+      },
+      {
+        "nombre": "triathlons_descubrimiento",
+        "url": "https://www.triathlons.com/fr/events/challenge-barcelona-triathlon_hhKRk"
+      }
+    ]
+  },
+  {
+    "nombre": "IRONMAN 70.3 Valencia",
+    "modalidad": "triatlon_media",
+    "fecha": "2027-04-18",
+    "ciudad": "Valencia",
+    "provincia": "Valencia",
+    "ccaa": "Comunitat Valenciana",
+    "lat": 39.47024,
+    "lng": -0.3768,
+    "precio": null,
+    "web_oficial": "https://www.ironman.com/races/im703-valencia",
+    "fuentes": [
+      {
+        "nombre": "ironman_oficial",
+        "url": "https://www.ironman.com/races/im703-valencia"
+      },
+      {
+        "nombre": "triathlons_descubrimiento",
+        "url": "https://www.triathlons.com/fr/events/ironman-70-3-valencia_fUzra"
+      }
+    ]
+  },
+  {
+    "nombre": "Infinitri 113 Triathlon Peñíscola",
+    "modalidad": "triatlon_media",
+    "fecha": "2027-04-25",
+    "ciudad": "Peñíscola",
+    "provincia": "Castellón",
+    "ccaa": "Comunitat Valenciana",
+    "lat": 40.35932,
+    "lng": 0.40103,
+    "precio": null,
+    "web_oficial": "https://infinitri.es/en/peniscola/",
+    "fuentes": [
+      {
+        "nombre": "organizador_oficial",
+        "url": "https://infinitri.es/en/peniscola/"
+      },
+      {
+        "nombre": "triathlons_descubrimiento",
+        "url": "https://www.triathlons.com/fr/events/international-infinitri-113-triathlon-peniscola_nACPT"
+      }
+    ]
+  }
 ]

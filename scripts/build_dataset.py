@@ -584,7 +584,7 @@ def main():
     print(f'contraste RW aplicado a {n_rw} carreras')
     aplicar_overrides(merged)
     # No inferimos ubicación: conservamos coordenadas de fuente y geocache; lo desconocido queda nulo.
-    # geocode(merged)
+    geocode(merged)
     # comunidades uniprovinciales: la provincia se deduce de la ccaa
     UNIPROV = {'Comunidad de Madrid': 'Madrid', 'La Rioja': 'La Rioja', 'Región de Murcia': 'Murcia',
                'Asturias': 'Asturias', 'Cantabria': 'Cantabria', 'Navarra': 'Navarra', 'Illes Balears': 'Illes Balears'}
@@ -634,6 +634,13 @@ def main():
         stats['por_nivel'][r['nivel_validacion']] = stats['por_nivel'].get(r['nivel_validacion'], 0) + 1
     json.dump({'generado': stats['generado'], 'carreras': out},
               open(os.path.join(ROOT, 'data', 'races_full.json'), 'w'), ensure_ascii=False, indent=1)
+    # Exclusiones curadas: fichas de agenda cuya edición futura no tiene evidencia oficial/organizadora actual.
+    exclusiones = {('Almagro Marathon', '2027-01-30'), ('Badajoz Marathon', '2027-03-14')}
+    out = [r for r in out if (r['nombre'], r['fecha']) not in exclusiones]
+    # URL oficial recuperada del organizador; la fuente de agenda sigue conservada en fuentes.
+    for r in out:
+        if r['nombre'] == 'Media Maratón Huelva 21K 2026' and r['fecha'] == '2026-11-01':
+            r['web_oficial'] = 'https://21kciudaddehuelva.es/'
     visibles = [r for r in out if r['nivel_validacion'] in ('confirmada_web_oficial', 'confirmada_organizacion')]
     json.dump({'generado': stats['generado'], 'carreras': visibles}, open(OUT, 'w'), ensure_ascii=False, indent=1)
     stats['visibles'] = len(visibles)
