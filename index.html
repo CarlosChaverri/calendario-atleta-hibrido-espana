@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Calendario Atleta Híbrido España - Medias maratones y maratones</title>
-<meta name="description" content="Mapa y buscador de medias maratones y maratones de España con fecha confirmada, precio y web oficial.">
+<title>Calendario Atleta Híbrido España - Running, triatlón, híbridas y obstáculos</title>
+<meta name="description" content="Mapa de carreras de running, triatlón, fitness híbrido y obstáculos en España, solo con fecha confirmada.">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,700;0,800;1,800&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
 <header>
   <div class="header-inner">
     <h1>Calendario <em>atleta híbrido</em> España</h1>
-    <p class="tagline">Todas las medias maratones y maratones de España, verificadas cada 15 días.</p>
+    <p class="tagline">Running, triatlón, fitness híbrido y obstáculos en España. Solo eventos confirmados.</p>
     <p class="stats" id="stats"></p>
   </div>
 </header>
@@ -22,11 +22,12 @@
 <section class="filtros" id="filtros">
   <button id="f-toggle" type="button">Filtros ▼</button>
   <div class="filtros-fila">
-    <div class="segmented" id="f-modalidad">
-      <button data-v="" class="activo">Todas</button>
-      <button data-v="medio_maraton">Media maratón</button>
-      <button data-v="maraton">Maratón</button>
-    </div>
+    <div class="segmented modalidades" id="f-modalidad">
+<button class="activo" data-v="">Todas</button>
+<button data-v="5k">5K</button><button data-v="10k">10K</button><button data-v="medio_maraton">Media</button><button data-v="maraton">Maratón</button>
+<button data-v="triatlon_sprint">Tri sprint</button><button data-v="triatlon_olimpico">Tri olímpico</button><button data-v="triatlon_media">Tri 70.3</button><button data-v="triatlon_larga">Tri Ironman</button>
+<button data-v="hyrox">HYROX</button><button data-v="hibrida">Híbridas</button><button data-v="obstaculos">Obstáculos</button>
+</div>
     <input type="search" id="f-texto" placeholder="Buscar por nombre o ciudad">
   </div>
   <div class="filtros-fila">
@@ -37,30 +38,19 @@
       <option value="">Cualquier validación</option>
       <option value="confirmada_web_oficial">Confirmada por web oficial</option>
       <option value="confirmada_organizacion">Confirmada por organización</option>
-      <option value="fecha_estimada">Fecha estimada</option>
-      <option value="por_verificar">Por verificar</option>
+      
     </select>
   </div>
   <div class="filtros-fila">
-    <label class="rango">Precio máx. <input type="range" id="f-precio" min="0" max="120" value="120" step="5"><span id="f-precio-v">sin límite</span></label>
-    <label class="check"><input type="checkbox" id="f-solo-precio"> Solo con precio conocido</label>
-    <label class="check"><input type="checkbox" id="f-solo-confirmadas"> Solo confirmadas</label>
-  </div>
-  <div class="filtros-fila">
-    <input type="text" id="f-ciudad" placeholder="Cerca de... (p. ej. Madrid)">
-    <select id="f-radio">
-      <option value="50">50 km</option>
-      <option value="100" selected>100 km</option>
-      <option value="200">200 km</option>
-    </select>
     <select id="f-orden">
       <option value="fecha">Ordenar: fecha</option>
-      <option value="precio">Ordenar: precio</option>
+      
       <option value="distancia">Ordenar: distancia</option>
-      <option value="cercania">Ordenar: cercanía</option>
+      
     </select>
-    <button id="f-limpiar" class="limpiar">Limpiar filtros</button>
+    <button id="limpiar" class="limpiar">Limpiar filtros</button>
   </div>
+<div class="leyenda-grupos" aria-label="Colores del mapa"><span><i class="run"></i>Running</span><span><i class="tri"></i>Triatlón</span><span><i class="hib"></i>Híbrido</span><span><i class="obs"></i>Obstáculos</span></div>
 </section>
 
 <main>
@@ -68,17 +58,14 @@
   <section class="listado">
     <div class="listado-head">
       <h2 id="contador"></h2>
-      <label class="check"><input type="checkbox" id="f-bounds" checked> Solo las visibles en el mapa</label>
+      <label class="check"><input type="checkbox" id="solo-mapa"> Solo las visibles en el mapa</label>
     </div>
     <div id="lista"></div>
     <p id="lista-vacia" class="vacia" hidden>No hay carreras con esos filtros.</p>
   </section>
 </main>
 
-<aside id="ficha" class="ficha" hidden>
-  <button class="ficha-cerrar" id="ficha-cerrar" aria-label="Cerrar">×</button>
-  <div id="ficha-contenido"></div>
-</aside>
+<aside id="ficha" class="ficha"></aside>
 
 <footer>
   <div class="footer-inner">
@@ -93,7 +80,7 @@
     </div>
     <div>
       <h3>Fuentes</h3>
-      <p>Datos cruzados de <a href="https://carreraspopulares.com" rel="nofollow">carreraspopulares.com</a>, <a href="https://www.finishers.com" rel="nofollow">Finishers</a>, <a href="https://www.runnea.com" rel="nofollow">Runnea</a> y <a href="https://www.runnersworld.com/es/" rel="nofollow">Runner's World España</a>. Si falta un dato (precio, web oficial) se indica como no disponible: nada se inventa.</p>
+      <p>Datos cruzados de <a href="https://carreraspopulares.com" rel="nofollow">Carreras Populares</a>, <a href="https://www.finishers.com" rel="nofollow">Finishers</a>, <a href="https://www.runnea.com" rel="nofollow">Runnea</a>, <a href="https://hyrox.com/find-my-race/" rel="nofollow">HYROX</a>, <a href="https://hyatlon.org/" rel="nofollow">Hyatlón</a> y <a href="https://es.spartan.com/" rel="nofollow">Spartan</a>. Si falta un dato (precio, web oficial) se indica como no disponible: nada se inventa.</p>
       <p id="actualizado"></p>
     </div>
   </div>

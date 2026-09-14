@@ -32,3 +32,27 @@ El esquema es genérico por modalidad para poder añadir triatlón, Hyrox, 5k o 
 python3 -m http.server 8000
 # http://localhost:8000
 ```
+
+## Modalidades y fuentes (fase 2)
+
+El esquema sigue siendo genérico. `modalidad` admite `5k`, `10k`, `medio_maraton`, `maraton`, `triatlon_sprint`, `triatlon_olimpico`, `triatlon_media`, `triatlon_larga`, `hyrox`, `hibrida` y `obstaculos`.
+
+Fuentes automáticas activas:
+
+- Carreras Populares: 5K, 10K, media y maratón mediante su API.
+- Finishers: páginas Next.js de 5K, 10K, media, maratón y triatlón. En triatlón se clasifica cada formato por distancia total publicada, no por el nombre del evento.
+- Runnea: contraste adicional de 10K, media y maratón.
+- HYROX: calendario y fichas oficiales.
+- Hyatlón: calendario oficial del organizador.
+- Spartan: solo fichas oficiales españolas descubiertas y verificables. No se infieren carreras desde ediciones pasadas.
+
+Fuentes evaluadas pero no usadas para confirmar automáticamente:
+
+- Hybrid Heroes: calendario legible y estable, pero es un gimnasio/proyecto local; sirve para descubrir eventos, no como confirmación bajo el criterio de entidad independiente.
+- Calendario Carreras Obstáculos: HTML estable y estados explícitos, pero no identifica entidad responsable suficiente para elevar el nivel por sí solo.
+- OCRA España: entidad válida, pero la página carga los datos dinámicamente y no expone un feed estable en CI.
+- OCR Aragón: entidad válida, pero la protección anti-bot bloquea el cron.
+- Ahotu: Cloudflare devuelve 403 desde servidores.
+- FETRI Live: fuente institucional, pero es una aplicación Blazor orientada a resultados, sin calendario HTML/API estable consumible por el cron.
+
+`data/races_full.json` conserva todos los niveles. `data/races.json` solo contiene `confirmada_web_oficial` o `confirmada_organizacion`.

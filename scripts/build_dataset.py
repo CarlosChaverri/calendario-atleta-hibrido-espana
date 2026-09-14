@@ -35,7 +35,7 @@ def norm(s):
     s = ''.join(c for c in s if unicodedata.category(c) != 'Mn')
     return s.lower().strip()
 
-STOP = set('''media medio mitja mig mitja maraton marato marathon half de del la el los las les en y e i a al
+STOP = set('''media medio mitja mig mitja maraton marato marathon half triatlon triathlon hyrox carrera de del la el los las les en y e i a al
 internacional internacional international popular villa vila ciudad city ciutat edicion edicio edicio memorial
 trofeo trofeu gran grande premio premio circuit circuito carrera cursa cross cros ano ano de san sant santa
 santo saint de del el la los las the and de'''.split())
@@ -74,6 +74,7 @@ def load_cp():
         if not f or f < HOY: continue
         titulo = (e.get('titulo') or '').strip()
         tn = norm(titulo)
+        if re.search(r'\b(grabacion|medalla|camiseta|dorsal|entrenamiento|pack)\b', tn): continue
         dist = e.get('distanciaTxt') or ''
         metros = [int(x.replace('.', '').replace(',', '')) for x in re.findall(r'(\d[\d.,]*)\s*m\b', dist)]
         modalidades = set()
@@ -81,6 +82,12 @@ def load_cp():
             modalidades.add('medio_maraton')
         if any(40000 <= m <= 44000 for m in metros) or (re.search(r'\bmarat', tn) and 'media' not in tn and 'medio' not in tn and 'mitja' not in tn):
             modalidades.add('maraton')
+        # Distancias de asfalto cortas. Evitamos trail, marcha, OCR y triatlón por nombre.
+        road_ok = not re.search(r'\b(trail|montana|muntanya|cross|marcha|obstacul|ocr|triatl|duatl)\b', tn)
+        if road_ok and (any(4500 <= m <= 5500 for m in metros) or re.search(r'\b5\s*k(?:m)?\b', tn)):
+            modalidades.add('5k')
+        if road_ok and (any(9000 <= m <= 11000 for m in metros) or re.search(r'\b10\s*k(?:m)?\b', tn)):
+            modalidades.add('10k')
         if not modalidades: continue
         pob = (e.get('poblacion') or '').strip()
         m2 = re.match(r'^(.*?)\s*\(([^)]+)\)\s*$', pob)
@@ -99,6 +106,8 @@ def load_cp():
 
 # ---------- FUENTE 2: Finishers ----------
 FIN_PAGES = [
+    ('5k', 'https://www.finishers.com/en/activities/road-running/5k/5-km-races-in-spain', 'finishers-5k.html'),
+    ('10k', 'https://www.finishers.com/en/activities/road-running/10k/10-km-races-in-spain', 'finishers-10k.html'),
     ('medio_maraton', 'https://www.finishers.com/en/activities/road-running/half-marathon/half-marathons-in-spain', 'finishers-hm.html'),
     ('maraton', 'https://www.finishers.com/en/activities/road-running/marathon/marathons-in-spain', 'finishers-m.html'),
 ]
@@ -159,8 +168,113 @@ def load_finishers():
     print(f'finishers fichas enriquecidas: {n_ok}')
     return races
 
+
+# ---------- FUENTE 2B: Finishers triatlón ----------
+TRI_TOTALS = [
+    ('triatlon_sprint', 25750, 5000),
+    ('triatlon_olimpico', 51500, 7000),
+    ('triatlon_media', 113000, 18000),
+    ('triatlon_larga', 226000, 30000),
+]
+def tri_modalidad(metros):
+    # Distancia total natación+bici+carrera. Los márgenes absorben variantes locales.
+    best = min(TRI_TOTALS, key=lambda x: abs(metros-x[1]))
+    return best[0] if abs(metros-best[1]) <= best[2] else None
+
+def load_finishers_tri():
+    url = 'https://www.finishers.com/en/activities/triathlon/triathlons-in-spain'
+    dest = os.path.join(RAW, 'finishers-triatlon.html')
+    if not curl(url, dest):
+        print('AVISO: fallo descarga finishers triatlón'); return []
+    d = next_data(dest)
+    if not d: return []
+    grupos = d.get('props',{}).get('pageProps',{}).get('calendarSection',{}).get('events',{})
+    races=[]
+    for evs in (grupos.values() if isinstance(grupos,dict) else []):
+        for e in evs:
+            try: f=date.fromisoformat(e['date'][:10])
+            except Exception: continue
+            if f < HOY: continue
+            href=e.get('href') or ''
+            for dd in e.get('distances') or []:
+                metros=dd.get('distance')
+                mod=tri_modalidad(metros) if isinstance(metros,(int,float)) else None
+                if not mod: continue
+                races.append({'nombre':e.get('name'),'modalidad':mod,'fecha':f.isoformat(),
+                    'ciudad':e.get('city'),'provincia':None,'ccaa':None,'precio':None,
+                    'web_oficial':None,'lat':None,'lng':None,
+                    'fuentes':[{'nombre':'finishers','url':'https://www.finishers.com'+href}],
+                    'fin_status':e.get('status'),'fin_slug':href.rstrip('/').split('/')[-1]})
+    print(f'finishers triatlón: {len(races)} formatos')
+    return races
+
+# ---------- FUENTES OFICIALES: HYROX, HYATLÓN Y SPARTAN ----------
+def parse_date_en(s):
+    meses={'jan':1,'feb':2,'mar':3,'apr':4,'may':5,'jun':6,'jul':7,'aug':8,'sep':9,'oct':10,'nov':11,'dec':12}
+    m=re.search(r'(\d{1,2})\.\s*([A-Za-z]{3})\.\s*(20\d{2})',s or '')
+    if not m:return None
+    try:return date(int(m.group(3)),meses[m.group(2).lower()],int(m.group(1)))
+    except Exception:return None
+
+def load_hyrox():
+    url='https://hyrox.com/find-my-race/'; dest=os.path.join(RAW,'hyrox.html')
+    if not curl(url,dest): print('AVISO: fallo HYROX'); return []
+    h=open(dest,encoding='utf-8',errors='replace').read(); out=[]
+    pat=r'<h2[^>]*>\s*<a href="(https://hyrox\.com/event/[^"]+)">([^<]+)</a></h2>.*?event_date_1[^>]*>\s*<span[^>]*>([^<]+)</span>'
+    for web,nombre,fs in re.findall(pat,h,re.S|re.I):
+        f=parse_date_en(fs)
+        if not f or f<HOY or re.search('youngstars',nombre,re.I):continue
+        ciudad=re.sub(r'^(?:Leapmotor\s+)?HYROX\s+','',nombre,flags=re.I).strip()
+        if ciudad.lower() not in {'valencia','barcelona','bilbao','madrid','málaga','malaga','tenerife'}:continue
+        out.append({'nombre':nombre,'modalidad':'hyrox','fecha':f.isoformat(),'ciudad':ciudad,
+          'provincia':None,'ccaa':None,'precio':None,'web_oficial':web,'lat':None,'lng':None,
+          'fuentes':[{'nombre':'hyrox_oficial','url':web}],'fuente_oficial_confirmada':True})
+    print(f'HYROX oficial: {len(out)}'); return out
+
+def load_hyatlon():
+    url='https://hyatlon.org/';dest=os.path.join(RAW,'hyatlon.html')
+    if not curl(url,dest): print('AVISO: fallo Hyatlón');return []
+    h=open(dest,encoding='utf-8',errors='replace').read()
+    txt=re.sub(r'\\u003c[^>]*>|<[^>]+>',' ',h)
+    txt=re.sub(r'\\u00([0-9a-fA-F]{2})',lambda m:chr(int(m.group(1),16)),txt)
+    txt=re.sub(r'\\s+',' ',txt)
+    meses={norm(x):i+1 for i,x in enumerate(MESES_ES)};out=[];seen=set()
+    pat=r'(\d{1,2})\s+de\s+([A-Za-záéíóúñ]+)\s+de\s+(20\d{2})\s+H[68]\s+Hyatl[oó]n\s+([A-Za-zÁÉÍÓÚÑñ ]+?)(?=\s+(?:Explorar|arrow|\d{1,2}\s+de))'
+    for dd,mm,yy,city in re.findall(pat,txt,re.I):
+        try:f=date(int(yy),meses[norm(mm)],int(dd))
+        except Exception:continue
+        city=' '.join(city.split()).strip()
+        key=(f,city)
+        if f<HOY or key in seen:continue
+        seen.add(key);web='https://hyatlon.org/event/'+slugify(city)
+        out.append({'nombre':'Hyatlón '+city,'modalidad':'hibrida','fecha':f.isoformat(),'ciudad':city,
+          'provincia':None,'ccaa':None,'precio':None,'web_oficial':web,'lat':None,'lng':None,
+          'fuentes':[{'nombre':'hyatlon_oficial','url':web}],'fuente_oficial_confirmada':True})
+    print(f'Hyatlón oficial: {len(out)}');return out
+
+def load_spartan():
+    # El buscador global no expone un feed estable. Conservamos solo fichas oficiales conocidas,
+    # que el cron vuelve a descargar y deja caducar por fecha.
+    pages=[('https://es.spartan.com/es/races/tenerife','Tenerife')]
+    out=[]
+    for web,city in pages:
+        dest=os.path.join(RAW,'spartan-'+slugify(city)+'.html')
+        if not curl(web,dest):continue
+        h=open(dest,encoding='utf-8',errors='replace').read()
+        m=re.search(r'(?:November|noviembre)\s+(\d{1,2})(?:\s*[-–]\s*\d{1,2})?,\s*(20\d{2})',h,re.I)
+        if not m: m=re.search(r'(\d{1,2})(?:\s*[-–]\s*\d{1,2})?\s+de\s+noviembre\s+de\s+(20\d{2})',h,re.I)
+        if not m:continue
+        f=date(int(m.group(2)),11,int(m.group(1)))
+        if f<HOY:continue
+        out.append({'nombre':'Spartan '+city,'modalidad':'obstaculos','fecha':f.isoformat(),'ciudad':city,
+          'provincia':None,'ccaa':None,'precio':None,'web_oficial':web,'lat':None,'lng':None,
+          'fuentes':[{'nombre':'spartan_oficial','url':web}],'fuente_oficial_confirmada':True})
+    print(f'Spartan oficial: {len(out)}');return out
+
 # ---------- FUENTE 3: Runnea ----------
 RUN_CALS = [
+    ('10k', 'https://www.runnea.com/carreras-populares/calendario/10k/espana/'),
+    ('5k', 'https://www.runnea.com/carreras-populares/calendario/distancias-cortas/'),
     ('medio_maraton', 'https://www.runnea.com/carreras-populares/calendario/medias-maratones/espana/'),
     ('maraton', 'https://www.runnea.com/carreras-populares/calendario/maratones/espana/'),
 ]
@@ -293,7 +407,7 @@ def merge(base, inc):
     for k in ['ciudad', 'provincia', 'ccaa', 'web_oficial', 'lat', 'lng']:
         if not base.get(k) and inc.get(k): base[k] = inc[k]
     if base.get('precio') is None and inc.get('precio') is not None: base['precio'] = inc['precio']
-    for k in ['fin_status', 'runnea_confirmada', 'cp_organiza', 'fin_slug']:
+    for k in ['fin_status', 'runnea_confirmada', 'cp_organiza', 'fin_slug', 'fuente_oficial_confirmada']:
         if inc.get(k) and not base.get(k): base[k] = inc[k]
     # nombre preferido: el mas informativo (mas largo sin ser redundante)
     if inc['nombre'] and len(inc['nombre']) > len(base['nombre'] or ''):
@@ -416,6 +530,8 @@ def limpia_url(u):
         return u
 
 def nivel(r, n_fuentes_agenda):
+    if r.get('fuente_oficial_confirmada'):
+        return 'confirmada_web_oficial'
     if r.get('runnea_confirmada') or r.get('fin_status') == 'confirmed':
         return 'confirmada_organizacion'
     if r.get('fin_status') == 'tba' and n_fuentes_agenda <= 1:
@@ -429,9 +545,13 @@ def nivel(r, n_fuentes_agenda):
 def main():
     cp = load_cp()
     fin = load_finishers()
+    tri = load_finishers_tri()
     run = load_runnea()
+    hyrox = load_hyrox()
+    hyatlon = load_hyatlon()
+    spartan = load_spartan()
     rw = load_rw()
-    agendas = cp + fin + run
+    agendas = cp + fin + tri + run + hyrox + hyatlon + spartan
     merged = []
     for r in agendas:
         hit = None
@@ -450,7 +570,8 @@ def main():
                 break
     print(f'contraste RW aplicado a {n_rw} carreras')
     aplicar_overrides(merged)
-    geocode(merged)
+    # No inferimos ubicación: conservamos coordenadas de fuente y geocache; lo desconocido queda nulo.
+    # geocode(merged)
     # comunidades uniprovinciales: la provincia se deduce de la ccaa
     UNIPROV = {'Comunidad de Madrid': 'Madrid', 'La Rioja': 'La Rioja', 'Región de Murcia': 'Murcia',
                'Asturias': 'Asturias', 'Cantabria': 'Cantabria', 'Navarra': 'Navarra', 'Illes Balears': 'Illes Balears'}

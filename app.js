@@ -1,253 +1,38 @@
-/* Calendario Atleta Híbrido España - frontend sin build */
-const NIVELES = {
-  confirmada_web_oficial: { texto: 'Confirmada por web oficial', clase: 'n1' },
-  confirmada_organizacion: { texto: 'Confirmada por la organización', clase: 'n2' },
-  fecha_estimada: { texto: 'Fecha estimada', clase: 'n3' },
-  por_verificar: { texto: 'Por verificar', clase: 'n4' },
-};
-const MOD = { medio_maraton: 'Media maratón', maraton: 'Maratón' };
-const DIST = { medio_maraton: 21.097, maraton: 42.195 };
-const MESES = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
-const COLORES = { medio_maraton: '#ff4d00', maraton: '#101418' };
-
-let carreras = [], generado = null;
-let mapa, capa, marcadores = new Map(), seleccionada = null;
-let centroUsuario = null;
-
 const $ = s => document.querySelector(s);
-const estado = {
-  modalidad: '', texto: '', ccaa: '', provincia: '', mes: '', nivel: '',
-  precioMax: 120, soloPrecio: false, soloConfirmadas: false,
-  ciudad: '', radio: 100, orden: 'fecha', bounds: true,
+let carreras = [], markers = [], seleccionada = null;
+const MOD = {
+  '5k':'5K','10k':'10K',medio_maraton:'Media maratón',maraton:'Maratón',
+  triatlon_sprint:'Triatlón sprint',triatlon_olimpico:'Triatlón olímpico',
+  triatlon_media:'Triatlón media / 70.3',triatlon_larga:'Triatlón larga / Ironman',
+  hyrox:'HYROX',hibrida:'Híbrida tipo HYROX',obstaculos:'Obstáculos / Spartan'
 };
-
-function fmtFecha(iso) {
-  const [y, m, d] = iso.split('-').map(Number);
-  return `${d} ${MESES[m-1]} ${y}`;
-}
-function mesClave(iso) { return iso.slice(0, 7); }
-function mesTexto(clave) {
-  const [y, m] = clave.split('-').map(Number);
-  return `${MESES[m-1]} ${y}`;
-}
-function haystack(c) {
-  return `${c.nombre} ${c.ciudad || ''} ${c.provincia || ''}`.toLowerCase()
-    .normalize('NFD').replace(/[̀-ͯ]/g, '');
-}
-function distKm(a, b) {
-  const R = 6371, rad = x => x * Math.PI / 180;
-  const dLat = rad(b.lat - a.lat), dLon = rad(b.lng - a.lng);
-  const h = Math.sin(dLat/2)**2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(dLon/2)**2;
-  return 2 * R * Math.asin(Math.sqrt(h));
-}
-function precioTexto(c) {
-  if (c.precio === 0) return 'gratis';
-  if (c.precio != null) return `desde ${c.precio} €`;
-  return null;
-}
-
-function pasaFiltros(c) {
-  if (estado.modalidad && c.modalidad !== estado.modalidad) return false;
-  if (estado.texto && !haystack(c).includes(estado.texto)) return false;
-  if (estado.ccaa && c.ccaa !== estado.ccaa) return false;
-  if (estado.provincia && c.provincia !== estado.provincia) return false;
-  if (estado.mes && mesClave(c.fecha) !== estado.mes) return false;
-  if (estado.nivel && c.nivel_validacion !== estado.nivel) return false;
-  if (estado.soloConfirmadas && !c.fecha_confirmada) return false;
-  if (estado.soloPrecio && c.precio == null) return false;
-  if (estado.precioMax < 120 && c.precio != null && c.precio > estado.precioMax) return false;
-  if (centroUsuario && c.lat && distKm(centroUsuario, c) > estado.radio) return false;
-  if (centroUsuario && !c.lat) return false;
-  return true;
-}
-
-function filtradas() {
-  let out = carreras.filter(pasaFiltros);
-  if (estado.bounds && mapa) {
-    const b = mapa.getBounds();
-    out = out.filter(c => c.lat && b.contains([c.lat, c.lng]));
-  }
-  const ord = estado.orden;
-  out.sort((a, b) => {
-    if (ord === 'precio') return (a.precio ?? 1e9) - (b.precio ?? 1e9) || a.fecha.localeCompare(b.fecha);
-    if (ord === 'distancia') return DIST[a.modalidad] - DIST[b.modalidad] || a.fecha.localeCompare(b.fecha);
-    if (ord === 'cercania' && centroUsuario)
-      return distKm(centroUsuario, a) - distKm(centroUsuario, b);
-    return a.fecha.localeCompare(b.fecha);
-  });
-  return out;
-}
-
-function badgeNivel(c) {
-  const n = NIVELES[c.nivel_validacion];
-  return `<span class="badge ${n.clase}"><span class="dot ${n.clase}"></span>${n.texto}</span>`;
-}
-
-function pintarMapa() {
-  capa.clearLayers(); marcadores.clear();
-  for (const c of carreras.filter(pasaFiltros)) {
-    if (!c.lat) continue;
-    const m = L.circleMarker([c.lat, c.lng], {
-      radius: seleccionada === c.id ? 10 : 7,
-      color: '#fff', weight: 1.5,
-      fillColor: COLORES[c.modalidad], fillOpacity: seleccionada === c.id ? 1 : 0.85,
-    });
-    m.on('click', () => abrirFicha(c.id, false));
-    m.bindTooltip(c.nombre, { direction: 'top', offset: [0, -6] });
-    m.addTo(capa);
-    marcadores.set(c.id, m);
-  }
-}
-
-function pintarLista() {
-  const out = filtradas();
-  const totalFiltros = carreras.filter(pasaFiltros).length;
-  $('#contador').textContent = out.length === totalFiltros
-    ? `${out.length} ${out.length === 1 ? 'carrera' : 'carreras'}`
-    : `${out.length} de ${totalFiltros} carreras en el mapa`;
-  $('#lista-vacia').hidden = out.length > 0;
-  const html = out.map(c => {
-    const p = precioTexto(c);
-    const lugar = [c.ciudad, c.provincia].filter(Boolean).join(', ');
-    return `<article class="card${seleccionada === c.id ? ' seleccionada' : ''}" data-id="${c.id}">
-      <div class="card-top"><h3>${c.nombre}</h3><span class="fecha">${fmtFecha(c.fecha)}</span></div>
-      <div class="lugar">${lugar || c.ccaa || ''}${c.ubicacion_aproximada ? ' (ubicación aproximada)' : ''}</div>
-      <div class="meta">
-        <span class="badge mod">${MOD[c.modalidad]}</span>
-        ${p ? `<span class="badge precio">${p}</span>` : ''}
-        ${badgeNivel(c)}
-      </div>
-    </article>`;
-  }).join('');
-  $('#lista').innerHTML = html;
-  document.querySelectorAll('.card').forEach(el =>
-    el.addEventListener('click', () => abrirFicha(el.dataset.id, true)));
-}
-
-function abrirFicha(id, pan) {
-  const c = carreras.find(x => x.id === id);
-  if (!c) return;
-  seleccionada = id;
-  const n = NIVELES[c.nivel_validacion];
-  const p = precioTexto(c);
-  const lugar = [c.ciudad, c.provincia, c.ccaa].filter(Boolean).join(', ');
-  $('#ficha-contenido').innerHTML = `
-    <div class="f-mod">${MOD[c.modalidad]} · ${DIST[c.modalidad]} km</div>
-    <h2>${c.nombre}</h2>
-    <dl>
-      <dt>Fecha</dt><dd>${fmtFecha(c.fecha)}${c.fecha_confirmada ? '' : ' (sin confirmar)'}</dd>
-      <dt>Lugar</dt><dd>${lugar || 'no disponible'}${c.ubicacion_aproximada ? ' (aproximada)' : ''}</dd>
-      <dt>Precio</dt><dd>${p || 'no disponible'}</dd>
-      <dt>Validación</dt><dd>${badgeNivel(c)}</dd>
-    </dl>
-    ${c.web_estado === 'posible_cancelacion' ? '<div class="aviso">Su web oficial menciona una posible cancelación o aplazamiento. Compruébalo antes de planificar.</div>' : ''}
-    ${c.web_estado === 'caida' ? '<div class="aviso">Su web oficial no responde en la última comprobación.</div>' : ''}
-    <div class="acciones">
-      ${c.web_oficial ? `<a class="btn" href="${c.web_oficial}" target="_blank" rel="noopener">Web oficial</a>` : ''}
-      ${c.lat ? `<a class="btn sec" href="https://www.google.com/maps/search/?api=1&query=${c.lat},${c.lng}" target="_blank" rel="noopener">Cómo llegar</a>` : ''}
-    </div>
-    <div class="fuentes">Fuentes: ${c.fuentes.map(f => `<a href="${f.url}" target="_blank" rel="noopener">${f.nombre}</a>`).join(' · ')}<br>
-    Última comprobación: ${fmtFecha(c.ultima_comprobacion)}</div>`;
-  $('#ficha').hidden = false;
-  pintarMapa(); pintarLista();
-  if (pan && c.lat) mapa.setView([c.lat, c.lng], Math.max(mapa.getZoom(), 9), { animate: true });
-}
-
-function actualizar() { pintarMapa(); pintarLista(); }
-
-function rellenarSelects() {
-  const ccaas = [...new Set(carreras.map(c => c.ccaa).filter(Boolean))].sort();
-  $('#f-ccaa').innerHTML = '<option value="">Comunidad autónoma</option>' + ccaas.map(x => `<option>${x}</option>`).join('');
-  rellenarProvincias();
-  const meses = [...new Set(carreras.map(c => mesClave(c.fecha)))].sort();
-  $('#f-mes').innerHTML = '<option value="">Cualquier mes</option>' + meses.map(x => `<option value="${x}">${mesTexto(x)}</option>`).join('');
-}
-function rellenarProvincias() {
-  const provs = [...new Set(carreras.filter(c => !estado.ccaa || c.ccaa === estado.ccaa)
-    .map(c => c.provincia).filter(Boolean))].sort();
-  $('#f-provincia').innerHTML = '<option value="">Provincia</option>' + provs.map(x => `<option>${x}</option>`).join('');
-}
-
-async function geocodificarCiudad(q) {
-  const url = 'https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=es&q=' + encodeURIComponent(q);
-  const r = await fetch(url, { headers: { 'Accept': 'application/json' } });
-  const arr = await r.json();
-  return arr[0] ? { lat: +arr[0].lat, lng: +arr[0].lon } : null;
-}
-
-function bindFiltros() {
-  document.querySelectorAll('#f-modalidad button').forEach(b => b.addEventListener('click', () => {
-    document.querySelectorAll('#f-modalidad button').forEach(x => x.classList.remove('activo'));
-    b.classList.add('activo');
-    estado.modalidad = b.dataset.v; actualizar();
-  }));
-  let t;
-  $('#f-texto').addEventListener('input', e => {
-    clearTimeout(t);
-    t = setTimeout(() => { estado.texto = e.target.value.trim().toLowerCase()
-      .normalize('NFD').replace(/[̀-ͯ]/g, ''); actualizar(); }, 200);
-  });
-  $('#f-ccaa').addEventListener('change', e => { estado.ccaa = e.target.value; estado.provincia = ''; rellenarProvincias(); actualizar(); });
-  $('#f-provincia').addEventListener('change', e => { estado.provincia = e.target.value; actualizar(); });
-  $('#f-mes').addEventListener('change', e => { estado.mes = e.target.value; actualizar(); });
-  $('#f-nivel').addEventListener('change', e => { estado.nivel = e.target.value; actualizar(); });
-  $('#f-precio').addEventListener('input', e => {
-    estado.precioMax = +e.target.value;
-    $('#f-precio-v').textContent = estado.precioMax >= 120 ? 'sin límite' : estado.precioMax + ' €';
-    actualizar();
-  });
-  $('#f-solo-precio').addEventListener('change', e => { estado.soloPrecio = e.target.checked; actualizar(); });
-  $('#f-solo-confirmadas').addEventListener('change', e => { estado.soloConfirmadas = e.target.checked; actualizar(); });
-  $('#f-radio').addEventListener('change', e => { estado.radio = +e.target.value; actualizar(); });
-  $('#f-orden').addEventListener('change', e => { estado.orden = e.target.value; pintarLista(); });
-  $('#f-bounds').addEventListener('change', e => { estado.bounds = e.target.checked; pintarLista(); });
-  let t2;
-  $('#f-ciudad').addEventListener('input', e => {
-    clearTimeout(t2);
-    const q = e.target.value.trim();
-    t2 = setTimeout(async () => {
-      if (q.length < 3) { centroUsuario = null; actualizar(); return; }
-      const p = await geocodificarCiudad(q);
-      if (p) { centroUsuario = p; mapa.setView([p.lat, p.lng], 8); actualizar(); }
-    }, 600);
-  });
-  $('#f-limpiar').addEventListener('click', () => location.reload());
-  $('#f-toggle').addEventListener('click', () => {
-    const abierto = document.getElementById('filtros').classList.toggle('abierto');
-    $('#f-toggle').textContent = abierto ? 'Ocultar filtros ▲' : 'Filtros ▼';
-  });
-  $('#ficha-cerrar').addEventListener('click', () => { $('#ficha').hidden = true; seleccionada = null; actualizar(); });
-}
-
-async function init() {
-  const r = await fetch('data/races.json');
-  const d = await r.json();
-  carreras = d.carreras; generado = d.generado;
-  const nHM = carreras.filter(c => c.modalidad === 'medio_maraton').length;
-  const nM = carreras.length - nHM;
-  $('#stats').textContent = `${nHM} medias maratones · ${nM} maratones`;
-  $('#actualizado').textContent = 'Datos actualizados el ' + fmtFecha(generado.slice(0, 10)) +
-    ' · se regeneran automáticamente cada 15 días.';
-  mapa = L.map('mapa', { scrollWheelZoom: true }).setView([40.2, -3.5], 6);
-  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-    attribution: 'Esri, HERE, Garmin &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-    maxZoom: 16,
-  }).addTo(mapa);
-  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Reference/MapServer/tile/{z}/{y}/{x}', {
-    maxZoom: 16,
-  }).addTo(mapa);
-  capa = L.layerGroup().addTo(mapa);
-  mapa.on('moveend', () => { if (estado.bounds) pintarLista(); });
-  rellenarSelects(); bindFiltros(); actualizar();
-  const pts = carreras.filter(c => c.lat && c.lng > -9).map(c => [c.lat, c.lng]);
-  if (pts.length) mapa.fitBounds(pts, { padding: [24, 24] });
-  const q = new URLSearchParams(location.search);
-  if (q.get('carrera')) abrirFicha(q.get('carrera'), false);
-  if (q.get('modalidad')) {
-    estado.modalidad = q.get('modalidad');
-    document.querySelectorAll('#f-modalidad button').forEach(x =>
-      x.classList.toggle('activo', x.dataset.v === estado.modalidad));
-    actualizar();
-  }
-}
+const GRUPO = { '5k':'running','10k':'running',medio_maraton:'running',maraton:'running',
+  triatlon_sprint:'triatlon',triatlon_olimpico:'triatlon',triatlon_media:'triatlon',triatlon_larga:'triatlon',
+  hyrox:'hibrido',hibrida:'hibrido',obstaculos:'obstaculos' };
+const COLORES = {running:'#ff4d00',triatlon:'#087f8c',hibrido:'#7c3aed',obstaculos:'#a16207'};
+const DIST = {'5k':'5 km','10k':'10 km',medio_maraton:'21,097 km',maraton:'42,195 km',
+ triatlon_sprint:'Sprint',triatlon_olimpico:'Olímpica',triatlon_media:'Media distancia / 70.3',triatlon_larga:'Larga distancia / Ironman',
+ hyrox:'Carrera funcional',hibrida:'Carrera funcional',obstaculos:'Distancia según evento'};
+const ORDER = Object.keys(MOD);
+const NIVELES = {
+ confirmada_web_oficial:{txt:'Confirmada por web oficial',cl:'n1'},
+ confirmada_organizacion:{txt:'Confirmada por la organización',cl:'n2'},
+ fecha_estimada:{txt:'Fecha estimada',cl:'n3'},por_verificar:{txt:'Por verificar',cl:'n4'}
+};
+let estado={modalidad:'',texto:'',ccaa:'',provincia:'',mes:'',nivel:'',orden:'fecha',soloMapa:false};
+const map=L.map('mapa',{zoomControl:false}).setView([40.1,-3.6],6);L.control.zoom({position:'bottomright'}).addTo(map);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OpenStreetMap',maxZoom:18}).addTo(map);
+const capa=L.layerGroup().addTo(map);
+function norm(s){return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()}
+function pasa(c){if(estado.modalidad&&c.modalidad!==estado.modalidad)return false;if(estado.texto&&!norm(c.nombre+' '+c.ciudad+' '+c.provincia).includes(norm(estado.texto)))return false;if(estado.ccaa&&c.ccaa!==estado.ccaa)return false;if(estado.provincia&&c.provincia!==estado.provincia)return false;if(estado.mes&&c.fecha.slice(5,7)!==estado.mes)return false;if(estado.nivel&&c.nivel_validacion!==estado.nivel)return false;return true}
+function filtradas(){let out=carreras.filter(pasa);if(estado.soloMapa){const b=map.getBounds();out=out.filter(c=>c.lat&&b.contains([c.lat,c.lng]))}out.sort((a,b)=>estado.orden==='nombre'?a.nombre.localeCompare(b.nombre):estado.orden==='distancia'?ORDER.indexOf(a.modalidad)-ORDER.indexOf(b.modalidad)||a.fecha.localeCompare(b.fecha):a.fecha.localeCompare(b.fecha));return out}
+function fecha(x){return new Date(x+'T12:00:00').toLocaleDateString('es-ES',{weekday:'short',day:'numeric',month:'short',year:'numeric'})}
+function pintaMapa(){capa.clearLayers();markers=[];for(const c of carreras.filter(pasa)){if(!c.lat||!c.lng)continue;const m=L.circleMarker([c.lat,c.lng],{radius:seleccionada===c.id?9:6,color:'#fff',weight:1.5,fillColor:COLORES[GRUPO[c.modalidad]],fillOpacity:seleccionada===c.id?1:.86}).addTo(capa);m.bindTooltip(c.nombre);m.on('click',()=>abre(c));markers.push({id:c.id,m})}}
+function pintaLista(){const out=filtradas(), total=carreras.filter(pasa).length;$('#contador').textContent=`${out.length} de ${total} eventos${estado.soloMapa?' en el mapa':''}`;$('#lista').innerHTML=out.length?out.map(c=>{const n=NIVELES[c.nivel_validacion];const lugar=[c.ciudad,c.provincia].filter(Boolean).join(', ')||'Ubicación no disponible';return `<article class="card ${seleccionada===c.id?'seleccionada':''}" data-id="${c.id}"><div><div class="fecha">${fecha(c.fecha)}</div><h3>${c.nombre}</h3><div class="lugar">${lugar}</div><div class="badges"><span class="badge mod g-${GRUPO[c.modalidad]}">${MOD[c.modalidad]}</span><span class="badge ${n.cl}">${n.txt}</span></div></div></article>`}).join(''):'<p class="vacia">No hay eventos con estos filtros.</p>';document.querySelectorAll('.card').forEach(x=>x.onclick=()=>abre(carreras.find(c=>c.id===x.dataset.id)))}
+function actualizar(){pintaMapa();pintaLista()}
+function abre(c){seleccionada=c.id;actualizar();if(c.lat)map.flyTo([c.lat,c.lng],9);const n=NIVELES[c.nivel_validacion],l=[c.ciudad,c.provincia,c.ccaa].filter(Boolean).join(', ')||'No disponible';$('#ficha').innerHTML=`<button class="ficha-cerrar" aria-label="Cerrar">×</button><div class="f-mod">${MOD[c.modalidad]} · ${DIST[c.modalidad]}</div><h2>${c.nombre}</h2><dl><dt>Fecha</dt><dd>${fecha(c.fecha)}</dd><dt>Lugar</dt><dd>${l}</dd><dt>Precio</dt><dd>${c.precio_texto||'No disponible'}</dd><dt>Validación</dt><dd><span class="badge ${n.cl}">${n.txt}</span></dd></dl>${c.web_oficial?`<a class="btn" href="${c.web_oficial}" target="_blank" rel="noopener">Web oficial</a>`:''}${c.lat?` <a class="btn sec" href="https://www.google.com/maps/dir/?api=1&destination=${c.lat},${c.lng}" target="_blank" rel="noopener">Cómo llegar</a>`:''}<div class="fuentes">Fuentes: ${c.fuentes.map(f=>`<a href="${f.url}" target="_blank" rel="noopener">${f.nombre}</a>`).join(' · ')}</div>`;$('#ficha').classList.add('visible');$('#ficha .ficha-cerrar').onclick=cierra;history.replaceState(null,'',`?carrera=${c.id}`)}
+function cierra(){seleccionada=null;$('#ficha').classList.remove('visible');actualizar();history.replaceState(null,'',location.pathname)}
+function options(){const ccaas=[...new Set(carreras.map(c=>c.ccaa).filter(Boolean))].sort();$('#f-ccaa').innerHTML='<option value="">Toda España</option>'+ccaas.map(x=>`<option>${x}</option>`).join('');const provs=[...new Set(carreras.filter(c=>!estado.ccaa||c.ccaa===estado.ccaa).map(c=>c.provincia).filter(Boolean))].sort();$('#f-provincia').innerHTML='<option value="">Todas las provincias</option>'+provs.map(x=>`<option>${x}</option>`).join('')}
+function bind(){$('#f-toggle').onclick=()=>$('#filtros').classList.toggle('abierto');document.querySelectorAll('#f-modalidad button').forEach(b=>b.onclick=()=>{document.querySelectorAll('#f-modalidad button').forEach(x=>x.classList.remove('activo'));b.classList.add('activo');estado.modalidad=b.dataset.v;actualizar()});$('#f-texto').oninput=e=>{estado.texto=e.target.value;actualizar()};$('#f-ccaa').onchange=e=>{estado.ccaa=e.target.value;estado.provincia='';options();actualizar()};$('#f-provincia').onchange=e=>{estado.provincia=e.target.value;actualizar()};$('#f-mes').onchange=e=>{estado.mes=e.target.value;actualizar()};$('#f-nivel').onchange=e=>{estado.nivel=e.target.value;actualizar()};$('#f-orden').onchange=e=>{estado.orden=e.target.value;pintaLista()};$('#solo-mapa').onchange=e=>{estado.soloMapa=e.target.checked;pintaLista()};$('#limpiar').onclick=()=>location.reload();map.on('moveend',()=>{if(estado.soloMapa)pintaLista()})}
+async function init(){const r=await fetch('data/races.json');carreras=(await r.json()).carreras;const by=Object.fromEntries(ORDER.map(m=>[m,carreras.filter(c=>c.modalidad===m).length]));$('#stats').textContent=`${carreras.length} eventos confirmados · ${by['5k']} 5K · ${by['10k']} 10K · ${by.medio_maraton} medias · ${by.maraton} maratones · ${ORDER.filter(x=>x.startsWith('triatlon')).reduce((a,x)=>a+by[x],0)} triatlones · ${by.hyrox+by.hibrida} híbridas · ${by.obstaculos} obstáculos`;options();bind();actualizar();const pts=carreras.filter(c=>c.lat&&c.lng>-9).map(c=>[c.lat,c.lng]);if(pts.length)map.fitBounds(pts,{padding:[20,20]});const id=new URLSearchParams(location.search).get('carrera');if(id){const c=carreras.find(x=>x.id===id);if(c)abre(c)}$('#actualizado').textContent=`Actualizado: ${new Date().toLocaleDateString('es-ES')}`}
 init();

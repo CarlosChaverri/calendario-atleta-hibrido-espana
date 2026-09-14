@@ -142,3 +142,13 @@ footer a { color: #fff; }
   #f-ciudad { flex: 1; }
   #mapa { height: 56vh; min-height: 320px; margin-top: 10px; }
 }
+.modalidades{flex-wrap:wrap;max-width:100%;}
+.modalidades button{white-space:nowrap;}
+.leyenda-grupos{display:flex;flex-wrap:wrap;gap:14px;margin-top:10px;font-size:12px;font-weight:700;color:var(--gris)}
+.leyenda-grupos span{display:flex;align-items:center;gap:5px}.leyenda-grupos i{width:10px;height:10px;border-radius:50%;display:inline-block}
+.leyenda-grupos .run{background:#ff4d00}.leyenda-grupos .tri{background:#087f8c}.leyenda-grupos .hib{background:#7c3aed}.leyenda-grupos .obs{background:#a16207}
+.badge.g-running{background:#ff4d00}.badge.g-triatlon{background:#087f8c}.badge.g-hibrido{background:#7c3aed}.badge.g-obstaculos{background:#a16207}
+@media(max-width:640px){.modalidades{display:flex;overflow-x:auto;flex-wrap:nowrap;padding-bottom:4px}.modalidades button{flex:0 0 auto}}
+.ficha{display:block}.ficha:not(.visible){transform:translateX(110%)}
+.stats{white-space:normal}
+.ficha{transition:transform .22s ease}.ficha.visible{transform:translateX(0)}
