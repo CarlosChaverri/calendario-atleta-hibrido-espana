@@ -10,6 +10,7 @@ OUT = os.path.join(ROOT, 'data', 'races.json')
 UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fuentes import MESES_ES, MESES_EN, MESES_CA
+from title_policy import apply_titles
 
 PARKED = re.compile(r'domain is for sale|sedoparking|parked free|buy this domain|hugedomains|domain parking', re.I)
 CANCEL = re.compile(r'(carrera|prueba|evento|edicion|maraton|media)[^.]{0,60}(cancelad|cancel·l|aplazad|suspendid)'
@@ -96,6 +97,7 @@ def main():
                 carreras[i] = dict(reviewed[r['id']])
         # Do not publish a possible cancellation automatically, even if the
         # record was in the prior public dataset.
+    apply_titles(carreras)
     niveles = {}
     for r in carreras:
         r['fecha_confirmada'] = r['nivel_validacion'] in ('confirmada_web_oficial', 'confirmada_organizacion')

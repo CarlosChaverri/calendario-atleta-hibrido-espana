@@ -4,6 +4,7 @@ import json, re, os, sys, subprocess, time, unicodedata, hashlib
 from datetime import date, datetime
 from urllib.parse import urlparse, parse_qs
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from title_policy import apply_titles
 from fuentes import (PROVINCIAS_INE, SLUG_PROVINCIA, PROVINCIA_A_CCAA, SLUG_REGION,
                      MESES_ES, MESES_EN, MESES_CA, ISO_PROVINCIA, ISO_CCAA)
 
@@ -654,6 +655,7 @@ def main():
             'ultima_comprobacion': HOY.isoformat(),
         })
     out, public_ids = apply_official_curations(out, previous_visible, previous_full)
+    apply_titles(out)
     stats = {
         'generado': datetime.now().isoformat(timespec='seconds'),
         'total': len(out),

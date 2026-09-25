@@ -32,7 +32,7 @@
   },
   {
    "id": "bb73dd9e8daa",
-   "nombre": "Bilbao Triathlon",
+   "nombre": "Bilbao Triathlon - Triatlón media",
    "modalidad": "triatlon_media",
    "fecha": "2026-09-19",
    "fecha_confirmada": true,
@@ -56,7 +56,7 @@
   },
   {
    "id": "dd8a910a7c2a",
-   "nombre": "Bilbao Triathlon",
+   "nombre": "Bilbao Triathlon - Triatlón olímpico",
    "modalidad": "triatlon_olimpico",
    "fecha": "2026-09-19",
    "fecha_confirmada": true,
@@ -109,7 +109,7 @@
   },
   {
    "id": "dd613452a232",
-   "nombre": "Cursa de la Merce Bimbo Global Race 2026",
+   "nombre": "Cursa de la Merce 2026 - 10K",
    "modalidad": "10k",
    "fecha": "2026-09-20",
    "fecha_confirmada": true,
@@ -138,7 +138,7 @@
   },
   {
    "id": "fc79d8ce34c1",
-   "nombre": "L'Olla de Núria 2026",
+   "nombre": "L'Olla de Núria 2026 - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-09-20",
    "fecha_confirmada": true,
@@ -163,7 +163,7 @@
   },
   {
    "id": "b442b63b038a",
-   "nombre": "Triatlón Ciudad de Santander",
+   "nombre": "Triatlón Ciudad de Santander - Triatlón olímpico",
    "modalidad": "triatlon_olimpico",
    "fecha": "2026-09-20",
    "fecha_confirmada": true,
@@ -187,7 +187,7 @@
   },
   {
    "id": "816e8e13fd36",
-   "nombre": "Triatlón Ciudad de Santander",
+   "nombre": "Triatlón Ciudad de Santander - Triatlón media",
    "modalidad": "triatlon_media",
    "fecha": "2026-09-20",
    "fecha_confirmada": true,
@@ -211,7 +211,7 @@
   },
   {
    "id": "8000ae669acc",
-   "nombre": "Binter NightRun Zaragoza",
+   "nombre": "Binter NightRun Zaragoza - 5K",
    "modalidad": "5k",
    "fecha": "2026-09-26",
    "fecha_confirmada": true,
@@ -236,7 +236,7 @@
   },
   {
    "id": "043cd10a102a",
-   "nombre": "Binter Nightrun Zaragoza - Heraldo",
+   "nombre": "Binter Nightrun Zaragoza - 10K",
    "modalidad": "10k",
    "fecha": "2026-09-26",
    "fecha_confirmada": true,
@@ -402,7 +402,7 @@
   },
   {
    "id": "55054041cadd",
-   "nombre": "Soria Half Marathon",
+   "nombre": "Soria Half Marathon - 5K",
    "modalidad": "5k",
    "fecha": "2026-09-26",
    "fecha_confirmada": true,
@@ -452,7 +452,7 @@
   },
   {
    "id": "c293076d4094",
-   "nombre": "Carrera Niños sin Cáncer",
+   "nombre": "Carrera Niños sin Cáncer - 5K",
    "modalidad": "5k",
    "fecha": "2026-09-27",
    "fecha_confirmada": true,
@@ -477,7 +477,7 @@
   },
   {
    "id": "622d4c99afdd",
-   "nombre": "Carrera Niños sin Cáncer",
+   "nombre": "Carrera Niños sin Cáncer - 10K",
    "modalidad": "10k",
    "fecha": "2026-09-27",
    "fecha_confirmada": true,
@@ -502,7 +502,7 @@
   },
   {
    "id": "15bcf5efc03c",
-   "nombre": "Course for the Sustainable Development Goals",
+   "nombre": "Course for the Sustainable Development Goals - 5K",
    "modalidad": "5k",
    "fecha": "2026-09-27",
    "fecha_confirmada": true,
@@ -527,7 +527,7 @@
   },
   {
    "id": "c602408bd22a",
-   "nombre": "Course for the Sustainable Development Goals",
+   "nombre": "Course for the Sustainable Development Goals - 10K",
    "modalidad": "10k",
    "fecha": "2026-09-27",
    "fecha_confirmada": true,
@@ -634,7 +634,7 @@
   },
   {
    "id": "164ca0a6c0de",
-   "nombre": "Half Madrid Triathlon",
+   "nombre": "Half Madrid Triathlon - Triatlón olímpico",
    "modalidad": "triatlon_olimpico",
    "fecha": "2026-09-27",
    "fecha_confirmada": true,
@@ -658,7 +658,7 @@
   },
   {
    "id": "c1dee2f91b78",
-   "nombre": "Marbella Half Marathon",
+   "nombre": "Marbella Half Marathon - 5K",
    "modalidad": "5k",
    "fecha": "2026-09-27",
    "fecha_confirmada": true,
@@ -832,7 +832,7 @@
   },
   {
    "id": "7e331f24d477",
-   "nombre": "Triatlón Illa de Formentera",
+   "nombre": "Triatlón Illa de Formentera - Triatlón olímpico",
    "modalidad": "triatlon_olimpico",
    "fecha": "2026-10-03",
    "fecha_confirmada": true,
@@ -856,7 +856,7 @@
   },
   {
    "id": "0226d60b1ae1",
-   "nombre": "Triatlón Illa de Formentera",
+   "nombre": "Triatlón Illa de Formentera - Triatlón sprint",
    "modalidad": "triatlon_sprint",
    "fecha": "2026-10-03",
    "fecha_confirmada": true,
@@ -880,7 +880,7 @@
   },
   {
    "id": "f2b805886a92",
-   "nombre": "Zumaia Flysch Trail 2026",
+   "nombre": "Zumaia Flysch Trail 2026 - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-10-03",
    "fecha_confirmada": true,
@@ -929,7 +929,7 @@
   },
   {
    "id": "8e03160dd484",
-   "nombre": "100x100 Half Platja d'Aro",
+   "nombre": "100x100 Half Platja d'Aro - Triatlón olímpico",
    "modalidad": "triatlon_olimpico",
    "fecha": "2026-10-04",
    "fecha_confirmada": true,
@@ -953,7 +953,7 @@
   },
   {
    "id": "465ba6d71d76",
-   "nombre": "100x100 Half Platja d'Aro",
+   "nombre": "100x100 Half Platja d'Aro - Triatlón sprint",
    "modalidad": "triatlon_sprint",
    "fecha": "2026-10-04",
    "fecha_confirmada": true,
@@ -1002,7 +1002,7 @@
   },
   {
    "id": "50f2b3edc924",
-   "nombre": "Ciudad de Albacete Half Marathon",
+   "nombre": "Ciudad de Albacete Half Marathon - 5K",
    "modalidad": "5k",
    "fecha": "2026-10-04",
    "fecha_confirmada": true,
@@ -1027,7 +1027,7 @@
   },
   {
    "id": "c1789432cb08",
-   "nombre": "Ciudad de Albacete Half Marathon",
+   "nombre": "Ciudad de Albacete Half Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2026-10-04",
    "fecha_confirmada": true,
@@ -1105,7 +1105,7 @@
   },
   {
    "id": "c5106d127b48",
-   "nombre": "Logroño Marathon",
+   "nombre": "Logroño Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2026-10-04",
    "fecha_confirmada": true,
@@ -1130,7 +1130,7 @@
   },
   {
    "id": "09d84cac1d3c",
-   "nombre": "Logroño Marathon",
+   "nombre": "Logroño Marathon - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-10-04",
    "fecha_confirmada": true,
@@ -1246,7 +1246,7 @@
   },
   {
    "id": "0db350ba2c7d",
-   "nombre": "Rural Kutxa San Sebastian Semi-Marathon",
+   "nombre": "San Sebastian Semi-Marathon",
    "modalidad": "medio_maraton",
    "fecha": "2026-10-04",
    "fecha_confirmada": true,
@@ -1333,7 +1333,7 @@
   },
   {
    "id": "5a537df5ad77",
-   "nombre": "IRONCAT L'Ampolla Triathlon",
+   "nombre": "IRONCAT L'Ampolla Triathlon - Triatlón larga",
    "modalidad": "triatlon_larga",
    "fecha": "2026-10-10",
    "fecha_confirmada": true,
@@ -1366,7 +1366,7 @@
   },
   {
    "id": "264526effee6",
-   "nombre": "IRONCAT L'Ampolla Triathlon",
+   "nombre": "IRONCAT L'Ampolla Triathlon - Triatlón media",
    "modalidad": "triatlon_media",
    "fecha": "2026-10-10",
    "fecha_confirmada": true,
@@ -1457,7 +1457,7 @@
   },
   {
    "id": "e91394e34f5b",
-   "nombre": "100x100Half L'Estartit",
+   "nombre": "100x100Half L'Estartit - Triatlón olímpico",
    "modalidad": "triatlon_olimpico",
    "fecha": "2026-10-11",
    "fecha_confirmada": true,
@@ -1481,7 +1481,7 @@
   },
   {
    "id": "2931eafade90",
-   "nombre": "100x100Half L'Estartit",
+   "nombre": "100x100Half L'Estartit - Triatlón sprint",
    "modalidad": "triatlon_sprint",
    "fecha": "2026-10-11",
    "fecha_confirmada": true,
@@ -1617,7 +1617,7 @@
   },
   {
    "id": "9f8551a321fc",
-   "nombre": "Maratón Estepona 2026",
+   "nombre": "Maratón Estepona 2026 - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-10-11",
    "fecha_confirmada": true,
@@ -1696,7 +1696,7 @@
   },
   {
    "id": "ad60b3ec022f",
-   "nombre": "Vuelta Huelva Onupolis",
+   "nombre": "Vuelta Huelva Onupolis - 5K",
    "modalidad": "5k",
    "fecha": "2026-10-12",
    "fecha_confirmada": true,
@@ -1721,7 +1721,7 @@
   },
   {
    "id": "72839c7f0060",
-   "nombre": "Vuelta Huelva Onupolis",
+   "nombre": "Vuelta Huelva Onupolis - 10K",
    "modalidad": "10k",
    "fecha": "2026-10-12",
    "fecha_confirmada": true,
@@ -1771,7 +1771,7 @@
   },
   {
    "id": "0aa44511f4fb",
-   "nombre": "Challenge Peguera Mallorca",
+   "nombre": "Challenge Peguera Mallorca - Triatlón media",
    "modalidad": "triatlon_media",
    "fecha": "2026-10-16",
    "fecha_confirmada": true,
@@ -1852,7 +1852,7 @@
   },
   {
    "id": "4a5e84776240",
-   "nombre": "Bilbao Night Running Fest",
+   "nombre": "Bilbao Night Running Fest - 10K",
    "modalidad": "10k",
    "fecha": "2026-10-17",
    "fecha_confirmada": true,
@@ -1877,7 +1877,7 @@
   },
   {
    "id": "82dd1ebd9672",
-   "nombre": "Bilbao Night Running Fest 2026",
+   "nombre": "Bilbao Night Running Fest 2026 - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-10-17",
    "fecha_confirmada": true,
@@ -1960,7 +1960,7 @@
   },
   {
    "id": "54700475f2c0",
-   "nombre": "ICAN Triathlon Gandia",
+   "nombre": "ICAN Triathlon Gandia - Triatlón media",
    "modalidad": "triatlon_media",
    "fecha": "2026-10-17",
    "fecha_confirmada": true,
@@ -1989,7 +1989,7 @@
   },
   {
    "id": "69beb6f72ad9",
-   "nombre": "ICAN Triathlon Gandia",
+   "nombre": "ICAN Triathlon Gandia - Triatlón larga",
    "modalidad": "triatlon_larga",
    "fecha": "2026-10-17",
    "fecha_confirmada": true,
@@ -2047,7 +2047,7 @@
   },
   {
    "id": "aa178d819173",
-   "nombre": "Palma de Mallorca Marathon",
+   "nombre": "Palma de Mallorca Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2026-10-18",
    "fecha_confirmada": true,
@@ -2072,7 +2072,7 @@
   },
   {
    "id": "e905fc23b937",
-   "nombre": "Palma de Mallorca Marathon",
+   "nombre": "Palma de Mallorca Marathon - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-10-18",
    "fecha_confirmada": true,
@@ -2097,7 +2097,7 @@
   },
   {
    "id": "fff62f1f4c81",
-   "nombre": "Pontevedra Half-Marathon",
+   "nombre": "Pontevedra Half-Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2026-10-18",
    "fecha_confirmada": true,
@@ -2151,7 +2151,7 @@
   },
   {
    "id": "d728e6458228",
-   "nombre": "Quijote Marathon Ciudad Real",
+   "nombre": "Quijote Marathon Ciudad Real - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-10-18",
    "fecha_confirmada": true,
@@ -2234,7 +2234,7 @@
   },
   {
    "id": "31698cb7798b",
-   "nombre": "Tui Palma Marathon Mallorca",
+   "nombre": "Palma Marathon Mallorca",
    "modalidad": "maraton",
    "fecha": "2026-10-18",
    "fecha_confirmada": true,
@@ -2267,7 +2267,7 @@
   },
   {
    "id": "15374b6b5e4f",
-   "nombre": "V Solidarity Race For Biodiversity",
+   "nombre": "V Solidarity Race For Biodiversity - 5K",
    "modalidad": "5k",
    "fecha": "2026-10-18",
    "fecha_confirmada": true,
@@ -2292,7 +2292,7 @@
   },
   {
    "id": "7110dfe7cbbf",
-   "nombre": "V Solidarity Race For Biodiversity",
+   "nombre": "V Solidarity Race For Biodiversity - 10K",
    "modalidad": "10k",
    "fecha": "2026-10-18",
    "fecha_confirmada": true,
@@ -2346,7 +2346,7 @@
   },
   {
    "id": "c70efe2a16eb",
-   "nombre": "Challenge Barcelona Triathlon",
+   "nombre": "Challenge Barcelona Triathlon - Triatlón olímpico",
    "modalidad": "triatlon_olimpico",
    "fecha": "2026-10-24",
    "fecha_confirmada": true,
@@ -2458,7 +2458,7 @@
   },
   {
    "id": "489d9ede960e",
-   "nombre": "15 km Donostia - San Sebastián",
+   "nombre": "15 km Donostia - San Sebastián - 5K",
    "modalidad": "5k",
    "fecha": "2026-10-25",
    "fecha_confirmada": true,
@@ -2512,7 +2512,7 @@
   },
   {
    "id": "fdbc1867970c",
-   "nombre": "Challenge Barcelona Triathlon",
+   "nombre": "Challenge Barcelona Triathlon - Triatlón media",
    "modalidad": "triatlon_media",
    "fecha": "2026-10-25",
    "fecha_confirmada": true,
@@ -2570,7 +2570,7 @@
   },
   {
    "id": "bac35e13682d",
-   "nombre": "Medio Maratón Valencia Trinidad Alfonso",
+   "nombre": "Medio Maratón Valencia",
    "modalidad": "medio_maraton",
    "fecha": "2026-10-25",
    "fecha_confirmada": true,
@@ -2628,7 +2628,7 @@
   },
   {
    "id": "3f9ff9b50fa2",
-   "nombre": "Media Maratón Ciudad de Huelva",
+   "nombre": "Media Maratón Ciudad de Huelva - 5K",
    "modalidad": "5k",
    "fecha": "2026-11-01",
    "fecha_confirmada": true,
@@ -2677,7 +2677,7 @@
   },
   {
    "id": "24c75205fea9",
-   "nombre": "Menorca Half Marathon",
+   "nombre": "Menorca Half Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2026-11-01",
    "fecha_confirmada": true,
@@ -2847,7 +2847,7 @@
   },
   {
    "id": "a6953110b70c",
-   "nombre": "Cursa Bombers 2026",
+   "nombre": "Cursa Bombers 2026 - 10K",
    "modalidad": "10k",
    "fecha": "2026-11-08",
    "fecha_confirmada": true,
@@ -2901,7 +2901,7 @@
   },
   {
    "id": "1f7699c9b84c",
-   "nombre": "Gran Carrera del Mediterraneo 2026",
+   "nombre": "Gran Carrera del Mediterraneo 2026 - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-11-08",
    "fecha_confirmada": true,
@@ -2930,7 +2930,7 @@
   },
   {
    "id": "a1e206febbd2",
-   "nombre": "Malaga Marathon (Generali Maratón Málaga)",
+   "nombre": "Malaga Marathon - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-11-08",
    "fecha_confirmada": true,
@@ -2955,7 +2955,7 @@
   },
   {
    "id": "3a79ccd6fc6f",
-   "nombre": "Malaga Marathon (Generali Maratón Málaga)",
+   "nombre": "Malaga Marathon",
    "modalidad": "maraton",
    "fecha": "2026-11-08",
    "fecha_confirmada": true,
@@ -3071,7 +3071,7 @@
   },
   {
    "id": "77735e0f08f0",
-   "nombre": "Leapmotor HYROX Barcelona",
+   "nombre": "HYROX Barcelona",
    "modalidad": "hyrox",
    "fecha": "2026-11-11",
    "fecha_confirmada": true,
@@ -3121,7 +3121,7 @@
   },
   {
    "id": "fbd68bbfde50",
-   "nombre": "Herri Krosa Bilbao 2026",
+   "nombre": "Herri Krosa Bilbao 2026 - 10K",
    "modalidad": "10k",
    "fecha": "2026-11-15",
    "fecha_confirmada": true,
@@ -3265,7 +3265,7 @@
   },
   {
    "id": "3a7f9e8b3094",
-   "nombre": "Benidorm Half",
+   "nombre": "Benidorm Half - 10K",
    "modalidad": "10k",
    "fecha": "2026-11-21",
    "fecha_confirmada": true,
@@ -3290,7 +3290,7 @@
   },
   {
    "id": "7d79cd566634",
-   "nombre": "Benidorm Half",
+   "nombre": "Benidorm Half - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-11-21",
    "fecha_confirmada": true,
@@ -3402,7 +3402,7 @@
   },
   {
    "id": "f8ff7aeadd18",
-   "nombre": "San Sebastián Marathon",
+   "nombre": "San Sebastián Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2026-11-22",
    "fecha_confirmada": true,
@@ -3427,7 +3427,7 @@
   },
   {
    "id": "8f9dc20af991",
-   "nombre": "San Sebastián Marathon",
+   "nombre": "San Sebastián Marathon - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-11-22",
    "fecha_confirmada": true,
@@ -3456,7 +3456,7 @@
   },
   {
    "id": "3597e8a8836a",
-   "nombre": "Zurich Maratón de San Sebastián",
+   "nombre": "Maratón de San Sebastián",
    "modalidad": "maraton",
    "fecha": "2026-11-22",
    "fecha_confirmada": true,
@@ -3601,7 +3601,7 @@
   },
   {
    "id": "dcac9e67876f",
-   "nombre": "Allianz Jean Bouin",
+   "nombre": "Jean Bouin - 10K",
    "modalidad": "10k",
    "fecha": "2026-11-29",
    "fecha_confirmada": true,
@@ -3630,7 +3630,7 @@
   },
   {
    "id": "9e5b5a718133",
-   "nombre": "Allianz Jean Bouin",
+   "nombre": "Jean Bouin - 5K",
    "modalidad": "5k",
    "fecha": "2026-11-29",
    "fecha_confirmada": true,
@@ -3763,7 +3763,7 @@
   },
   {
    "id": "19ae06b185e6",
-   "nombre": "Lanzarote Marathon",
+   "nombre": "Lanzarote Marathon - 5K",
    "modalidad": "5k",
    "fecha": "2026-12-03",
    "fecha_confirmada": true,
@@ -3788,7 +3788,7 @@
   },
   {
    "id": "8cc2e21226d8",
-   "nombre": "Lanzarote Marathon",
+   "nombre": "Lanzarote Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2026-12-03",
    "fecha_confirmada": true,
@@ -3813,7 +3813,7 @@
   },
   {
    "id": "f6306b4a6380",
-   "nombre": "Lanzarote Marathon",
+   "nombre": "Lanzarote Marathon - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-12-03",
    "fecha_confirmada": true,
@@ -3925,7 +3925,7 @@
   },
   {
    "id": "7ff3da8a1e50",
-   "nombre": "Valencia Marathon",
+   "nombre": "Valencia Marathon - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2026-12-06",
    "fecha_confirmada": true,
@@ -3950,7 +3950,7 @@
   },
   {
    "id": "55ad15c62a6a",
-   "nombre": "Carrera de las Ciudades Barcelone",
+   "nombre": "Carrera de las Ciudades Barcelone - 5K",
    "modalidad": "5k",
    "fecha": "2026-12-13",
    "fecha_confirmada": true,
@@ -3975,7 +3975,7 @@
   },
   {
    "id": "0cbc4bc67582",
-   "nombre": "Carrera de las Ciudades Barcelone",
+   "nombre": "Carrera de las Ciudades Barcelone - 10K",
    "modalidad": "10k",
    "fecha": "2026-12-13",
    "fecha_confirmada": true,
@@ -4029,7 +4029,7 @@
   },
   {
    "id": "0f360adfcbbd",
-   "nombre": "San Silvestre Salmantina 2026",
+   "nombre": "San Silvestre Salmantina 2026 - 10K",
    "modalidad": "10k",
    "fecha": "2026-12-27",
    "fecha_confirmada": true,
@@ -4054,7 +4054,7 @@
   },
   {
    "id": "0fbea450c13e",
-   "nombre": "San Silvestre Onupolis",
+   "nombre": "San Silvestre Onupolis - 5K",
    "modalidad": "5k",
    "fecha": "2026-12-30",
    "fecha_confirmada": true,
@@ -4079,7 +4079,7 @@
   },
   {
    "id": "1f4c5963a65c",
-   "nombre": "San Silvestre Onupolis",
+   "nombre": "San Silvestre Onupolis - 10K",
    "modalidad": "10k",
    "fecha": "2026-12-30",
    "fecha_confirmada": true,
@@ -4104,7 +4104,7 @@
   },
   {
    "id": "d0013c864734",
-   "nombre": "10k Valencia Ibercaja By KIPRUN",
+   "nombre": "10k Valencia",
    "modalidad": "10k",
    "fecha": "2027-01-10",
    "fecha_confirmada": true,
@@ -4137,7 +4137,7 @@
   },
   {
    "id": "406dec2b5c07",
-   "nombre": "10k Valencia Ibercaja By KIPRUN",
+   "nombre": "10k Valencia - 5K",
    "modalidad": "5k",
    "fecha": "2027-01-10",
    "fecha_confirmada": true,
@@ -4162,7 +4162,7 @@
   },
   {
    "id": "c53f0eb19f7d",
-   "nombre": "Sitges (Barcelone)",
+   "nombre": "Sitges (Barcelone - 10K)",
    "modalidad": "10k",
    "fecha": "2027-01-10",
    "fecha_confirmada": true,
@@ -4187,7 +4187,7 @@
   },
   {
    "id": "10fc04a8d6ab",
-   "nombre": "Sitges (Barcelone)",
+   "nombre": "Sitges (Barcelone - Media maratón)",
    "modalidad": "medio_maraton",
    "fecha": "2027-01-10",
    "fecha_confirmada": true,
@@ -4241,7 +4241,7 @@
   },
   {
    "id": "8e0872b1280e",
-   "nombre": "Santa Pola International Half Marathon",
+   "nombre": "Santa Pola International Half Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2027-01-23",
    "fecha_confirmada": true,
@@ -4266,7 +4266,7 @@
   },
   {
    "id": "b430ecef716d",
-   "nombre": "Granollers Half Marathon",
+   "nombre": "Granollers Half Marathon - 5K",
    "modalidad": "5k",
    "fecha": "2027-01-24",
    "fecha_confirmada": true,
@@ -4291,7 +4291,7 @@
   },
   {
    "id": "7d188c827079",
-   "nombre": "Granollers Half Marathon",
+   "nombre": "Granollers Half Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2027-01-24",
    "fecha_confirmada": true,
@@ -4415,7 +4415,7 @@
   },
   {
    "id": "3caefd55f985",
-   "nombre": "10K Gimnastica de Ulla",
+   "nombre": "10K Gimnastica de Ulla - 5K",
    "modalidad": "5k",
    "fecha": "2027-02-07",
    "fecha_confirmada": true,
@@ -4502,7 +4502,7 @@
   },
   {
    "id": "01ed0712f153",
-   "nombre": "TotalEnergies Murcia Costa Cálida Marathon",
+   "nombre": "Murcia Costa Cálida Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2027-02-07",
    "fecha_confirmada": true,
@@ -4527,7 +4527,7 @@
   },
   {
    "id": "9de26d0f9960",
-   "nombre": "TotalEnergies Murcia Costa Cálida Marathon",
+   "nombre": "Murcia Costa Cálida Marathon - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2027-02-07",
    "fecha_confirmada": true,
@@ -4552,7 +4552,7 @@
   },
   {
    "id": "5179225f0999",
-   "nombre": "TotalEnergies Murcia Costa Cálida Marathon",
+   "nombre": "Murcia Costa Cálida Marathon",
    "modalidad": "maraton",
    "fecha": "2027-02-07",
    "fecha_confirmada": true,
@@ -4606,7 +4606,7 @@
   },
   {
    "id": "ba6aeaa2b9f2",
-   "nombre": "Hyundai Mitja Marató de Barcelona",
+   "nombre": "Mitja Marató de Barcelona",
    "modalidad": "medio_maraton",
    "fecha": "2027-02-14",
    "fecha_confirmada": true,
@@ -4697,7 +4697,7 @@
   },
   {
    "id": "1cc106e1ff69",
-   "nombre": "International Half Marathon of Alicante",
+   "nombre": "International Half Marathon of Alicante - 10K",
    "modalidad": "10k",
    "fecha": "2027-02-21",
    "fecha_confirmada": true,
@@ -4772,7 +4772,7 @@
   },
   {
    "id": "5afdd61ec993",
-   "nombre": "Zurich Maratón de Sevilla",
+   "nombre": "Maratón de Sevilla",
    "modalidad": "maraton",
    "fecha": "2027-02-21",
    "fecha_confirmada": true,
@@ -4826,7 +4826,7 @@
   },
   {
    "id": "b0531ec37752",
-   "nombre": "Bidassoa Half Marathon",
+   "nombre": "Bidassoa Half Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2027-02-28",
    "fecha_confirmada": true,
@@ -4876,7 +4876,7 @@
   },
   {
    "id": "8100398c1a1b",
-   "nombre": "Mitja de Cambrils 2027",
+   "nombre": "Mitja de Cambrils 2027 - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2027-02-28",
    "fecha_confirmada": true,
@@ -4901,7 +4901,7 @@
   },
   {
    "id": "73588b9efce1",
-   "nombre": "Terrassa International Half Marathon (Barcelona)",
+   "nombre": "Terrassa International Half Marathon (Barcelona - 5K)",
    "modalidad": "5k",
    "fecha": "2027-02-28",
    "fecha_confirmada": true,
@@ -4976,7 +4976,7 @@
   },
   {
    "id": "3b9dd201fc61",
-   "nombre": "Malaga Half Marathon (TotalEnergies)",
+   "nombre": "Malaga Half Marathon",
    "modalidad": "medio_maraton",
    "fecha": "2027-03-07",
    "fecha_confirmada": true,
@@ -5112,7 +5112,7 @@
   },
   {
    "id": "a38546bd4155",
-   "nombre": "Zurich Marató Barcelona",
+   "nombre": "Marató Barcelona",
    "modalidad": "maraton",
    "fecha": "2027-03-14",
    "fecha_confirmada": true,
@@ -5245,7 +5245,7 @@
   },
   {
    "id": "6efebf03ca73",
-   "nombre": "Movistar Madrid Half Marathon",
+   "nombre": "Madrid Half Marathon",
    "modalidad": "medio_maraton",
    "fecha": "2027-04-04",
    "fecha_confirmada": true,
@@ -5386,7 +5386,7 @@
   },
   {
    "id": "8d84ee454ec0",
-   "nombre": "Elche Half Marathon",
+   "nombre": "Elche Half Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2027-04-11",
    "fecha_confirmada": true,
@@ -5465,7 +5465,7 @@
   },
   {
    "id": "1d95cdb7625d",
-   "nombre": "Triatlón Portocolom",
+   "nombre": "Triatlón Portocolom - Triatlón media",
    "modalidad": "triatlon_media",
    "fecha": "2027-04-11",
    "fecha_confirmada": true,
@@ -5489,7 +5489,7 @@
   },
   {
    "id": "602d4334f655",
-   "nombre": "Triatlón Portocolom",
+   "nombre": "Triatlón Portocolom - Triatlón olímpico",
    "modalidad": "triatlon_olimpico",
    "fecha": "2027-04-11",
    "fecha_confirmada": true,
@@ -5625,7 +5625,7 @@
   },
   {
    "id": "7481961414ae",
-   "nombre": "Mann-filter Maratón de Zaragoza",
+   "nombre": "Maratón de Zaragoza",
    "modalidad": "maraton",
    "fecha": "2027-04-18",
    "fecha_confirmada": true,
@@ -5658,7 +5658,7 @@
   },
   {
    "id": "7691bdf7dd4b",
-   "nombre": "Zaragoza Marathon",
+   "nombre": "Zaragoza Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2027-04-18",
    "fecha_confirmada": true,
@@ -5712,7 +5712,7 @@
   },
   {
    "id": "1e33b0319f75",
-   "nombre": "Girona Greenway Marathon",
+   "nombre": "Girona Greenway Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2027-04-25",
    "fecha_confirmada": true,
@@ -5737,7 +5737,7 @@
   },
   {
    "id": "c2acd3f98deb",
-   "nombre": "Girona Greenway Marathon",
+   "nombre": "Girona Greenway Marathon - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2027-04-25",
    "fecha_confirmada": true,
@@ -5820,7 +5820,7 @@
   },
   {
    "id": "fea60d8f2aa9",
-   "nombre": "Madrid Marathon",
+   "nombre": "Madrid Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2027-04-25",
    "fecha_confirmada": true,
@@ -5845,7 +5845,7 @@
   },
   {
    "id": "643116288c91",
-   "nombre": "Madrid Marathon",
+   "nombre": "Madrid Marathon - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2027-04-25",
    "fecha_confirmada": true,
@@ -5924,7 +5924,7 @@
   },
   {
    "id": "1abd3507c9ad",
-   "nombre": "XIV Azuqueca Half Marathon",
+   "nombre": "XIV Azuqueca Half Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2027-05-09",
    "fecha_confirmada": true,
@@ -6028,7 +6028,7 @@
   },
   {
    "id": "ad837276ab39",
-   "nombre": "Lugo Half Marathon",
+   "nombre": "Lugo Half Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2027-05-16",
    "fecha_confirmada": true,
@@ -6078,7 +6078,7 @@
   },
   {
    "id": "07f057401efd",
-   "nombre": "Run Festival Tossa de Mar",
+   "nombre": "Run Festival Tossa de Mar - 5K",
    "modalidad": "5k",
    "fecha": "2027-05-16",
    "fecha_confirmada": true,
@@ -6107,7 +6107,7 @@
   },
   {
    "id": "13f678b8fc7f",
-   "nombre": "Run Festival Tossa de Mar",
+   "nombre": "Run Festival Tossa de Mar - 10K",
    "modalidad": "10k",
    "fecha": "2027-05-16",
    "fecha_confirmada": true,
@@ -6136,7 +6136,7 @@
   },
   {
    "id": "ac454b3592e5",
-   "nombre": "Run Festival Tossa de Mar",
+   "nombre": "Run Festival Tossa de Mar - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2027-05-16",
    "fecha_confirmada": true,
@@ -6248,7 +6248,7 @@
   },
   {
    "id": "ee4d5f633d1a",
-   "nombre": "Half-Marathon Bajo Pas Ayto de Piélagos",
+   "nombre": "Half-Marathon Bajo Pas",
    "modalidad": "medio_maraton",
    "fecha": "2027-09-11",
    "fecha_confirmada": true,
