@@ -1699,6 +1699,34 @@
    "ultima_comprobacion": "2026-09-16"
   },
   {
+   "nombre": "10K Popular de Náquera",
+   "modalidad": "10k",
+   "fecha": "2026-10-17",
+   "ciudad": "Náquera",
+   "provincia": "Valencia",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 39.6598817,
+   "lng": -0.4268889,
+   "web_oficial": null,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/10k-naquera"
+    },
+    {
+     "nombre": "megustacorrer",
+     "url": "https://megustacorrer.com/10k-popular-naquera-2026/"
+    }
+   ],
+   "nivel_validacion": "confirmada_organizacion",
+   "id": "9f58258d058f",
+   "fecha_confirmada": true,
+   "precio": null,
+   "precio_texto": null,
+   "ubicacion_aproximada": true,
+   "ultima_comprobacion": "2026-09-25"
+  },
+  {
    "id": "b58fc0a2c77f",
    "nombre": "Barcelona Spartan Weekend",
    "modalidad": "obstaculos",
@@ -2958,6 +2986,38 @@
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-09-16",
    "web_estado": "activa"
+  },
+  {
+   "nombre": "Medio Maratón Orihuela Monumental",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-15",
+   "ciudad": "Orihuela",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 38.0839833,
+   "lng": -0.9450405,
+   "web_oficial": "https://www.tragamillas.org/main.htm",
+   "fuentes": [
+    {
+     "nombre": "organizador_oficial",
+     "url": "https://www.tragamillas.org/main.htm"
+    },
+    {
+     "nombre": "inscripciones",
+     "url": "https://www.chiplevante.com/es/prueba/media-maraton-y-8k-de-orihuela-684-2026"
+    },
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/medio-maraton-ciudad-de-orihuela"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "id": "819e119dc47a",
+   "fecha_confirmada": true,
+   "precio": null,
+   "precio_texto": null,
+   "ubicacion_aproximada": true,
+   "ultima_comprobacion": "2026-09-25"
   },
   {
    "id": "349bf5fffcd3",

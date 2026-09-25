@@ -1639,5 +1639,11 @@
   "lng": -16.6214471,
   "provincia": null,
   "ccaa": "Canarias"
+ },
+ "naquera|valencia": {
+  "lat": 39.6598817,
+  "lng": -0.4268889,
+  "provincia": "Valencia",
+  "ccaa": "Comunitat Valenciana"
  }
 }
