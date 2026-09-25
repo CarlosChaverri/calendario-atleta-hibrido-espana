@@ -1,0 +1,15 @@
+{
+  "name": "Calendario Atleta Híbrido España",
+  "short_name": "Atleta Híbrido",
+  "description": "Carreras de running, triatlón, híbridas y obstáculos en España",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#E61E4D",
+  "background_color": "#FAF6F1",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
