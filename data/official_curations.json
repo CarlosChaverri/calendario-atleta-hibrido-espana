@@ -1,0 +1,592 @@
+{
+  "as_of": "2026-09-25",
+  "exclude": [
+    {
+      "nombre": "10K Carabanchel: \"del Alto Al Bajo\"",
+      "modalidad": "10k",
+      "fecha": "2026-10-25"
+    },
+    {
+      "nombre": "San Sebastian Half Marathon",
+      "fecha": "2027-04-04"
+    }
+  ],
+  "entries": [
+    {
+      "match": {
+        "nombre": "5K Formentera Sunset Run",
+        "modalidad": "5k",
+        "fecha": "2026-10-10"
+      },
+      "record": {
+        "id": "bb8610cbeeb2",
+        "nombre": "5K Formentera Sunset Run",
+        "modalidad": "5k",
+        "fecha": "2026-10-10",
+        "fecha_confirmada": true,
+        "ciudad": "Es Pujols",
+        "provincia": "Illes Balears",
+        "ccaa": "Illes Balears",
+        "lat": 38.72205,
+        "lng": 1.45715,
+        "precio": null,
+        "precio_texto": null,
+        "web_oficial": "https://15kformenterasunsetrun.com/",
+        "ubicacion_aproximada": false,
+        "fuentes": [
+          {
+            "nombre": "finishers",
+            "url": "https://www.finishers.com/event/15k-formentera-sunset-run"
+          },
+          {
+            "nombre": "organizador_oficial",
+            "url": "https://15kformenterasunsetrun.com/"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://15kformenterasunsetrun.com/"
+    },
+    {
+      "match": {
+        "nombre": "IRONCAT L'Ampolla Triathlon",
+        "modalidad": "triatlon_larga",
+        "fecha": "2026-10-10"
+      },
+      "record": {
+        "id": "5a537df5ad77",
+        "nombre": "IRONCAT L'Ampolla Triathlon",
+        "modalidad": "triatlon_larga",
+        "fecha": "2026-10-10",
+        "fecha_confirmada": true,
+        "ciudad": "L'Ampolla",
+        "provincia": "Tarragona",
+        "ccaa": "Cataluña",
+        "lat": 40.8122038,
+        "lng": 0.706957,
+        "precio": null,
+        "precio_texto": null,
+        "web_oficial": "https://ironcatampolla.com/",
+        "ubicacion_aproximada": false,
+        "fuentes": [
+          {
+            "nombre": "finishers",
+            "url": "https://www.finishers.com/event/ironcat"
+          },
+          {
+            "nombre": "ahotu_calendario",
+            "url": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon"
+          },
+          {
+            "nombre": "organizador_oficial",
+            "url": "https://ironcatampolla.com/"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://ironcatampolla.com/"
+    },
+    {
+      "match": {
+        "nombre": "IRONCAT L'Ampolla Triathlon",
+        "modalidad": "triatlon_media",
+        "fecha": "2026-10-10"
+      },
+      "record": {
+        "id": "264526effee6",
+        "nombre": "IRONCAT L'Ampolla Triathlon",
+        "modalidad": "triatlon_media",
+        "fecha": "2026-10-10",
+        "fecha_confirmada": true,
+        "ciudad": "L'Ampolla",
+        "provincia": "Tarragona",
+        "ccaa": "Cataluña",
+        "lat": 40.8122038,
+        "lng": 0.706957,
+        "precio": null,
+        "precio_texto": null,
+        "web_oficial": "https://ironcatampolla.com/",
+        "ubicacion_aproximada": false,
+        "fuentes": [
+          {
+            "nombre": "finishers",
+            "url": "https://www.finishers.com/event/ironcat"
+          },
+          {
+            "nombre": "ahotu_calendario",
+            "url": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon"
+          },
+          {
+            "nombre": "organizador_oficial",
+            "url": "https://ironcatampolla.com/"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://ironcatampolla.com/"
+    },
+    {
+      "match": {
+        "nombre": "ICAN Triathlon Gandia",
+        "modalidad": "triatlon_media",
+        "fecha": "2026-10-17"
+      },
+      "record": {
+        "id": "54700475f2c0",
+        "nombre": "ICAN Triathlon Gandia",
+        "modalidad": "triatlon_media",
+        "fecha": "2026-10-17",
+        "fecha_confirmada": true,
+        "ciudad": "Gandia",
+        "provincia": "Valencia",
+        "ccaa": "Comunitat Valenciana",
+        "lat": 38.9675925,
+        "lng": -0.1803423,
+        "precio": null,
+        "precio_texto": null,
+        "web_oficial": "https://www.icantriathlon.com/",
+        "ubicacion_aproximada": false,
+        "fuentes": [
+          {
+            "nombre": "ahotu_calendario",
+            "url": "https://www.ahotu.com/es/evento/ican-triathlon"
+          },
+          {
+            "nombre": "organizador_oficial",
+            "url": "https://www.icantriathlon.com/"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://www.icantriathlon.com/"
+    },
+    {
+      "match": {
+        "nombre": "ICAN Triathlon Gandia",
+        "modalidad": "triatlon_larga",
+        "fecha": "2026-10-17"
+      },
+      "record": {
+        "id": "69beb6f72ad9",
+        "nombre": "ICAN Triathlon Gandia",
+        "modalidad": "triatlon_larga",
+        "fecha": "2026-10-17",
+        "fecha_confirmada": true,
+        "ciudad": "Gandia",
+        "provincia": "Valencia",
+        "ccaa": "Comunitat Valenciana",
+        "lat": 38.9675925,
+        "lng": -0.1803423,
+        "precio": null,
+        "precio_texto": null,
+        "web_oficial": "https://www.icantriathlon.com/",
+        "ubicacion_aproximada": false,
+        "fuentes": [
+          {
+            "nombre": "ahotu_calendario",
+            "url": "https://www.ahotu.com/es/evento/ican-triathlon"
+          },
+          {
+            "nombre": "organizador_oficial",
+            "url": "https://www.icantriathlon.com/"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://www.icantriathlon.com/"
+    },
+    {
+      "match": {
+        "nombre": "IRONMAN 70.3 Málaga",
+        "modalidad": "triatlon_media",
+        "fecha": "2026-10-18"
+      },
+      "record": {
+        "id": "6ba4b12b840f",
+        "nombre": "IRONMAN 70.3 Málaga",
+        "modalidad": "triatlon_media",
+        "fecha": "2026-10-18",
+        "fecha_confirmada": true,
+        "ciudad": "Málaga",
+        "provincia": "Málaga",
+        "ccaa": "Andalucía",
+        "lat": 36.7647913,
+        "lng": -4.4422005,
+        "precio": null,
+        "precio_texto": null,
+        "web_oficial": "https://www.ironman.com/races/im703-malaga",
+        "ubicacion_aproximada": false,
+        "fuentes": [
+          {
+            "nombre": "ironman_oficial",
+            "url": "https://www.ironman.com/races/im703-malaga"
+          },
+          {
+            "nombre": "ahotu_calendario",
+            "url": "https://www.ahotu.com/es/evento/ironman-70-3-malaga"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://www.ironman.com/races/im703-malaga"
+    },
+    {
+      "match": {
+        "nombre": "Extreme OCR Telde",
+        "modalidad": "obstaculos",
+        "fecha": "2026-11-07"
+      },
+      "record": {
+        "id": "a083599ad8da",
+        "nombre": "Extreme OCR Telde",
+        "modalidad": "obstaculos",
+        "fecha": "2026-11-07",
+        "fecha_confirmada": true,
+        "ciudad": "Telde",
+        "provincia": "Las Palmas",
+        "ccaa": "Canarias",
+        "lat": 27.9984538,
+        "lng": -15.4166761,
+        "precio": null,
+        "precio_texto": null,
+        "web_oficial": "https://tripasioneventos.com/en/event/extreme-2/",
+        "ubicacion_aproximada": false,
+        "fuentes": [
+          {
+            "nombre": "organizador_oficial",
+            "url": "https://tripasioneventos.com/en/event/extreme-2/"
+          },
+          {
+            "nombre": "running.life_lead",
+            "url": "https://running.life/carreras-obstaculos/espana"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://tripasioneventos.com/en/event/extreme-2/"
+    },
+    {
+      "match": {
+        "nombre": "Media Maratón de Córdoba 2026",
+        "modalidad": "medio_maraton",
+        "fecha": "2026-11-29"
+      },
+      "record": {
+        "id": "f8dbafe9f23e",
+        "nombre": "Media Maratón de Córdoba 2026",
+        "modalidad": "medio_maraton",
+        "fecha": "2026-11-29",
+        "fecha_confirmada": true,
+        "ciudad": "Córdoba",
+        "provincia": "Córdoba",
+        "ccaa": "Andalucía",
+        "lat": 37.8845813,
+        "lng": -4.7760138,
+        "precio": 19,
+        "precio_texto": "desde 19 €",
+        "web_oficial": "https://mediamaratoncordoba.es/",
+        "ubicacion_aproximada": true,
+        "fuentes": [
+          {
+            "nombre": "runnea",
+            "url": "https://www.runnea.com/carreras-populares/media-maraton-cordoba/"
+          },
+          {
+            "nombre": "organizador_oficial",
+            "url": "https://mediamaratoncordoba.es/"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://mediamaratoncordoba.es/"
+    },
+    {
+      "match": {
+        "nombre": "10K Ibiza-Platja d’en Bossa 2027",
+        "modalidad": "10k",
+        "fecha": "2027-02-07"
+      },
+      "record": {
+        "id": "1ab560f12a4a",
+        "nombre": "10K Ibiza-Platja d’en Bossa 2027",
+        "modalidad": "10k",
+        "fecha": "2027-02-07",
+        "fecha_confirmada": true,
+        "ciudad": "Platja d’en Bossa",
+        "provincia": "Illes Balears",
+        "ccaa": "Illes Balears",
+        "lat": 38.8854865,
+        "lng": 1.4070151,
+        "precio": 18,
+        "precio_texto": "desde 18 €",
+        "web_oficial": "https://10kibiza.com/reglamento/",
+        "ubicacion_aproximada": true,
+        "fuentes": [
+          {
+            "nombre": "runnea",
+            "url": "https://www.runnea.com/carreras-populares/5k-playa-den-bossa-ibiza/"
+          },
+          {
+            "nombre": "organizador_oficial",
+            "url": "https://10kibiza.com/reglamento/"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://10kibiza.com/reglamento/"
+    },
+    {
+      "match": {
+        "nombre": "Maratón Don Benito 2027",
+        "modalidad": "maraton",
+        "fecha": "2027-02-14"
+      },
+      "record": {
+        "id": "ff5318a4748e",
+        "nombre": "Maratón Don Benito 2027",
+        "modalidad": "maraton",
+        "fecha": "2027-02-14",
+        "fecha_confirmada": true,
+        "ciudad": "Don Benito",
+        "provincia": "Badajoz",
+        "ccaa": "Extremadura",
+        "lat": 38.9540001,
+        "lng": -5.861843,
+        "precio": 3,
+        "precio_texto": "desde 3 €",
+        "web_oficial": "https://www.chipserena.es/web-evento/12902-2a-maraton-y-media-maraton-popular-ciudad-de-don-benito",
+        "ubicacion_aproximada": true,
+        "fuentes": [
+          {
+            "nombre": "runnea",
+            "url": "https://www.runnea.com/carreras-populares/maraton-don-benito/"
+          },
+          {
+            "nombre": "inscripciones",
+            "url": "https://www.chipserena.es/web-evento/12902-2a-maraton-y-media-maraton-popular-ciudad-de-don-benito"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://www.chipserena.es/web-evento/12902-2a-maraton-y-media-maraton-popular-ciudad-de-don-benito"
+    },
+    {
+      "match": {
+        "nombre": "Ironman 70.3 Valencia",
+        "modalidad": "triatlon_media",
+        "fecha": "2027-04-18"
+      },
+      "record": {
+        "id": "bcc3f4378b4c",
+        "nombre": "Ironman 70.3 Valencia",
+        "modalidad": "triatlon_media",
+        "fecha": "2027-04-18",
+        "fecha_confirmada": true,
+        "ciudad": "Valencia",
+        "provincia": "Valencia",
+        "ccaa": "Comunitat Valenciana",
+        "lat": 39.47024,
+        "lng": -0.3768,
+        "precio": null,
+        "precio_texto": null,
+        "web_oficial": "https://www.ironman.com/races/im703-valencia",
+        "ubicacion_aproximada": false,
+        "fuentes": [
+          {
+            "nombre": "finishers",
+            "url": "https://www.finishers.com/event/ironman-70-3-valencia"
+          },
+          {
+            "nombre": "ironman_oficial",
+            "url": "https://www.ironman.com/races/im703-valencia"
+          },
+          {
+            "nombre": "triathlons_descubrimiento",
+            "url": "https://www.triathlons.com/fr/events/ironman-70-3-valencia_fUzra"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://www.ironman.com/races/im703-valencia"
+    },
+    {
+      "match": {
+        "nombre": "Run Festival Tossa de Mar",
+        "modalidad": "5k",
+        "fecha": "2027-05-16"
+      },
+      "record": {
+        "id": "07f057401efd",
+        "nombre": "Run Festival Tossa de Mar",
+        "modalidad": "5k",
+        "fecha": "2027-05-16",
+        "fecha_confirmada": true,
+        "ciudad": "Tossa de Mar",
+        "provincia": "Girona",
+        "ccaa": "Cataluña",
+        "lat": 41.71667,
+        "lng": 2.93333,
+        "precio": null,
+        "precio_texto": null,
+        "web_oficial": "https://runfestivaltossa.com/",
+        "ubicacion_aproximada": false,
+        "fuentes": [
+          {
+            "nombre": "finishers",
+            "url": "https://www.finishers.com/event/run-festival-tossa-de-mar"
+          },
+          {
+            "nombre": "organizador_oficial",
+            "url": "https://runfestivaltossa.com/"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://runfestivaltossa.com/"
+    },
+    {
+      "match": {
+        "nombre": "Run Festival Tossa de Mar",
+        "modalidad": "10k",
+        "fecha": "2027-05-16"
+      },
+      "record": {
+        "id": "13f678b8fc7f",
+        "nombre": "Run Festival Tossa de Mar",
+        "modalidad": "10k",
+        "fecha": "2027-05-16",
+        "fecha_confirmada": true,
+        "ciudad": "Tossa de Mar",
+        "provincia": "Girona",
+        "ccaa": "Cataluña",
+        "lat": 41.71667,
+        "lng": 2.93333,
+        "precio": null,
+        "precio_texto": null,
+        "web_oficial": "https://runfestivaltossa.com/",
+        "ubicacion_aproximada": false,
+        "fuentes": [
+          {
+            "nombre": "finishers",
+            "url": "https://www.finishers.com/event/run-festival-tossa-de-mar"
+          },
+          {
+            "nombre": "organizador_oficial",
+            "url": "https://runfestivaltossa.com/"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://runfestivaltossa.com/"
+    },
+    {
+      "match": {
+        "nombre": "Run Festival Tossa de Mar",
+        "modalidad": "medio_maraton",
+        "fecha": "2027-05-16"
+      },
+      "record": {
+        "id": "ac454b3592e5",
+        "nombre": "Run Festival Tossa de Mar",
+        "modalidad": "medio_maraton",
+        "fecha": "2027-05-16",
+        "fecha_confirmada": true,
+        "ciudad": "Tossa de Mar",
+        "provincia": "Girona",
+        "ccaa": "Cataluña",
+        "lat": 41.71667,
+        "lng": 2.93333,
+        "precio": null,
+        "precio_texto": null,
+        "web_oficial": "https://runfestivaltossa.com/",
+        "ubicacion_aproximada": false,
+        "fuentes": [
+          {
+            "nombre": "finishers",
+            "url": "https://www.finishers.com/event/run-festival-tossa-de-mar"
+          },
+          {
+            "nombre": "organizador_oficial",
+            "url": "https://runfestivaltossa.com/"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://runfestivaltossa.com/"
+    },
+    {
+      "match": {
+        "nombre": "10K Carabanchel: \"del Alto Al Bajo\"",
+        "modalidad": "10k",
+        "fecha": "2026-11-29"
+      },
+      "record": {
+        "id": "418ac35cfea9",
+        "nombre": "10K Carabanchel: \"del Alto Al Bajo\"",
+        "modalidad": "10k",
+        "fecha": "2026-11-29",
+        "fecha_confirmada": true,
+        "ciudad": "Madrid",
+        "provincia": "Madrid",
+        "ccaa": "Comunidad de Madrid",
+        "lat": 40.4167754,
+        "lng": -3.7037902,
+        "precio": null,
+        "precio_texto": null,
+        "web_oficial": "https://www.deporticket.com/web-evento/13230-10-km-de-carabanchel-del-alto-al-bajo",
+        "ubicacion_aproximada": false,
+        "fuentes": [
+          {
+            "nombre": "carreraspopulares",
+            "url": "https://carreraspopulares.com/carrera/10k-carabanchel-del-alto-al-bajo"
+          },
+          {
+            "nombre": "finishers",
+            "url": "https://www.finishers.com/event/carabanchel-10km"
+          },
+          {
+            "nombre": "inscripciones",
+            "url": "https://www.deporticket.com/web-evento/13230-10-km-de-carabanchel-del-alto-al-bajo"
+          }
+        ],
+        "nivel_validacion": "confirmada_web_oficial",
+        "ultima_comprobacion": "2026-09-25",
+        "web_estado": "activa"
+      },
+      "evidence_url": "https://www.deporticket.com/web-evento/13230-10-km-de-carabanchel-del-alto-al-bajo"
+    }
+  ],
+  "preserve_ids": [
+    "707a490b12f0",
+    "48a5f745f4fa"
+  ],
+  "note": "Curaciones exactas comprobadas el 25/09/2026. Un nuevo año/edición exige nueva comprobación; las fichas expiran al pasar su fecha. La persistencia de entradas antiguas no significa una nueva verificación."
+}

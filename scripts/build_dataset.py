@@ -554,7 +554,41 @@ def nivel(r, n_fuentes_agenda):
         return 'confirmada_organizacion'
     return 'por_verificar'
 
+def apply_official_curations(out, previous_visible, previous_full):
+    """Keep verified prior listings; new feed-only rows require a reviewed curation.
+
+    The previous public dataset is the retention baseline, not proof of a new
+    date. Curated records have an exact date/modality and source URL checked by
+    a person. Expired events are not carried into a future refresh.
+    """
+    path = os.path.join(ROOT, 'data', 'official_curations.json')
+    cfg = json.load(open(path)) if os.path.exists(path) else {'entries': [], 'exclude': []}
+    exclusions = cfg['exclude']
+    def excluded(r):
+        return any(all(r.get(k) == v for k, v in e.items()) for e in exclusions)
+    by_id = {r['id']: r for r in out if not excluded(r)}
+    retained = {r['id']: r for r in previous_visible}
+    retained.update({r['id']: r for r in previous_full if r['id'] in cfg.get('preserve_ids', [])})
+    for old in retained.values():
+        if old['fecha'] >= HOY.isoformat() and not excluded(old):
+            by_id[old['id']] = old
+    public_ids = {r['id'] for r in previous_visible if r['fecha'] >= HOY.isoformat() and not excluded(r)}
+    for entry in cfg['entries']:
+        r = entry['record']
+        # An old reviewed edition expires; it must not be carried into next year.
+        if r['fecha'] < HOY.isoformat(): continue
+        if r['web_oficial'] != entry['evidence_url']:
+            raise ValueError('Curated source mismatch: ' + r['nombre'])
+        by_id[r['id']] = r
+        public_ids.add(r['id'])
+    result = sorted(by_id.values(), key=lambda r: (r['fecha'], r['nombre'] or ''))
+    return result, public_ids
+
+
 def main():
+    previous_visible = json.load(open(OUT))['carreras'] if os.path.exists(OUT) else []
+    prior_full_path = os.path.join(ROOT, 'data', 'races_full.json')
+    previous_full = json.load(open(prior_full_path))['carreras'] if os.path.exists(prior_full_path) else []
     cp = load_cp()
     fin = load_finishers()
     tri = load_finishers_tri()
@@ -619,7 +653,7 @@ def main():
             'fuentes': r['fuentes'], 'nivel_validacion': nv,
             'ultima_comprobacion': HOY.isoformat(),
         })
-    out.sort(key=lambda x: (x['fecha'], x['nombre'] or ''))
+    out, public_ids = apply_official_curations(out, previous_visible, previous_full)
     stats = {
         'generado': datetime.now().isoformat(timespec='seconds'),
         'total': len(out),
@@ -634,14 +668,8 @@ def main():
         stats['por_nivel'][r['nivel_validacion']] = stats['por_nivel'].get(r['nivel_validacion'], 0) + 1
     json.dump({'generado': stats['generado'], 'carreras': out},
               open(os.path.join(ROOT, 'data', 'races_full.json'), 'w'), ensure_ascii=False, indent=1)
-    # Exclusiones curadas: fichas de agenda cuya edición futura no tiene evidencia oficial/organizadora actual.
-    exclusiones = {('Almagro Marathon', '2027-01-30'), ('Badajoz Marathon', '2027-03-14')}
-    out = [r for r in out if (r['nombre'], r['fecha']) not in exclusiones]
-    # URL oficial recuperada del organizador; la fuente de agenda sigue conservada en fuentes.
-    for r in out:
-        if r['nombre'] == 'Media Maratón Huelva 21K 2026' and r['fecha'] == '2026-11-01':
-            r['web_oficial'] = 'https://21kciudaddehuelva.es/'
-    visibles = [r for r in out if r['nivel_validacion'] in ('confirmada_web_oficial', 'confirmada_organizacion')]
+    # Older hard-coded exclusions are superseded by exact reviewed curations above.
+    visibles = [r for r in out if r['id'] in public_ids and r['nivel_validacion'] in ('confirmada_web_oficial', 'confirmada_organizacion')]
     json.dump({'generado': stats['generado'], 'carreras': visibles}, open(OUT, 'w'), ensure_ascii=False, indent=1)
     stats['visibles'] = len(visibles)
     json.dump(stats, open(os.path.join(ROOT, 'data', 'stats.json'), 'w'), ensure_ascii=False, indent=1)

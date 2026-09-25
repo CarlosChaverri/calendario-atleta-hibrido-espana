@@ -84,6 +84,18 @@ def main():
             resumen['sin_fecha'] += 1
         if resumen['comprobadas'] % 10 == 0:
             print(f"  {resumen['comprobadas']} comprobadas...", flush=True)
+    # The check is generic and can mistake a blocked organizer page for a
+    # cancelled edition. Restore exactly reviewed sources unless cancellation
+    # language was detected; that case remains flagged for a human decision.
+    curations = os.path.join(ROOT, 'data', 'official_curations.json')
+    if os.path.exists(curations):
+        cfg = json.load(open(curations))
+        reviewed = {e['record']['id']: e['record'] for e in cfg['entries']}
+        for i, r in enumerate(carreras):
+            if r['id'] in reviewed and r.get('web_estado') != 'posible_cancelacion':
+                carreras[i] = dict(reviewed[r['id']])
+        # Do not publish a possible cancellation automatically, even if the
+        # record was in the prior public dataset.
     niveles = {}
     for r in carreras:
         r['fecha_confirmada'] = r['nivel_validacion'] in ('confirmada_web_oficial', 'confirmada_organizacion')
