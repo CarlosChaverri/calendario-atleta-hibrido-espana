@@ -971,7 +971,6 @@
   "provincia": "Córdoba",
   "ccaa": "Andalucía"
  },
- "elda|barcelona": null,
  "coria|caceres": {
   "lat": 39.9831574,
   "lng": -6.5366803,
@@ -1230,7 +1229,6 @@
   "provincia": "Las Palmas",
   "ccaa": "Canarias"
  },
- "gandie|": null,
  "cadaques|": {
   "lat": 42.2893484,
   "lng": 3.2752159,
@@ -1585,14 +1583,12 @@
   "provincia": "Barcelona",
   "ccaa": "Cataluña"
  },
- "bilbao krosa herri|bizkaia": null,
  "provincia:bizkaia": {
   "lat": 43.238482,
   "lng": -2.8516316,
   "provincia": "Bizkaia",
   "ccaa": "País Vasco"
  },
- "salmantina silvestre|salamanca": null,
  "provincia:salamanca": {
   "lat": 40.9651572,
   "lng": -5.6640182,
@@ -1605,7 +1601,6 @@
   "provincia": "Illes Balears",
   "ccaa": "Illes Balears"
  },
- "gimnastica ulia 10k|gipuzkoa": null,
  "bilbao 10k|bizkaia": {
   "lat": 43.2630018,
   "lng": -2.9350039,
@@ -1618,10 +1613,6 @@
   "provincia": "Cantabria",
   "ccaa": "Cantabria"
  },
- "benemerita challenge burgos|burgos": null,
- "nuria olla|girona": null,
- "soria anton abel|soria": null,
- "flysch zumaia trail|gipuzkoa": null,
  "la nucia|": {
   "lat": 38.6133727,
   "lng": -0.1257319,
@@ -1645,5 +1636,13 @@
   "lng": -0.4268889,
   "provincia": "Valencia",
   "ccaa": "Comunitat Valenciana"
+ },
+ "elda|barcelona": null,
+ "gandie|": null,
+ "salou|": {
+  "lat": 41.0768193,
+  "lng": 1.1440411,
+  "provincia": "Tarragona",
+  "ccaa": "Cataluña"
  }
 }
