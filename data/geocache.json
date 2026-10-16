@@ -1637,11 +1637,28 @@
   "provincia": "Valencia",
   "ccaa": "Comunitat Valenciana"
  },
- "elda|barcelona": null,
- "gandie|": null,
  "salou|": {
   "lat": 41.0768193,
   "lng": 1.1440411,
+  "provincia": "Tarragona",
+  "ccaa": "Cataluña"
+ },
+ "avila|": {
+  "lat": 40.657195,
+  "lng": -4.6626677,
+  "provincia": "Ávila",
+  "ccaa": "Castilla y León"
+ },
+ "gandie|": null,
+ "medina de las torres|": {
+  "lat": 38.3414278,
+  "lng": -6.4118371,
+  "provincia": "Badajoz",
+  "ccaa": "Extremadura"
+ },
+ "l'ampolla|": {
+  "lat": 40.8122038,
+  "lng": 0.706957,
   "provincia": "Tarragona",
   "ccaa": "Cataluña"
  }
