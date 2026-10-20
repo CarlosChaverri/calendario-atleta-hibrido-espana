@@ -23,10 +23,19 @@ class TitlePolicyTest(unittest.TestCase):
                 with self.subTest(id=r['id']):
                     self.assertEqual(r['nombre'], present_name(r['nombre'], r['modalidad']))
         self.assertEqual(present_name('10K Ciudad Lineal', '10k'), '10K Ciudad Lineal')
-    def test_no_multidistance_erasure(self):
+    def test_dataset_invariants(self):
+        # Invariantes del dataset publicado, sin conteos ni carreras concretas
+        # (el catalogo cambia con cada regeneracion).
+        from datetime import date
         records = json.loads((ROOT / 'data' / 'races.json').read_text())['carreras']
-        binter = [r for r in records if 'binter' in r['nombre'].lower()]
-        self.assertEqual({r['modalidad'] for r in binter}, {'5k', '10k'})
-        self.assertEqual(len(records), 232)
+        hoy = date.today().isoformat()
+        ids = [r['id'] for r in records]
+        self.assertEqual(len(ids), len(set(ids)), 'ids duplicados')
+        self.assertTrue(all(r['fecha'] >= hoy for r in records),
+                        'ediciones pasadas publicadas')
+        self.assertTrue(all(r['nivel_validacion'] in ('confirmada_web_oficial', 'confirmada_organizacion')
+                            for r in records), 'fichas sin confirmar publicadas')
+        tarjetas = [(r['nombre'].lower(), r['modalidad'], r['fecha']) for r in records]
+        self.assertEqual(len(tarjetas), len(set(tarjetas)), 'tarjetas duplicadas')
 
 if __name__ == '__main__': unittest.main()

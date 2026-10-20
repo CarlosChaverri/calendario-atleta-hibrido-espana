@@ -1,26 +1,27 @@
 {
- "generado": "2026-10-16T10:00:57",
- "total": 493,
+ "generado": "2026-10-20T12:32:06",
+ "total": 486,
  "por_modalidad": {
-  "obstaculos": 37,
-  "5k": 46,
-  "10k": 84,
-  "hibrida": 17,
-  "triatlon_media": 40,
-  "triatlon_larga": 9,
-  "medio_maraton": 109,
+  "maraton": 42,
+  "obstaculos": 19,
+  "triatlon_sprint": 67,
   "triatlon_olimpico": 41,
-  "maraton": 38,
-  "triatlon_sprint": 68,
-  "hyrox": 4
+  "hibrida": 14,
+  "5k": 52,
+  "10k": 92,
+  "triatlon_media": 36,
+  "medio_maraton": 112,
+  "hyrox": 4,
+  "triatlon_larga": 7
  },
  "por_nivel": {
-  "confirmada_web_oficial": 137,
-  "confirmada_organizacion": 84,
-  "fecha_estimada": 272
+  "por_verificar": 34,
+  "confirmada_web_oficial": 128,
+  "fecha_estimada": 283,
+  "confirmada_organizacion": 41
  },
  "sin_coordenadas": 4,
- "con_precio": 54,
- "con_web_oficial": 340,
- "visibles": 187
+ "con_precio": 47,
+ "con_web_oficial": 300,
+ "visibles": 169
 }

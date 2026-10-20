@@ -1,1471 +1,29 @@
 {
- "generado": "2026-10-16T10:00:57",
+ "generado": "2026-10-20T12:32:06",
  "carreras": [
   {
-   "id": "aecbe989fb5c",
-   "nombre": "Atlantis Race Carballo",
-   "modalidad": "obstaculos",
-   "fecha": "2026-09-19",
-   "fecha_confirmada": true,
-   "ciudad": "Carballo",
-   "provincia": "A Coruña",
-   "ccaa": "Galicia",
-   "lat": 43.2086195,
-   "lng": -8.6668237,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://olarivers.com/eventos/atlantis-race-concello-de-carballo/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://olarivers.com/eventos/atlantis-race-concello-de-carballo/"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "e2b275cb61f0",
-   "nombre": "Iberus Race OCR Milagro",
-   "modalidad": "obstaculos",
-   "fecha": "2026-09-19",
-   "fecha_confirmada": true,
-   "ciudad": "Milagro",
-   "provincia": "Navarra",
-   "ccaa": "Navarra",
-   "lat": 42.2418183,
-   "lng": -1.7628016,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://web.rockthesport.com/es/event/iberus-race-ocr-milagro-2026",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "plataforma_inscripcion",
-     "url": "https://web.rockthesport.com/es/event/iberus-race-ocr-milagro-2026"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "8000ae669acc",
-   "nombre": "Binter NightRun Zaragoza - 5K",
-   "modalidad": "5k",
-   "fecha": "2026-09-26",
-   "fecha_confirmada": true,
-   "ciudad": "Zaragoza",
-   "provincia": "Zaragoza",
-   "ccaa": "Aragón",
-   "lat": 41.6915847,
-   "lng": -0.9101268,
-   "precio": 25,
-   "precio_texto": "desde 25 €",
-   "web_oficial": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "rockthesport_inscripcion",
-     "url": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "10c23085741f",
-   "nombre": "Binter NightRun Zaragoza - 10K",
-   "modalidad": "10k",
-   "fecha": "2026-09-26",
-   "fecha_confirmada": true,
-   "ciudad": "Zaragoza",
-   "provincia": "Zaragoza",
-   "ccaa": "Aragón",
-   "lat": 41.6915847,
-   "lng": -0.9101268,
-   "precio": 25,
-   "precio_texto": "desde 25 €",
-   "web_oficial": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "rockthesport_inscripcion",
-     "url": "https://www.rockthesport.com/es/evento/5-binter-nightrun-zaragoza-heraldo-2026"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "16520d1bd0b6",
-   "nombre": "DEKA FIT Barcelona Otoño",
-   "modalidad": "hibrida",
-   "fecha": "2026-09-26",
-   "fecha_confirmada": true,
-   "ciudad": "Barcelona",
-   "provincia": "Barcelona",
-   "ccaa": "Cataluña",
-   "lat": 41.3825802,
-   "lng": 2.177073,
-   "precio": 60,
-   "precio_texto": "desde 60 €",
-   "web_oficial": "https://es.spartan.com/es/races/deka-barcelona-otono",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "spartan_deka_oficial",
-     "url": "https://es.spartan.com/es/races/deka-barcelona-otono"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "28077053763a",
-   "nombre": "Gladiators Day Haro",
-   "modalidad": "obstaculos",
-   "fecha": "2026-09-26",
-   "fecha_confirmada": true,
-   "ciudad": "Haro",
-   "provincia": "La Rioja",
-   "ccaa": "La Rioja",
-   "lat": 42.5768922,
-   "lng": -2.8466768,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.rockthesport.com/es/evento/gladiatorsday-haro-2026",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "rockthesport_inscripcion",
-     "url": "https://www.rockthesport.com/es/evento/gladiatorsday-haro-2026"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "bd6391644016",
-   "nombre": "Pirate Race Bétera",
-   "modalidad": "obstaculos",
-   "fecha": "2026-09-26",
-   "fecha_confirmada": true,
-   "ciudad": "Bétera",
-   "provincia": "Valencia",
-   "ccaa": "Comunitat Valenciana",
-   "lat": 39.5917307,
-   "lng": -0.4622695,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://web.rockthesport.com/es/event/pirate-race-betera",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "plataforma_inscripcion",
-     "url": "https://web.rockthesport.com/es/event/pirate-race-betera"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "bbf3e50bdb92",
-   "nombre": "Salvaje Race San Fernando",
-   "modalidad": "obstaculos",
-   "fecha": "2026-09-26",
-   "fecha_confirmada": true,
-   "ciudad": "San Fernando",
-   "provincia": "Cádiz",
-   "ccaa": "Andalucía",
-   "lat": 36.4646672,
-   "lng": -6.1983492,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://web.rockthesport.com/es/event/salvaje-race-san-fernando",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "plataforma_inscripcion",
-     "url": "https://web.rockthesport.com/es/event/salvaje-race-san-fernando"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "86fc64deede3",
-   "nombre": "Valkiria Race",
-   "modalidad": "obstaculos",
-   "fecha": "2026-09-26",
-   "fecha_confirmada": true,
-   "ciudad": "Barreiros",
-   "provincia": "Lugo",
-   "ccaa": "Galicia",
-   "lat": 43.514168,
-   "lng": -7.2505546,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.rockthesport.com/es/evento/valkiria-race-2026",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "rockthesport_inscripcion",
-     "url": "https://www.rockthesport.com/es/evento/valkiria-race-2026"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "2d9e83a77f10",
-   "nombre": "Desafío Madrid",
-   "modalidad": "obstaculos",
-   "fecha": "2026-09-27",
-   "fecha_confirmada": true,
-   "ciudad": "Alcorcón",
-   "provincia": "Madrid",
-   "ccaa": "Comunidad de Madrid",
-   "lat": 40.3492998,
-   "lng": -3.8284295,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-madrid",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-madrid"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "5edd1e0fd940",
-   "nombre": "Games Series A Estrada",
-   "modalidad": "hibrida",
-   "fecha": "2026-09-27",
-   "fecha_confirmada": true,
-   "ciudad": "A Estrada",
-   "provincia": "Pontevedra",
-   "ccaa": "Galicia",
-   "lat": 42.6809545,
-   "lng": -8.4357972,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://gamesseries.gal/es/web/evento/3190/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://gamesseries.gal/es/web/evento/3190/"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "be8aa4dcff35",
-   "nombre": "Santuario Race",
-   "modalidad": "obstaculos",
-   "fecha": "2026-09-27",
-   "fecha_confirmada": true,
-   "ciudad": "Malpartida de Cáceres",
-   "provincia": "Cáceres",
-   "ccaa": "Extremadura",
-   "lat": 39.4458422,
-   "lng": -6.5046747,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.chipserena.es/web-evento/13029-santuario-race-2026",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "plataforma_inscripcion",
-     "url": "https://www.chipserena.es/web-evento/13029-santuario-race-2026"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "af79550bdcef",
-   "nombre": "Cantabrian Race Cabárceno",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-03",
-   "fecha_confirmada": true,
-   "ciudad": "Cabárceno",
-   "provincia": "Cantabria",
-   "ccaa": "Cantabria",
-   "lat": 43.3582415,
-   "lng": -3.8228879,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://nortea.es/ocr/cabarceno",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://nortea.es/ocr/cabarceno"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "4a3daeead3d6",
-   "nombre": "Lince Extreme Running",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-03",
-   "fecha_confirmada": true,
-   "ciudad": "Punta Umbría",
-   "provincia": "Huelva",
-   "ccaa": "Andalucía",
-   "lat": 37.1830237,
-   "lng": -6.9662203,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.linceextremerunning.es/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://www.linceextremerunning.es/"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "22eab6d74a63",
-   "nombre": "10K Ciudad Lineal",
-   "modalidad": "10k",
-   "fecha": "2026-10-04",
-   "fecha_confirmada": true,
-   "ciudad": "Madrid",
-   "provincia": "Madrid",
-   "ccaa": "Comunidad de Madrid",
-   "lat": 40.4237276,
-   "lng": -3.6899043,
-   "precio": 5.5,
-   "precio_texto": "desde 5.5 €",
-   "web_oficial": "https://www.rockthesport.com/es/evento/v-10-km-de-la-ciudad-lineal-2026",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "rockthesport_inscripcion",
-     "url": "https://www.rockthesport.com/es/evento/v-10-km-de-la-ciudad-lineal-2026"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "71b52968e526",
-   "nombre": "Desafío Boot Camp Vigo",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-04",
+   "id": "947a68fee2ff",
+   "nombre": "Arrankudiga-zolloko Mendi Maratoi Erdia - Maratón",
+   "modalidad": "maraton",
+   "fecha": "2026-10-24",
    "fecha_confirmada": false,
-   "ciudad": "Vigo",
-   "provincia": "Pontevedra",
-   "ccaa": "Galicia",
-   "lat": 42.1986395,
-   "lng": -8.727956,
+   "ciudad": "Arrankudiaga-Zollo",
+   "provincia": "Bizkaia",
+   "ccaa": "País Vasco",
+   "lat": 43.1766868,
+   "lng": -2.9345437,
    "precio": null,
    "precio_texto": null,
-   "web_oficial": "https://ccnorte.com/evento/detalle/page/1/id/3226/desafio-boot-camp-vigo-2026",
+   "web_oficial": null,
    "ubicacion_aproximada": false,
    "fuentes": [
     {
-     "nombre": "plataforma_inscripcion",
-     "url": "https://ccnorte.com/evento/detalle/page/1/id/3226/desafio-boot-camp-vigo-2026"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/arrankudiaga-zolloko-mendi-maratoi-erdia"
     }
    ],
    "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida"
-  },
-  {
-   "id": "01ac6527bef3",
-   "nombre": "OCR Crossfast Race",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-04",
-   "fecha_confirmada": true,
-   "ciudad": "Santa Cruz de Tenerife",
-   "provincia": "Santa Cruz de Tenerife",
-   "ccaa": "Canarias",
-   "lat": 28.467178,
-   "lng": -16.2507843,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://inscripciones.chronotrackcanarias.com/inscripcion/ocr-crossfast-race-santa-cruz-de-tenerife-2026/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "plataforma_inscripcion",
-     "url": "https://inscripciones.chronotrackcanarias.com/inscripcion/ocr-crossfast-race-santa-cruz-de-tenerife-2026/"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "264526effee6",
-   "nombre": "IRONCAT L'Ampolla Triathlon - Triatlón media",
-   "modalidad": "triatlon_media",
-   "fecha": "2026-10-10",
-   "fecha_confirmada": true,
-   "ciudad": "L'Ampolla",
-   "provincia": "Tarragona",
-   "ccaa": "Cataluña",
-   "lat": 40.8122038,
-   "lng": 0.706957,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://ironcatampolla.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/ironcat"
-    },
-    {
-     "nombre": "ahotu_calendario",
-     "url": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon"
-    },
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://ironcatampolla.com/"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-09-25",
-   "web_estado": "activa"
-  },
-  {
-   "id": "5a537df5ad77",
-   "nombre": "IRONCAT L'Ampolla Triathlon - Triatlón larga",
-   "modalidad": "triatlon_larga",
-   "fecha": "2026-10-10",
-   "fecha_confirmada": true,
-   "ciudad": "L'Ampolla",
-   "provincia": "Tarragona",
-   "ccaa": "Cataluña",
-   "lat": 40.8122038,
-   "lng": 0.706957,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://ironcatampolla.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/ironcat"
-    },
-    {
-     "nombre": "ahotu_calendario",
-     "url": "https://www.ahotu.com/es/evento/ironcat-l-ampolla-triathlon"
-    },
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://ironcatampolla.com/"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-09-25",
-   "web_estado": "activa"
-  },
-  {
-   "id": "9ec5721a8f6a",
-   "nombre": "OCR Mencey Nocturna La Laguna",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-10",
-   "fecha_confirmada": true,
-   "ciudad": "La Laguna",
-   "provincia": "Santa Cruz de Tenerife",
-   "ccaa": "Canarias",
-   "lat": 28.4857715,
-   "lng": -16.3159422,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://inscripciones.chronotrackcanarias.com/inscripcion/ocr-mencey-nocturna-la-laguna-2026/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "plataforma_inscripcion",
-     "url": "https://inscripciones.chronotrackcanarias.com/inscripcion/ocr-mencey-nocturna-la-laguna-2026/"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "2751fbe362b5",
-   "nombre": "Desafío Pinar Extremo",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-11",
-   "fecha_confirmada": true,
-   "ciudad": "San Roque",
-   "provincia": "Cádiz",
-   "ccaa": "Andalucía",
-   "lat": 36.2100586,
-   "lng": -5.3868293,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://gesconchip.es/prueba/informacion/iii-desafio-pinar-extremo",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "plataforma_inscripcion",
-     "url": "https://gesconchip.es/prueba/informacion/iii-desafio-pinar-extremo"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "59677e43f348",
-   "nombre": "Invictus Santoña",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-11",
-   "fecha_confirmada": true,
-   "ciudad": "Santoña",
-   "provincia": "Cantabria",
-   "ccaa": "Cantabria",
-   "lat": 43.4449362,
-   "lng": -3.4553628,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://web.rockthesport.com/es/event/invictus-santona-2026",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "plataforma_inscripcion",
-     "url": "https://web.rockthesport.com/es/event/invictus-santona-2026"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "f97956479487",
-   "nombre": "La Última Fortaleza Lanjarón",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-11",
-   "fecha_confirmada": true,
-   "ciudad": "Lanjarón",
-   "provincia": "Granada",
-   "ccaa": "Andalucía",
-   "lat": 36.9181138,
-   "lng": -3.4801561,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.global-tempo.com/carreras.php?id=3291",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "plataforma_inscripcion",
-     "url": "https://www.global-tempo.com/carreras.php?id=3291"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "0aa44511f4fb",
-   "nombre": "Challenge Peguera Mallorca - Triatlón media",
-   "modalidad": "triatlon_media",
-   "fecha": "2026-10-16",
-   "fecha_confirmada": true,
-   "ciudad": "Peguera",
-   "provincia": "Barcelona",
-   "ccaa": "Cataluña",
-   "lat": 42.1602241,
-   "lng": 1.7719518,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/challenge-peguera-mallorca"
-    }
-   ],
-   "nivel_validacion": "confirmada_organizacion",
-   "ultima_comprobacion": "2026-09-16"
-  },
-  {
-   "nombre": "10K Popular de Náquera",
-   "modalidad": "10k",
-   "fecha": "2026-10-17",
-   "ciudad": "Náquera",
-   "provincia": "Valencia",
-   "ccaa": "Comunitat Valenciana",
-   "lat": 39.6598817,
-   "lng": -0.4268889,
-   "web_oficial": null,
-   "fuentes": [
-    {
-     "nombre": "carreraspopulares",
-     "url": "https://carreraspopulares.com/carrera/10k-naquera"
-    },
-    {
-     "nombre": "megustacorrer",
-     "url": "https://megustacorrer.com/10k-popular-naquera-2026/"
-    }
-   ],
-   "nivel_validacion": "confirmada_organizacion",
-   "id": "9f58258d058f",
-   "fecha_confirmada": true,
-   "precio": null,
-   "precio_texto": null,
-   "ubicacion_aproximada": true,
-   "ultima_comprobacion": "2026-09-25"
-  },
-  {
-   "id": "b58fc0a2c77f",
-   "nombre": "Barcelona Spartan Weekend",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": true,
-   "ciudad": "Santa Susanna",
-   "provincia": "Barcelona",
-   "ccaa": "Cataluña",
-   "lat": 41.6357256,
-   "lng": 2.7065933,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.spartan.com/en/race/detail/10073/overview",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://www.spartan.com/en/race/detail/10073/overview"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "4a5e84776240",
-   "nombre": "Bilbao Night Running Fest - 10K",
-   "modalidad": "10k",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": true,
-   "ciudad": "Bilbao",
-   "provincia": "Bizkaia",
-   "ccaa": "País Vasco",
-   "lat": 43.2630126,
-   "lng": -2.9349852,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.bilbaonightrun.com/en-gb",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/bilbao-night-running-fest"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "cc81fd628c05",
-   "nombre": "Bilbao Night Running Fest - Media maratón",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": true,
-   "ciudad": "Bilbao",
-   "provincia": "Bizkaia",
-   "ccaa": "País Vasco",
-   "lat": 43.2630126,
-   "lng": -2.9349852,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.bilbaonightrun.com/en-gb",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/bilbao-night-running-fest"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "82dd1ebd9672",
-   "nombre": "Bilbao Night Running Fest 2026 - Media maratón",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": true,
-   "ciudad": "Bilbao",
-   "provincia": "Bizkaia",
-   "ccaa": "País Vasco",
-   "lat": 43.2630126,
-   "lng": -2.9349852,
-   "precio": 19,
-   "precio_texto": "desde 19 €",
-   "web_oficial": "https://www.bilbaonightrun.com/en-gb",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/bilbao-night-running-fest"
-    },
-    {
-     "nombre": "runnea",
-     "url": "https://www.runnea.com/carreras-populares/maraton-bilbao-night-marathon/"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "320ff4cd4cb9",
-   "nombre": "Desafío Sierra de Cádiz",
-   "modalidad": "hibrida",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": true,
-   "ciudad": "Ubrique",
-   "provincia": "Cádiz",
-   "ccaa": "Andalucía",
-   "lat": 36.6769347,
-   "lng": -5.4457808,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.runnink.com/evento/desafio-sierra-de-cadiz/123",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "plataforma_inscripcion",
-     "url": "https://www.runnink.com/evento/desafio-sierra-de-cadiz/123"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "bbe4d6dfb4ad",
-   "nombre": "Gladius Race Santacara",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": true,
-   "ciudad": "Santacara",
-   "provincia": "Navarra",
-   "ccaa": "Navarra",
-   "lat": 42.3755477,
-   "lng": -1.5477333,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.rockthesport.com/es/evento/santacara-gladius-race-2026",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "rockthesport_inscripcion",
-     "url": "https://www.rockthesport.com/es/evento/santacara-gladius-race-2026"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "b663feed5bae",
-   "nombre": "ICAN Triathlon - Triatlón larga",
-   "modalidad": "triatlon_larga",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": false,
-   "ciudad": "Gandie",
-   "provincia": null,
-   "ccaa": null,
-   "lat": null,
-   "lng": null,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/ican-triathlon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16"
-  },
-  {
-   "id": "e45148eb6f17",
-   "nombre": "ICAN Triathlon - Triatlón media",
-   "modalidad": "triatlon_media",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": false,
-   "ciudad": "Gandie",
-   "provincia": null,
-   "ccaa": null,
-   "lat": null,
-   "lng": null,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/ican-triathlon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16"
-  },
-  {
-   "id": "fc2c932b91a2",
-   "nombre": "ICAN Triathlon - Triatlón olímpico",
-   "modalidad": "triatlon_olimpico",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": false,
-   "ciudad": "Gandie",
-   "provincia": null,
-   "ccaa": null,
-   "lat": null,
-   "lng": null,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/ican-triathlon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16"
-  },
-  {
-   "id": "54700475f2c0",
-   "nombre": "ICAN Triathlon Gandia - Triatlón media",
-   "modalidad": "triatlon_media",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": true,
-   "ciudad": "Gandia",
-   "provincia": "Valencia",
-   "ccaa": "Comunitat Valenciana",
-   "lat": 38.9675925,
-   "lng": -0.1803423,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.icantriathlon.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "ahotu_calendario",
-     "url": "https://www.ahotu.com/es/evento/ican-triathlon"
-    },
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://www.icantriathlon.com/"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-09-25",
-   "web_estado": "activa"
-  },
-  {
-   "id": "69beb6f72ad9",
-   "nombre": "ICAN Triathlon Gandia - Triatlón larga",
-   "modalidad": "triatlon_larga",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": true,
-   "ciudad": "Gandia",
-   "provincia": "Valencia",
-   "ccaa": "Comunitat Valenciana",
-   "lat": 38.9675925,
-   "lng": -0.1803423,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.icantriathlon.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "ahotu_calendario",
-     "url": "https://www.ahotu.com/es/evento/ican-triathlon"
-    },
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://www.icantriathlon.com/"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-09-25",
-   "web_estado": "activa"
-  },
-  {
-   "id": "54105f7b824d",
-   "nombre": "Ocean Lava Lanzarote - Triatlón olímpico",
-   "modalidad": "triatlon_olimpico",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": false,
-   "ciudad": "Lanzarote",
-   "provincia": "Las Palmas",
-   "ccaa": "Canarias",
-   "lat": 29.0397081,
-   "lng": -13.6362916,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/ocean-lava-lanzarote"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16"
-  },
-  {
-   "id": "0238dc1bc5df",
-   "nombre": "Ocean Lava Lanzarote - Triatlón media",
-   "modalidad": "triatlon_media",
-   "fecha": "2026-10-17",
-   "fecha_confirmada": false,
-   "ciudad": "Lanzarote",
-   "provincia": "Las Palmas",
-   "ccaa": "Canarias",
-   "lat": 29.0397081,
-   "lng": -13.6362916,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/ocean-lava-lanzarote"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16"
-  },
-  {
-   "id": "6ba4b12b840f",
-   "nombre": "IRONMAN 70.3 Málaga",
-   "modalidad": "triatlon_media",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Málaga",
-   "provincia": "Málaga",
-   "ccaa": "Andalucía",
-   "lat": 36.7647913,
-   "lng": -4.4422005,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.ironman.com/races/im703-malaga",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "ironman_oficial",
-     "url": "https://www.ironman.com/races/im703-malaga"
-    },
-    {
-     "nombre": "ahotu_calendario",
-     "url": "https://www.ahotu.com/es/evento/ironman-70-3-malaga"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-09-25",
-   "web_estado": "activa"
-  },
-  {
-   "id": "31698cb7798b",
-   "nombre": "Palma Marathon Mallorca",
-   "modalidad": "maraton",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Palma de Mallorca",
-   "provincia": "Illes Balears",
-   "ccaa": "Illes Balears",
-   "lat": 39.56939,
-   "lng": 2.65024,
-   "precio": 19,
-   "precio_texto": "desde 19 €",
-   "web_oficial": "https://www.palmademallorcamarathon.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "carreraspopulares",
-     "url": "https://carreraspopulares.com/carrera/palma-marathon-mallorca"
-    },
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/palma-de-mallorca-marathon"
-    },
-    {
-     "nombre": "runnea",
-     "url": "https://www.runnea.com/carreras-populares/maraton-palma/"
-    }
-   ],
-   "nivel_validacion": "confirmada_organizacion",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "65330f09cbd6",
-   "nombre": "Palma de Mallorca Marathon",
-   "modalidad": "maraton",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Palma de Mallorca",
-   "provincia": "Illes Balears",
-   "ccaa": "Illes Balears",
-   "lat": 39.56939,
-   "lng": 2.65024,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.palmademallorcamarathon.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/palma-de-mallorca-marathon"
-    }
-   ],
-   "nivel_validacion": "confirmada_organizacion",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "aa178d819173",
-   "nombre": "Palma de Mallorca Marathon - 10K",
-   "modalidad": "10k",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Palma de Mallorca",
-   "provincia": "Illes Balears",
-   "ccaa": "Illes Balears",
-   "lat": 39.56939,
-   "lng": 2.65024,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.palmademallorcamarathon.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/palma-de-mallorca-marathon"
-    }
-   ],
-   "nivel_validacion": "confirmada_organizacion",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "e905fc23b937",
-   "nombre": "Palma de Mallorca Marathon - Media maratón",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Palma de Mallorca",
-   "provincia": "Illes Balears",
-   "ccaa": "Illes Balears",
-   "lat": 39.56939,
-   "lng": 2.65024,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.palmademallorcamarathon.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/palma-de-mallorca-marathon"
-    }
-   ],
-   "nivel_validacion": "confirmada_organizacion",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "37f8a6177663",
-   "nombre": "Pontevedra Half-Marathon",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Pontevedra",
-   "provincia": "Pontevedra",
-   "ccaa": "Galicia",
-   "lat": 42.431,
-   "lng": -8.64435,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://mediasmaratones.com/carreras/media-maraton-pontevedra/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/pontevedra-half-marathon"
-    },
-    {
-     "nombre": "runnersworld",
-     "url": "https://www.runnersworld.com/es/training/a70075791/calendario-carreras-medio-maraton-espana-2026/"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "fff62f1f4c81",
-   "nombre": "Pontevedra Half-Marathon - 10K",
-   "modalidad": "10k",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Pontevedra",
-   "provincia": "Pontevedra",
-   "ccaa": "Galicia",
-   "lat": 42.431,
-   "lng": -8.64435,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://mediasmaratones.com/carreras/media-maraton-pontevedra/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/pontevedra-half-marathon"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "14955fb45c0c",
-   "nombre": "Quijote Marathon Ciudad Real",
-   "modalidad": "maraton",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Ciudad Real",
-   "provincia": "Ciudad Real",
-   "ccaa": "Castilla-La Mancha",
-   "lat": 38.98626,
-   "lng": -3.92907,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://quijotemaraton.com/maraton/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/quijote-marathon-ciudad-real"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "d728e6458228",
-   "nombre": "Quijote Marathon Ciudad Real - Media maratón",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Ciudad Real",
-   "provincia": "Ciudad Real",
-   "ccaa": "Castilla-La Mancha",
-   "lat": 38.98626,
-   "lng": -3.92907,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://quijotemaraton.com/maraton/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/quijote-marathon-ciudad-real"
-    },
-    {
-     "nombre": "runnersworld",
-     "url": "https://www.runnersworld.com/es/training/a70075791/calendario-carreras-medio-maraton-espana-2026/"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "4682ba7bff18",
-   "nombre": "Quijote Maraton de Ciudad Real",
-   "modalidad": "maraton",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Ciudad Real",
-   "provincia": "Ciudad Real",
-   "ccaa": "Castilla-La Mancha",
-   "lat": 38.98626,
-   "lng": -3.92907,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://quijotemaraton.com/maraton/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "carreraspopulares",
-     "url": "https://carreraspopulares.com/carrera/quijote-maraton-ciudad-real"
-    },
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/quijote-marathon-ciudad-real"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "78f3e8c4cfb4",
-   "nombre": "SGRAIL 100 Girona - Triatlón media",
-   "modalidad": "triatlon_media",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": false,
-   "ciudad": "Cadaqués",
-   "provincia": "Girona",
-   "ccaa": "Cataluña",
-   "lat": 42.2893484,
-   "lng": 3.2752159,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/sgrail-100-girona"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16"
-  },
-  {
-   "id": "8b0c1171d1db",
-   "nombre": "Torrevieja Half Marathon",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Torrevieja",
-   "provincia": "Alicante",
-   "ccaa": "Comunitat Valenciana",
-   "lat": 37.97872,
-   "lng": -0.68222,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://mediasmaratones.com/carreras/media-maraton-torrevieja/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/torrevieja-half-marathon"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "7110dfe7cbbf",
-   "nombre": "V Solidarity Race For Biodiversity - 10K",
-   "modalidad": "10k",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Rivas-Vaciamadrid",
-   "provincia": "Madrid",
-   "ccaa": "Comunidad de Madrid",
-   "lat": 40.32605,
-   "lng": -3.51089,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://runfasterrivas.es/carrera-por-la-biodiversidad/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/v-solidarity-race-for-biodiversity"
-    }
-   ],
-   "nivel_validacion": "confirmada_organizacion",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "15374b6b5e4f",
-   "nombre": "V Solidarity Race For Biodiversity - 5K",
-   "modalidad": "5k",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": true,
-   "ciudad": "Rivas-Vaciamadrid",
-   "provincia": "Madrid",
-   "ccaa": "Comunidad de Madrid",
-   "lat": 40.32605,
-   "lng": -3.51089,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://runfasterrivas.es/carrera-por-la-biodiversidad/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/v-solidarity-race-for-biodiversity"
-    }
-   ],
-   "nivel_validacion": "confirmada_organizacion",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "753da1e96823",
-   "nombre": "Vila-Seca Half Marathon - 5K",
-   "modalidad": "5k",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": false,
-   "ciudad": "Vila-seca",
-   "provincia": "Tarragona",
-   "ccaa": "Cataluña",
-   "lat": 41.11118,
-   "lng": 1.14764,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.runnersvilaseca.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/vila-seca-half-marathon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "4c268ecfc988",
-   "nombre": "Vila-Seca Half Marathon - 10K",
-   "modalidad": "10k",
-   "fecha": "2026-10-18",
-   "fecha_confirmada": false,
-   "ciudad": "Vila-seca",
-   "provincia": "Tarragona",
-   "ccaa": "Cataluña",
-   "lat": 41.11118,
-   "lng": 1.14764,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.runnersvilaseca.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/vila-seca-half-marathon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "64d103776633",
@@ -1493,8 +51,8 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa"
   },
   {
    "id": "010efcfcb341",
@@ -1575,7 +133,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -1628,6 +186,30 @@
    "web_estado": "activa_sin_fecha"
   },
   {
+   "id": "2cc76a969805",
+   "nombre": "Ibiza Trail Maratón",
+   "modalidad": "maraton",
+   "fecha": "2026-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Sant Antoni de Portmany - Ibiza",
+   "provincia": "Illes Balears",
+   "ccaa": "Illes Balears",
+   "lat": 38.9830568,
+   "lng": 1.3009485,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
    "id": "9d52ccc4c3b3",
    "nombre": "Survivor Madrid Quijorna",
    "modalidad": "obstaculos",
@@ -1653,7 +235,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -1702,7 +284,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -1731,7 +313,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -1785,31 +367,6 @@
    "web_estado": "activa_sin_fecha"
   },
   {
-   "id": "a754f6d0b669",
-   "nombre": "Carabanchel 10km",
-   "modalidad": "10k",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": true,
-   "ciudad": "Madrid",
-   "provincia": "Madrid",
-   "ccaa": "Comunidad de Madrid",
-   "lat": 40.4167754,
-   "lng": -3.7037902,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.10kcarabanchel.es/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/carabanchel-10km"
-    }
-   ],
-   "nivel_validacion": "confirmada_organizacion",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
    "id": "add6e6b99c29",
    "nombre": "Carreira Pedestre Popular de Santiago - 10K",
    "modalidad": "10k",
@@ -1830,8 +387,9 @@
      "url": "https://www.finishers.com/event/carreira-pedestre-popular-de-santiago"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -1889,8 +447,32 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
+  },
+  {
+   "id": "fa282b733de9",
+   "nombre": "II Media Maratón Rural y I 11K Rural Villanueva de la Torre",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-10-25",
+   "fecha_confirmada": false,
+   "ciudad": "Villanueva de la Torre",
+   "provincia": "Guadalajara",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 40.5926539,
+   "lng": -3.3040213,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/media-maraton-rural"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "18c2b207b5ee",
@@ -1915,31 +497,6 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16"
-  },
-  {
-   "id": "ed5d5582f92d",
-   "nombre": "Ibiza Sprint Triathlon",
-   "modalidad": "triatlon_sprint",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": false,
-   "ciudad": "Ibiza",
-   "provincia": "Illes Balears",
-   "ccaa": "Illes Balears",
-   "lat": 38.9743901,
-   "lng": 1.4197463,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.ahotu.com/es/evento/ibiza-sprint-triathlon",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "ahotu_inscripcion",
-     "url": "https://www.ahotu.com/es/evento/ibiza-sprint-triathlon"
-    }
-   ],
-   "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida"
   },
   {
    "id": "d836ce7a1efc",
@@ -2011,33 +568,9 @@
      "url": "https://www.finishers.com/event/lleida-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida"
-  },
-  {
-   "id": "7c3d0f3a919c",
-   "nombre": "Lleida Marathon - 10K",
-   "modalidad": "10k",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": false,
-   "ciudad": "Lérida",
-   "provincia": "Lleida",
-   "ccaa": "Cataluña",
-   "lat": 41.61674,
-   "lng": 0.62218,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://maratolleida.org/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/lleida-marathon"
-    }
-   ],
-   "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -2061,8 +594,9 @@
      "url": "https://www.finishers.com/event/lleida-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -2094,9 +628,9 @@
      "url": "https://www.runnea.com/carreras-populares/medio-maraton-valencia/"
     }
    ],
-   "nivel_validacion": "confirmada_organizacion",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa"
   },
   {
    "id": "3f9a3a7aff3a",
@@ -2119,9 +653,9 @@
      "url": "https://www.finishers.com/event/valencia-half-marathon"
     }
    ],
-   "nivel_validacion": "confirmada_organizacion",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa"
   },
   {
    "id": "ced2b11ae0f9",
@@ -2145,8 +679,32 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
+  },
+  {
+   "id": "560cb149c6ff",
+   "nombre": "Cursa de les caves - 10K",
+   "modalidad": "10k",
+   "fecha": "2026-11-01",
+   "fecha_confirmada": false,
+   "ciudad": "Lavern",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 41.3905875,
+   "lng": 1.7710504,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/cursa-de-les-caves"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "3f9ff9b50fa2",
@@ -2170,7 +728,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -2219,7 +777,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -2244,7 +802,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -2348,6 +906,54 @@
    "web_estado": "activa_sin_fecha"
   },
   {
+   "id": "b68a82e22951",
+   "nombre": "10K Popular de Naquera",
+   "modalidad": "10k",
+   "fecha": "2026-11-07",
+   "fecha_confirmada": false,
+   "ciudad": "Náquera",
+   "provincia": "Valencia",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 39.6598817,
+   "lng": -0.4268889,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/10k-naquera"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "2adcab79190d",
+   "nombre": "Binter Nightrun las Palmas de - 10K",
+   "modalidad": "10k",
+   "fecha": "2026-11-07",
+   "fecha_confirmada": false,
+   "ciudad": "Las Palmas",
+   "provincia": "Las Palmas",
+   "ccaa": "Canarias",
+   "lat": 28.1288694,
+   "lng": -15.4349015,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/binter-nightrun-las-palmas-de-gran-canaria"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
    "id": "a083599ad8da",
    "nombre": "Extreme OCR Telde",
    "modalidad": "obstaculos",
@@ -2375,6 +981,30 @@
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-09-25",
    "web_estado": "activa"
+  },
+  {
+   "id": "cd04fa7a20e7",
+   "nombre": "Marató Dels Dements",
+   "modalidad": "maraton",
+   "fecha": "2026-11-07",
+   "fecha_confirmada": false,
+   "ciudad": "Eslida",
+   "provincia": "Castellón",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 39.8794321,
+   "lng": -0.3079326,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/marato-dels-dements"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "5d7b3305ffa5",
@@ -2406,6 +1036,30 @@
    "web_estado": "activa_sin_fecha"
   },
   {
+   "id": "50b575bd535e",
+   "nombre": "10K de Moratalaz",
+   "modalidad": "10k",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": false,
+   "ciudad": "Madrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "lat": 40.4237276,
+   "lng": -3.6899043,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/10k-de-moratalaz"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
    "id": "2baa374b6bca",
    "nombre": "31 Mitja Marató Ciutat de Gandia",
    "modalidad": "medio_maraton",
@@ -2431,7 +1085,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -2490,7 +1144,32 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
+   "web_estado": "caida",
+   "ultimo_intento_tecnico": "2026-10-20"
+  },
+  {
+   "id": "7b241a544c6d",
+   "nombre": "Cursa Bombers Barcelona - 10K",
+   "modalidad": "10k",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": false,
+   "ciudad": "Barcelona",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 41.3825802,
+   "lng": 2.177073,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/cursa-bombers-barcelona"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "ed38811648bd",
@@ -2513,8 +1192,9 @@
      "url": "https://www.finishers.com/event/fuengirola-half-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -2538,8 +1218,9 @@
      "url": "https://www.finishers.com/event/fuengirola-half-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -2568,32 +1249,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
-  },
-  {
-   "id": "9f1319d9f75e",
-   "nombre": "Gandía Half Marathon & 10K",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-11-08",
-   "fecha_confirmada": true,
-   "ciudad": "Gandie",
-   "provincia": null,
-   "ccaa": null,
-   "lat": 38.968032,
-   "lng": -0.1844671,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://mitjagandia.org/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/gandia-half-marathon"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -2622,7 +1278,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -2651,7 +1307,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -2676,7 +1332,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -2701,8 +1357,8 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa"
   },
   {
    "id": "d826813212ef",
@@ -2730,7 +1386,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -2755,8 +1411,61 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
+  },
+  {
+   "id": "fa09d955633e",
+   "nombre": "Trofeo Marathon de Campo A Través",
+   "modalidad": "maraton",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": false,
+   "ciudad": "Madrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "lat": 40.4237276,
+   "lng": -3.6899043,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/trofeo-marathon-de-campo-a-traves"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "932775ffcc33",
+   "nombre": "Xii Media Maratón Ávila Monumental y 10K",
+   "modalidad": "10k",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": false,
+   "ciudad": "Ávila",
+   "provincia": "Ávila",
+   "ccaa": "Castilla y León",
+   "lat": 40.65724,
+   "lng": -4.69951,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "http://www.mmavilamonumental.com/web/presentacion",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/media-maraton-avila-monumental"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/avila-half-marathon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
   },
   {
    "id": "5b9b4208ee89",
@@ -2792,56 +1501,6 @@
    "web_estado": "activa_sin_fecha"
   },
   {
-   "id": "dd4c36b17d08",
-   "nombre": "Ávila Half Marathon - 10K",
-   "modalidad": "10k",
-   "fecha": "2026-11-08",
-   "fecha_confirmada": false,
-   "ciudad": "Ávila",
-   "provincia": "Ávila",
-   "ccaa": "Castilla y León",
-   "lat": 40.65724,
-   "lng": -4.69951,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "http://www.mmavilamonumental.com/web/presentacion",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/avila-half-marathon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "108eb08aa36a",
-   "nombre": "Ávila Half Marathon",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-11-08",
-   "fecha_confirmada": false,
-   "ciudad": "Ávila",
-   "provincia": "Ávila",
-   "ccaa": "Castilla y León",
-   "lat": 40.65724,
-   "lng": -4.69951,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "http://www.mmavilamonumental.com/web/presentacion",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/avila-half-marathon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
    "id": "77735e0f08f0",
    "nombre": "HYROX Barcelona",
    "modalidad": "hyrox",
@@ -2864,7 +1523,8 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "web_estado": "caida",
+   "ultimo_intento_tecnico": "2026-10-20"
   },
   {
    "id": "dc8f5492c67e",
@@ -2892,6 +1552,102 @@
    "web_estado": "activa_sin_fecha"
   },
   {
+   "id": "df5be7e886aa",
+   "nombre": "Maraton de la Alcarria",
+   "modalidad": "maraton",
+   "fecha": "2026-11-14",
+   "fecha_confirmada": false,
+   "ciudad": "Alovera",
+   "provincia": "Guadalajara",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 40.5953571,
+   "lng": -3.2487763,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/maraton-de-la-alcarria"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "63c5a2da2dd8",
+   "nombre": "10K y 5K Almoradiel",
+   "modalidad": "5k",
+   "fecha": "2026-11-15",
+   "fecha_confirmada": false,
+   "ciudad": "Puebla de Almoradiel, La",
+   "provincia": "Toledo",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 39.5982659,
+   "lng": -3.1186131,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/10k-almoradiel"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "19fb9f02a6cd",
+   "nombre": "10K y 5K Almoradiel",
+   "modalidad": "10k",
+   "fecha": "2026-11-15",
+   "fecha_confirmada": false,
+   "ciudad": "Puebla de Almoradiel, La",
+   "provincia": "Toledo",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 39.5982659,
+   "lng": -3.1186131,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/10k-almoradiel"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "53c30e261a7c",
+   "nombre": "13ª CARRERA Y CAMINATA POPULAR POR LA DIABETES MADRID - 5K",
+   "modalidad": "5k",
+   "fecha": "2026-11-15",
+   "fecha_confirmada": false,
+   "ciudad": "Madrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "lat": 40.4237276,
+   "lng": -3.6899043,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/carrera-y-caminata-popular-por-la-diabetes-madrid"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
    "id": "fbd68bbfde50",
    "nombre": "Herri Krosa Bilbao 2026 - 10K",
    "modalidad": "10k",
@@ -2913,7 +1669,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -2967,19 +1723,24 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
+   "id": "819e119dc47a",
    "nombre": "Medio Maratón Orihuela Monumental",
    "modalidad": "medio_maraton",
    "fecha": "2026-11-15",
+   "fecha_confirmada": true,
    "ciudad": "Orihuela",
    "provincia": "Alicante",
    "ccaa": "Comunitat Valenciana",
    "lat": 38.0839833,
    "lng": -0.9450405,
+   "precio": null,
+   "precio_texto": null,
    "web_oficial": "https://www.tragamillas.org/main.htm",
+   "ubicacion_aproximada": true,
    "fuentes": [
     {
      "nombre": "organizador_oficial",
@@ -2995,13 +1756,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "id": "819e119dc47a",
-   "fecha_confirmada": true,
-   "precio": null,
-   "precio_texto": null,
-   "ubicacion_aproximada": true,
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "349bf5fffcd3",
@@ -3037,37 +1792,28 @@
    "web_estado": "activa_sin_fecha"
   },
   {
-   "id": "8e8c3715b805",
-   "nombre": "Xxvii Medio Maratón \"orihuela Monumental\" y X 8K \"gran Premio Caja Rural Central\"",
+   "id": "28dc3d397fe7",
+   "nombre": "Xx Media Maratón Malpartida de Plasencia-reserva de la Biosfera de Monfragüe",
    "modalidad": "medio_maraton",
    "fecha": "2026-11-15",
-   "fecha_confirmada": true,
-   "ciudad": "Orihuela",
-   "provincia": "Alicante",
-   "ccaa": "Comunitat Valenciana",
-   "lat": 38.0839833,
-   "lng": -0.9450405,
+   "fecha_confirmada": false,
+   "ciudad": "Malpartida de Plasencia",
+   "provincia": "Cáceres",
+   "ccaa": "Extremadura",
+   "lat": 39.9811621,
+   "lng": -6.0437752,
    "precio": null,
    "precio_texto": null,
-   "web_oficial": "https://www.tragamillas.org/main.htm",
+   "web_oficial": null,
    "ubicacion_aproximada": false,
    "fuentes": [
     {
      "nombre": "carreraspopulares",
-     "url": "https://carreraspopulares.com/carrera/medio-maraton-ciudad-de-orihuela"
-    },
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://www.tragamillas.org/main.htm"
-    },
-    {
-     "nombre": "inscripciones",
-     "url": "https://www.chiplevante.com/es/prueba/media-maraton-y-8k-de-orihuela-684-2026"
+     "url": "https://carreraspopulares.com/carrera/xix-media-maraton-malpartida-de-plasencia-reserva-de-la-biosfera-de-monfraguee-gran-premio-iberdrola-ED57710"
     }
    ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa"
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "3a7f9e8b3094",
@@ -3091,7 +1837,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -3120,7 +1866,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -3145,7 +1891,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -3169,8 +1915,9 @@
      "url": "https://www.finishers.com/event/benalmadena-half-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -3194,8 +1941,9 @@
      "url": "https://www.finishers.com/event/benalmadena-half-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -3219,8 +1967,9 @@
      "url": "https://www.finishers.com/event/benalmadena-half-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -3282,7 +2031,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -3311,7 +2060,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -3336,7 +2085,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -3361,7 +2110,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -3390,7 +2139,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -3527,7 +2276,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -3556,7 +2305,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -3581,8 +2330,32 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
+  },
+  {
+   "id": "c40ffcf43cc0",
+   "nombre": "Media Maratón Unión Alcoyana Seguros",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-29",
+   "fecha_confirmada": false,
+   "ciudad": "Alcoy",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 38.6982348,
+   "lng": -0.4747619,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/media-maraton-union-alcoyana-seguros-2022"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "f8dbafe9f23e",
@@ -3639,135 +2412,6 @@
    "web_estado": "activa_sin_fecha"
   },
   {
-   "id": "d076cd84cb6d",
-   "nombre": "Lanzarote International Marathon 2026",
-   "modalidad": "maraton",
-   "fecha": "2026-12-03",
-   "fecha_confirmada": false,
-   "ciudad": "Costa Teguise",
-   "provincia": "Las Palmas",
-   "ccaa": "Canarias",
-   "lat": 28.9981141,
-   "lng": -13.4929633,
-   "precio": 19,
-   "precio_texto": "desde 19 €",
-   "web_oficial": "https://www.lanzaroteinternationalmarathon.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/lanzarote-marathon"
-    },
-    {
-     "nombre": "runnea",
-     "url": "https://www.runnea.com/carreras-populares/maraton-de-lanzarote/"
-    }
-   ],
-   "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida"
-  },
-  {
-   "id": "e3f551d890a7",
-   "nombre": "Lanzarote Marathon",
-   "modalidad": "maraton",
-   "fecha": "2026-12-03",
-   "fecha_confirmada": false,
-   "ciudad": "Costa Teguise",
-   "provincia": "Las Palmas",
-   "ccaa": "Canarias",
-   "lat": 28.9981141,
-   "lng": -13.4929633,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.lanzaroteinternationalmarathon.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/lanzarote-marathon"
-    }
-   ],
-   "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida"
-  },
-  {
-   "id": "8cc2e21226d8",
-   "nombre": "Lanzarote Marathon - 10K",
-   "modalidad": "10k",
-   "fecha": "2026-12-03",
-   "fecha_confirmada": false,
-   "ciudad": "Costa Teguise",
-   "provincia": "Las Palmas",
-   "ccaa": "Canarias",
-   "lat": 28.9981141,
-   "lng": -13.4929633,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.lanzaroteinternationalmarathon.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/lanzarote-marathon"
-    }
-   ],
-   "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida"
-  },
-  {
-   "id": "19ae06b185e6",
-   "nombre": "Lanzarote Marathon - 5K",
-   "modalidad": "5k",
-   "fecha": "2026-12-03",
-   "fecha_confirmada": false,
-   "ciudad": "Costa Teguise",
-   "provincia": "Las Palmas",
-   "ccaa": "Canarias",
-   "lat": 28.9981141,
-   "lng": -13.4929633,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.lanzaroteinternationalmarathon.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/lanzarote-marathon"
-    }
-   ],
-   "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida"
-  },
-  {
-   "id": "f6306b4a6380",
-   "nombre": "Lanzarote Marathon - Media maratón",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-12-03",
-   "fecha_confirmada": false,
-   "ciudad": "Costa Teguise",
-   "provincia": "Las Palmas",
-   "ccaa": "Canarias",
-   "lat": 28.9981141,
-   "lng": -13.4929633,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.lanzaroteinternationalmarathon.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/lanzarote-marathon"
-    }
-   ],
-   "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida"
-  },
-  {
    "id": "5c965c905461",
    "nombre": "Bestial Race Gran Canaria",
    "modalidad": "obstaculos",
@@ -3793,8 +2437,92 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa"
+  },
+  {
+   "id": "041d4dca19be",
+   "nombre": "Lanzarote International Marathon",
+   "modalidad": "maraton",
+   "fecha": "2026-12-05",
+   "fecha_confirmada": true,
+   "ciudad": "Costa Teguise",
+   "provincia": "Las Palmas",
+   "ccaa": "Canarias",
+   "lat": 28.9981141,
+   "lng": -13.4929633,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.lanzaroteinternationalmarathon.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/lanzarote-marathon"
+    },
+    {
+     "nombre": "organizador_oficial",
+     "url": "https://www.lanzaroteinternationalmarathon.com/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "8a7eda4ba25f",
+   "nombre": "Lanzarote International Marathon - 10K",
+   "modalidad": "10k",
+   "fecha": "2026-12-05",
+   "fecha_confirmada": true,
+   "ciudad": "Costa Teguise",
+   "provincia": "Las Palmas",
+   "ccaa": "Canarias",
+   "lat": 28.9981141,
+   "lng": -13.4929633,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.lanzaroteinternationalmarathon.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/lanzarote-marathon"
+    },
+    {
+     "nombre": "organizador_oficial",
+     "url": "https://www.lanzaroteinternationalmarathon.com/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "c4914f2a14d0",
+   "nombre": "Lanzarote International Marathon - Media maratón",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-12-05",
+   "fecha_confirmada": true,
+   "ciudad": "Costa Teguise",
+   "provincia": "Las Palmas",
+   "ccaa": "Canarias",
+   "lat": 28.9981141,
+   "lng": -13.4929633,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.lanzaroteinternationalmarathon.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/lanzarote-marathon"
+    },
+    {
+     "nombre": "organizador_oficial",
+     "url": "https://www.lanzaroteinternationalmarathon.com/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "aabfebdbe2f3",
@@ -3822,7 +2550,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -3925,9 +2653,58 @@
      "url": "https://www.finishers.com/event/edp-madrid-half-marathon-women-s-race"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
+  },
+  {
+   "id": "7a4cc9cf570e",
+   "nombre": "Xiv 5K y 10K Fuentes de Ebro",
+   "modalidad": "5k",
+   "fecha": "2026-12-12",
+   "fecha_confirmada": false,
+   "ciudad": "Fuentes de Ebro",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "lat": 41.5113985,
+   "lng": -0.6286721,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/10k-y-5k-fuentes-de-ebro"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "13eb6b1a40bc",
+   "nombre": "Xiv 5K y 10K Fuentes de Ebro",
+   "modalidad": "10k",
+   "fecha": "2026-12-12",
+   "fecha_confirmada": false,
+   "ciudad": "Fuentes de Ebro",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "lat": 41.5113985,
+   "lng": -0.6286721,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/10k-y-5k-fuentes-de-ebro"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "67bf5fa31cb1",
@@ -3951,7 +2728,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -3976,7 +2753,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4001,7 +2778,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4026,7 +2803,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4055,7 +2832,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4083,9 +2860,34 @@
      "url": "https://www.finishers.com/event/seville-half-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
+  },
+  {
+   "id": "802c8c98065a",
+   "nombre": "Xvi Medio Maraton Navalmoral de la Mata, y Viii Diez Mil de Navalmoral de la Mata",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-12-13",
+   "fecha_confirmada": false,
+   "ciudad": "Navalmoral de la Mata",
+   "provincia": "Cáceres",
+   "ccaa": "Extremadura",
+   "lat": 39.8915481,
+   "lng": -5.540719,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/medio-maraton-de-navalmoral-de-la-mata"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "326db1f937ed",
@@ -4138,6 +2940,54 @@
    "web_estado": "activa_sin_fecha"
   },
   {
+   "id": "c55af305d5aa",
+   "nombre": "Xi 5K 10K San Mateo de Gállego",
+   "modalidad": "5k",
+   "fecha": "2026-12-19",
+   "fecha_confirmada": false,
+   "ciudad": "San Mateo de Gállego",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "lat": 41.8316282,
+   "lng": -0.7656157,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/5k-10k-san-mateo-de-gallego"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "58be9860af0d",
+   "nombre": "Xi 5K 10K San Mateo de Gállego",
+   "modalidad": "10k",
+   "fecha": "2026-12-19",
+   "fecha_confirmada": false,
+   "ciudad": "San Mateo de Gállego",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "lat": 41.8316282,
+   "lng": -0.7656157,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/5k-10k-san-mateo-de-gallego"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
    "id": "0f360adfcbbd",
    "nombre": "San Silvestre Salmantina 2026 - 10K",
    "modalidad": "10k",
@@ -4159,38 +3009,13 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
    "id": "2dd23c3c41f6",
    "nombre": "Course dels Nassos - 5K",
    "modalidad": "5k",
-   "fecha": "2026-12-30",
-   "fecha_confirmada": false,
-   "ciudad": "Barcelona",
-   "provincia": "Barcelona",
-   "ccaa": "Cataluña",
-   "lat": 41.3850639,
-   "lng": 2.1734035,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://cursadenassos.barcelona/fr",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/course-dels-nassos"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "89c121bbd130",
-   "nombre": "Course dels Nassos - 10K",
-   "modalidad": "10k",
    "fecha": "2026-12-30",
    "fecha_confirmada": false,
    "ciudad": "Barcelona",
@@ -4288,6 +3113,35 @@
    "web_estado": "activa_sin_fecha"
   },
   {
+   "id": "03c041c76979",
+   "nombre": "Course dels Nassos - 10K",
+   "modalidad": "10k",
+   "fecha": "2026-12-31",
+   "fecha_confirmada": false,
+   "ciudad": "Barcelona",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 41.3850639,
+   "lng": 2.1734035,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://cursadenassos.barcelona/fr",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/cursa-dels-nassos"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/course-dels-nassos"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
    "id": "d0013c864734",
    "nombre": "10k Valencia",
    "modalidad": "10k",
@@ -4317,7 +3171,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4342,7 +3196,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4367,7 +3221,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4392,7 +3246,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4421,7 +3275,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4446,7 +3300,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4471,7 +3325,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4519,8 +3373,9 @@
      "url": "https://www.finishers.com/event/getafe-half-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -4545,7 +3400,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4570,7 +3425,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4595,7 +3450,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4694,7 +3549,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4770,7 +3625,56 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "web_estado": "caida",
+   "ultimo_intento_tecnico": "2026-10-20"
+  },
+  {
+   "id": "b6022d9ec410",
+   "nombre": "Xi 5K 10K Frío Extremo 2027 Monreal del Campo",
+   "modalidad": "5k",
+   "fecha": "2027-02-06",
+   "fecha_confirmada": false,
+   "ciudad": "Monreal del Campo",
+   "provincia": "Teruel",
+   "ccaa": "Aragón",
+   "lat": 40.7749459,
+   "lng": -1.3493715,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/5k-y-10k-frio-extremo"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "ae253445faa8",
+   "nombre": "Xi 5K 10K Frío Extremo 2027 Monreal del Campo",
+   "modalidad": "10k",
+   "fecha": "2027-02-06",
+   "fecha_confirmada": false,
+   "ciudad": "Monreal del Campo",
+   "provincia": "Teruel",
+   "ccaa": "Aragón",
+   "lat": 40.7749459,
+   "lng": -1.3493715,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/5k-y-10k-frio-extremo"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "d68ecc36e5e1",
@@ -4798,7 +3702,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4827,7 +3731,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -4989,6 +3893,30 @@
    "web_estado": "activa_sin_fecha"
   },
   {
+   "id": "28173bd49465",
+   "nombre": "Xxxvii Media Maraton de Torremolinos",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-02-07",
+   "fecha_confirmada": false,
+   "ciudad": "Torremolinos",
+   "provincia": "Málaga",
+   "ccaa": "Andalucía",
+   "lat": 36.6242841,
+   "lng": -4.4995448,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/media-maraton-de-torremolinos"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
    "id": "3252a147ce46",
    "nombre": "10k Gimnástica de Ulía 2027",
    "modalidad": "10k",
@@ -5010,7 +3938,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5035,7 +3963,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5089,6 +4017,30 @@
    "web_estado": "activa_sin_fecha"
   },
   {
+   "id": "c2ad685fab70",
+   "nombre": "Marató Bp Castelló",
+   "modalidad": "maraton",
+   "fecha": "2027-02-14",
+   "fecha_confirmada": false,
+   "ciudad": "Castellon",
+   "provincia": "Castellón",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 39.9860347,
+   "lng": -0.0377354,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/maraton-bp-castellon"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
    "id": "55ea537b3369",
    "nombre": "Maratón Castellón 2027",
    "modalidad": "maraton",
@@ -5114,7 +4066,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5147,6 +4099,30 @@
    "web_estado": "activa"
   },
   {
+   "id": "080b427839d3",
+   "nombre": "Medio Maratón de Fuencarral el Pardo",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-02-14",
+   "fecha_confirmada": false,
+   "ciudad": "Madrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "lat": 40.4237276,
+   "lng": -3.6899043,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/medio-maraton-de-fuencarral-el-pardo"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
    "id": "ba6aeaa2b9f2",
    "nombre": "Mitja Marató de Barcelona",
    "modalidad": "medio_maraton",
@@ -5176,7 +4152,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5330,7 +4306,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5355,8 +4331,56 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
+  },
+  {
+   "id": "14a0e205f4ea",
+   "nombre": "Xi 5K 10K Ciudad de Cariñena",
+   "modalidad": "5k",
+   "fecha": "2027-02-21",
+   "fecha_confirmada": false,
+   "ciudad": "Cariñena",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "lat": 41.3382122,
+   "lng": -1.2263149,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/5k-10k-ciudad-de-carinena"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "d81a923aa30d",
+   "nombre": "Xi 5K 10K Ciudad de Cariñena",
+   "modalidad": "10k",
+   "fecha": "2027-02-21",
+   "fecha_confirmada": false,
+   "ciudad": "Cariñena",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "lat": 41.3382122,
+   "lng": -1.2263149,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/5k-10k-ciudad-de-carinena"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "510641080d52",
@@ -5405,7 +4429,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5530,7 +4554,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5555,8 +4579,56 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
+  },
+  {
+   "id": "da9eeb17a9cd",
+   "nombre": "Xvi 5K 10K Ciudad de Teruel",
+   "modalidad": "5k",
+   "fecha": "2027-02-28",
+   "fecha_confirmada": false,
+   "ciudad": "Teruel",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "lat": 41.6490088,
+   "lng": -0.8979269,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/10k-y-5k-ciudad-de-teruel"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "f1e31fa65832",
+   "nombre": "Xvi 5K 10K Ciudad de Teruel",
+   "modalidad": "10k",
+   "fecha": "2027-02-28",
+   "fecha_confirmada": false,
+   "ciudad": "Teruel",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "lat": 41.6490088,
+   "lng": -0.8979269,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/10k-y-5k-ciudad-de-teruel"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "c8e04205e47a",
@@ -5609,7 +4681,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5659,7 +4731,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5692,6 +4764,30 @@
    "web_estado": "activa_sin_fecha"
   },
   {
+   "id": "72563bc5fe09",
+   "nombre": "Media Maraton Universitaria",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-03-07",
+   "fecha_confirmada": false,
+   "ciudad": "Madrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "lat": 40.4237276,
+   "lng": -3.6899043,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/media-maraton-universitaria"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
    "id": "0c61696ebf34",
    "nombre": "Salamanca Half-Marathon",
    "modalidad": "medio_maraton",
@@ -5713,7 +4809,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5762,7 +4858,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5791,8 +4887,8 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa"
   },
   {
    "id": "a38546bd4155",
@@ -5824,7 +4920,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5853,7 +4949,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -5878,7 +4974,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6001,7 +5097,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6076,7 +5172,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6132,7 +5228,7 @@
    "nombre": "TotalTri Mallorca Triatló - Triatlón media",
    "modalidad": "triatlon_media",
    "fecha": "2027-03-21",
-   "fecha_confirmada": false,
+   "fecha_confirmada": true,
    "ciudad": "Capdepera",
    "provincia": "Illes Balears",
    "ccaa": "Illes Balears",
@@ -6140,17 +5236,68 @@
    "lng": 3.4321679,
    "precio": null,
    "precio_texto": null,
-   "web_oficial": "https://www.ahotu.com/es/evento/total-tri-mallorca-triatlo",
+   "web_oficial": "https://www.totaltrimallorca.com/",
    "ubicacion_aproximada": false,
    "fuentes": [
     {
      "nombre": "ahotu_inscripcion",
      "url": "https://www.ahotu.com/es/evento/total-tri-mallorca-triatlo"
+    },
+    {
+     "nombre": "organizador_oficial",
+     "url": "https://www.totaltrimallorca.com/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "9a76b53f5858",
+   "nombre": "Xvi 5K 10K Fraga Memorial Joaquín Calucho",
+   "modalidad": "5k",
+   "fecha": "2027-03-21",
+   "fecha_confirmada": false,
+   "ciudad": "Fraga",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "lat": 42.6124832,
+   "lng": -0.9980064,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/10k-de-fraga"
     }
    ],
    "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida"
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "62a076ffa266",
+   "nombre": "Xvi 5K 10K Fraga Memorial Joaquín Calucho",
+   "modalidad": "10k",
+   "fecha": "2027-03-21",
+   "fecha_confirmada": false,
+   "ciudad": "Fraga",
+   "provincia": "Zaragoza",
+   "ccaa": "Aragón",
+   "lat": 42.6124832,
+   "lng": -0.9980064,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/10k-de-fraga"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "5c90e07f82e4",
@@ -6198,7 +5345,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6227,7 +5374,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6302,7 +5449,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6356,7 +5503,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6385,7 +5532,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6532,7 +5679,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6557,7 +5704,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6582,7 +5729,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6607,7 +5754,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6636,7 +5783,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6780,8 +5927,9 @@
      "url": "https://www.finishers.com/event/madrid-course-contre-le-cancer"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -6880,7 +6028,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -6904,8 +6052,9 @@
      "url": "https://www.finishers.com/event/magaluf-half-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -6929,8 +6078,9 @@
      "url": "https://www.finishers.com/event/magaluf-half-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -6958,35 +6108,6 @@
    "ultima_comprobacion": "2026-10-16"
   },
   {
-   "id": "7117f3519154",
-   "nombre": "Anfi Challenge Mogán Gran Canaria - Triatlón media",
-   "modalidad": "triatlon_media",
-   "fecha": "2027-04-18",
-   "fecha_confirmada": false,
-   "ciudad": "Las Palmas de Gran Canaria",
-   "provincia": "Las Palmas",
-   "ccaa": "Canarias",
-   "lat": 27.8524967,
-   "lng": -15.7294065,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.ahotu.com/es/evento/challenge-mogan-gran-canaria",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/anfi-challenge-mogan-gran-canaria"
-    },
-    {
-     "nombre": "ahotu_inscripcion",
-     "url": "https://www.ahotu.com/es/evento/challenge-mogan-gran-canaria"
-    }
-   ],
-   "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida"
-  },
-  {
    "id": "896dc100efab",
    "nombre": "Desafío Valencia",
    "modalidad": "obstaculos",
@@ -7012,7 +6133,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -7182,7 +6303,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -7381,7 +6502,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -7406,7 +6527,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -7431,7 +6552,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -7965,35 +7086,6 @@
    "web_estado": "activa_sin_fecha"
   },
   {
-   "id": "a3991cd9d44b",
-   "nombre": "Challenge Salou Triathlon - Triatlón media",
-   "modalidad": "triatlon_media",
-   "fecha": "2027-05-08",
-   "fecha_confirmada": false,
-   "ciudad": "Salou",
-   "provincia": "Tarragona",
-   "ccaa": "Cataluña",
-   "lat": 41.0768193,
-   "lng": 1.1440411,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.ahotu.com/es/evento/challenge-salou-triathlon",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/salou-challenge"
-    },
-    {
-     "nombre": "ahotu_inscripcion",
-     "url": "https://www.ahotu.com/es/evento/challenge-salou-triathlon"
-    }
-   ],
-   "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida"
-  },
-  {
    "id": "8c84d2537240",
    "nombre": "El Burgo de Osma Half Marathon",
    "modalidad": "medio_maraton",
@@ -8064,7 +7156,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -8114,6 +7206,34 @@
    ],
    "nivel_validacion": "confirmada_organizacion",
    "ultima_comprobacion": "2026-10-01"
+  },
+  {
+   "id": "540c398b7510",
+   "nombre": "Challenge Salou Triathlon - Triatlón media",
+   "modalidad": "triatlon_media",
+   "fecha": "2027-05-09",
+   "fecha_confirmada": true,
+   "ciudad": "Salou",
+   "provincia": "Tarragona",
+   "ccaa": "Cataluña",
+   "lat": 41.0768193,
+   "lng": 1.1440411,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://challenge-salou.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/salou-challenge"
+    },
+    {
+     "nombre": "organizador_oficial",
+     "url": "https://challenge-salou.com/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-10-20"
   },
   {
    "id": "8a1493d61b16",
@@ -8286,7 +7406,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -8311,7 +7431,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -8505,8 +7625,9 @@
      "url": "https://www.finishers.com/event/carrera-de-la-mujer-de-vitoria"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -8535,7 +7656,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -8560,7 +7681,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -8585,7 +7706,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -8610,7 +7731,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -8818,8 +7939,9 @@
      "url": "https://www.finishers.com/event/semi-marathon-carabanchel"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -9362,6 +8484,30 @@
    "ultima_comprobacion": "2026-10-16"
   },
   {
+   "id": "5623f5c630b0",
+   "nombre": "Gran Maratón Montañas de Benasque",
+   "modalidad": "maraton",
+   "fecha": "2027-06-12",
+   "fecha_confirmada": false,
+   "ciudad": "Benasque",
+   "provincia": "Huesca",
+   "ccaa": "Aragón",
+   "lat": 42.6052663,
+   "lng": 0.5237318,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/gran-maraton-montanas-de-benasque"
+    }
+   ],
+   "nivel_validacion": "por_verificar",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
    "id": "540c4539208a",
    "nombre": "Half-Marathon for Nature",
    "modalidad": "medio_maraton",
@@ -9535,7 +8681,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -9759,7 +8905,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -9930,7 +9076,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -10920,8 +10066,8 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa"
   },
   {
    "id": "c5c635bfa22e",
@@ -11090,8 +10236,9 @@
      "url": "https://www.finishers.com/event/half-marathon-of-caceres"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -11751,7 +10898,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa"
   },
   {
@@ -11799,8 +10946,9 @@
      "url": "https://www.finishers.com/event/francisco-sanchez-falcon-paquito-half-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -12531,8 +11679,9 @@
      "url": "https://www.finishers.com/event/santander-half-marathon"
     }
    ],
-   "nivel_validacion": "por_verificar",
+   "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "ultimo_intento_tecnico": "2026-10-20",
    "web_estado": "caida"
   },
   {
@@ -12631,6 +11780,524 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "725057f0779e",
+   "nombre": "Challenge Peguera Mallorca - Triatlón media",
+   "modalidad": "triatlon_media",
+   "fecha": "2027-10-15",
+   "fecha_confirmada": false,
+   "ciudad": "Peguera",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 42.1602241,
+   "lng": 1.7719518,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/challenge-peguera-mallorca"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "03ec490fb815",
+   "nombre": "Bilbao Night Running Fest - 10K",
+   "modalidad": "10k",
+   "fecha": "2027-10-16",
+   "fecha_confirmada": false,
+   "ciudad": "Bilbao",
+   "provincia": "Bizkaia",
+   "ccaa": "País Vasco",
+   "lat": 43.2630126,
+   "lng": -2.9349852,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.bilbaonightrun.com/en-gb",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/bilbao-night-running-fest"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "8e9960a3684f",
+   "nombre": "Bilbao Night Running Fest - Media maratón",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-10-16",
+   "fecha_confirmada": false,
+   "ciudad": "Bilbao",
+   "provincia": "Bizkaia",
+   "ccaa": "País Vasco",
+   "lat": 43.2630126,
+   "lng": -2.9349852,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.bilbaonightrun.com/en-gb",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/bilbao-night-running-fest"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "469c262cea0e",
+   "nombre": "ICAN Triathlon - Triatlón larga",
+   "modalidad": "triatlon_larga",
+   "fecha": "2027-10-16",
+   "fecha_confirmada": false,
+   "ciudad": "Gandie",
+   "provincia": null,
+   "ccaa": null,
+   "lat": null,
+   "lng": null,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/ican-triathlon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "1fff3e6e41ff",
+   "nombre": "ICAN Triathlon - Triatlón media",
+   "modalidad": "triatlon_media",
+   "fecha": "2027-10-16",
+   "fecha_confirmada": false,
+   "ciudad": "Gandie",
+   "provincia": null,
+   "ccaa": null,
+   "lat": null,
+   "lng": null,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/ican-triathlon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "f903dee48b02",
+   "nombre": "ICAN Triathlon - Triatlón olímpico",
+   "modalidad": "triatlon_olimpico",
+   "fecha": "2027-10-16",
+   "fecha_confirmada": false,
+   "ciudad": "Gandie",
+   "provincia": null,
+   "ccaa": null,
+   "lat": null,
+   "lng": null,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/ican-triathlon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "5ba55cf0e110",
+   "nombre": "Ocean Lava Lanzarote - Triatlón olímpico",
+   "modalidad": "triatlon_olimpico",
+   "fecha": "2027-10-16",
+   "fecha_confirmada": false,
+   "ciudad": "Lanzarote",
+   "provincia": "Las Palmas",
+   "ccaa": "Canarias",
+   "lat": 29.0397081,
+   "lng": -13.6362916,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/ocean-lava-lanzarote"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "308c802ae65d",
+   "nombre": "Ocean Lava Lanzarote - Triatlón media",
+   "modalidad": "triatlon_media",
+   "fecha": "2027-10-16",
+   "fecha_confirmada": false,
+   "ciudad": "Lanzarote",
+   "provincia": "Las Palmas",
+   "ccaa": "Canarias",
+   "lat": 29.0397081,
+   "lng": -13.6362916,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/ocean-lava-lanzarote"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "89095bb9af2e",
+   "nombre": "Palma de Mallorca Marathon - 10K",
+   "modalidad": "10k",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": false,
+   "ciudad": "Palma de Mallorca",
+   "provincia": "Illes Balears",
+   "ccaa": "Illes Balears",
+   "lat": 39.56939,
+   "lng": 2.65024,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.palmademallorcamarathon.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/palma-de-mallorca-marathon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "bad4afc334d7",
+   "nombre": "Palma de Mallorca Marathon - Media maratón",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": false,
+   "ciudad": "Palma de Mallorca",
+   "provincia": "Illes Balears",
+   "ccaa": "Illes Balears",
+   "lat": 39.56939,
+   "lng": 2.65024,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.palmademallorcamarathon.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/palma-de-mallorca-marathon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "2d79acb652b4",
+   "nombre": "Palma de Mallorca Marathon",
+   "modalidad": "maraton",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": false,
+   "ciudad": "Palma de Mallorca",
+   "provincia": "Illes Balears",
+   "ccaa": "Illes Balears",
+   "lat": 39.56939,
+   "lng": 2.65024,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.palmademallorcamarathon.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/palma-de-mallorca-marathon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "a3a4ded84708",
+   "nombre": "Pontevedra Half-Marathon - 10K",
+   "modalidad": "10k",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": true,
+   "ciudad": "Pontevedra",
+   "provincia": "Pontevedra",
+   "ccaa": "Galicia",
+   "lat": 42.431,
+   "lng": -8.64435,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mediasmaratones.com/carreras/media-maraton-pontevedra/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/pontevedra-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa"
+  },
+  {
+   "id": "339e96c22285",
+   "nombre": "Pontevedra Half-Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": true,
+   "ciudad": "Pontevedra",
+   "provincia": "Pontevedra",
+   "ccaa": "Galicia",
+   "lat": 42.431,
+   "lng": -8.64435,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mediasmaratones.com/carreras/media-maraton-pontevedra/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/pontevedra-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa"
+  },
+  {
+   "id": "8b4f1cf053a0",
+   "nombre": "Quijote Marathon Ciudad Real - Media maratón",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": true,
+   "ciudad": "Ciudad Real",
+   "provincia": "Ciudad Real",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 38.98626,
+   "lng": -3.92907,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://quijotemaraton.com/maraton/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/quijote-marathon-ciudad-real"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa"
+  },
+  {
+   "id": "572b9f60e815",
+   "nombre": "Quijote Marathon Ciudad Real",
+   "modalidad": "maraton",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": true,
+   "ciudad": "Ciudad Real",
+   "provincia": "Ciudad Real",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 38.98626,
+   "lng": -3.92907,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://quijotemaraton.com/maraton/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/quijote-marathon-ciudad-real"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa"
+  },
+  {
+   "id": "5f2a5c1caaa9",
+   "nombre": "SGRAIL 100 Girona - Triatlón media",
+   "modalidad": "triatlon_media",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": false,
+   "ciudad": "Cadaqués",
+   "provincia": "Girona",
+   "ccaa": "Cataluña",
+   "lat": 42.2893484,
+   "lng": 3.2752159,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/sgrail-100-girona"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20"
+  },
+  {
+   "id": "309274344c5c",
+   "nombre": "Torrevieja Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": false,
+   "ciudad": "Torrevieja",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 37.97872,
+   "lng": -0.68222,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mediasmaratones.com/carreras/media-maraton-torrevieja/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/torrevieja-half-marathon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "9089e01ab23c",
+   "nombre": "V Solidarity Race For Biodiversity - 5K",
+   "modalidad": "5k",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": false,
+   "ciudad": "Rivas-Vaciamadrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "lat": 40.32605,
+   "lng": -3.51089,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://runfasterrivas.es/carrera-por-la-biodiversidad/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/v-solidarity-race-for-biodiversity"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "00ce74a80025",
+   "nombre": "V Solidarity Race For Biodiversity - 10K",
+   "modalidad": "10k",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": false,
+   "ciudad": "Rivas-Vaciamadrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "lat": 40.32605,
+   "lng": -3.51089,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://runfasterrivas.es/carrera-por-la-biodiversidad/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/v-solidarity-race-for-biodiversity"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "f179f3f9742b",
+   "nombre": "Vila-Seca Half Marathon - 5K",
+   "modalidad": "5k",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": false,
+   "ciudad": "Vila-seca",
+   "provincia": "Tarragona",
+   "ccaa": "Cataluña",
+   "lat": 41.11118,
+   "lng": 1.14764,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.runnersvilaseca.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/vila-seca-half-marathon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "7b2ee1d52323",
+   "nombre": "Vila-Seca Half Marathon - 10K",
+   "modalidad": "10k",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": false,
+   "ciudad": "Vila-seca",
+   "provincia": "Tarragona",
+   "ccaa": "Cataluña",
+   "lat": 41.11118,
+   "lng": 1.14764,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.runnersvilaseca.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/vila-seca-half-marathon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-10-20",
    "web_estado": "activa_sin_fecha"
   }
  ]

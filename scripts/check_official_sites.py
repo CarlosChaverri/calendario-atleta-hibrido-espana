@@ -11,6 +11,7 @@ UA = "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chr
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from fuentes import MESES_ES, MESES_EN, MESES_CA
 from title_policy import apply_titles
+from curation_filter import is_excluded
 
 PARKED = re.compile(r'domain is for sale|sedoparking|parked free|buy this domain|hugedomains|domain parking', re.I)
 CANCEL = re.compile(r'(carrera|prueba|evento|edicion|maraton|media)[^.]{0,60}(cancelad|cancel·l|aplazad|suspendid)'
@@ -60,9 +61,13 @@ def main():
         if not web: continue
         resumen['comprobadas'] += 1
         code, txt = fetch(web)
-        r['ultima_comprobacion'] = hoy
         if code is None or not str(code).startswith('2'):
-            r['nivel_validacion'] = 'por_verificar'
+            # Solo un intento tecnico fallido: no es una comprobacion real de la
+            # edicion. Conservamos la fecha de la ultima revision que si vio la web.
+            r['ultimo_intento_tecnico'] = hoy
+            # Un fallo de descarga no prueba que la carrera no exista: muchas
+            # webs oficiales bloquean curl/WAF desde IPs de CI o mueven la URL.
+            # Se conserva el nivel de validacion y solo se marca el estado.
             r['web_estado'] = 'caida'
             resumen['caidas'] += 1
             continue
@@ -77,6 +82,8 @@ def main():
             resumen['posible_cancelacion'] += 1
             continue
         if fecha_en_texto(txt, r['fecha']):
+            # Comprobacion confirmatoria real: la edicion y su fecha se ven hoy.
+            r['ultima_comprobacion'] = hoy
             r['nivel_validacion'] = 'confirmada_web_oficial'
             r['web_estado'] = 'activa'
             resumen['ok'] += 1
@@ -93,17 +100,32 @@ def main():
         cfg = json.load(open(curations))
         reviewed = {e['record']['id']: e['record'] for e in cfg['entries']}
         for i, r in enumerate(carreras):
-            if r['id'] in reviewed and r.get('web_estado') != 'posible_cancelacion':
-                carreras[i] = dict(reviewed[r['id']])
+            if r['id'] in reviewed:
+                rec = reviewed[r['id']]
+                # Un aviso automatico de cancelacion solo lo levanta una revision
+                # humana hecha HOY (la pagina puede mencionar otro evento).
+                if r.get('web_estado') == 'posible_cancelacion' and rec.get('ultima_comprobacion') != hoy:
+                    continue
+                carreras[i] = dict(rec)
         # Do not publish a possible cancellation automatically, even if the
         # record was in the prior public dataset.
+    # Las exclusiones curadas mandan tambien sobre el resultado del chequeo:
+    # la misma carrera puede volver a entrar desde las fuentes con otro titulo.
+    exclusions = cfg.get('exclude', []) if os.path.exists(curations) else []
+    if exclusions:
+        antes = len(carreras)
+        carreras = [r for r in carreras if not is_excluded(r, exclusions)]
+        data['carreras'] = carreras
+        if antes != len(carreras):
+            print(f'exclusiones curadas: {antes - len(carreras)} fichas retiradas')
     apply_titles(carreras)
     niveles = {}
     for r in carreras:
         r['fecha_confirmada'] = r['nivel_validacion'] in ('confirmada_web_oficial', 'confirmada_organizacion')
         niveles[r['nivel_validacion']] = niveles.get(r['nivel_validacion'], 0) + 1
     json.dump(data, open(FULL, 'w'), ensure_ascii=False, indent=1)
-    visibles = [r for r in data['carreras'] if r['nivel_validacion'] in ('confirmada_web_oficial', 'confirmada_organizacion')]
+    # Solo se publican ediciones futuras confirmadas; el historico no se mezcla.
+    visibles = [r for r in data['carreras'] if r['nivel_validacion'] in ('confirmada_web_oficial', 'confirmada_organizacion') and r['fecha'] >= hoy]
     json.dump({'generado': data['generado'], 'carreras': visibles}, open(OUT, 'w'), ensure_ascii=False, indent=1)
     print(f'visibles en la web: {len(visibles)} de {len(data["carreras"])}')
     print('resumen chequeo:', json.dumps(resumen, ensure_ascii=False))

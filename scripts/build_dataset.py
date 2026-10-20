@@ -5,6 +5,7 @@ from datetime import date, datetime
 from urllib.parse import urlparse, parse_qs
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from title_policy import apply_titles
+from curation_filter import is_excluded
 from fuentes import (PROVINCIAS_INE, SLUG_PROVINCIA, PROVINCIA_A_CCAA, SLUG_REGION,
                      MESES_ES, MESES_EN, MESES_CA, ISO_PROVINCIA, ISO_CCAA)
 
@@ -525,6 +526,8 @@ def load_curated():
     if not os.path.exists(path): return []
     out=[]
     for r in json.load(open(path)):
+        # Las fichas curadas expiran al pasar su fecha: no se republican ediciones pasadas.
+        if r.get('fecha') and r['fecha'] < HOY.isoformat(): continue
         x=dict(r); x.setdefault('lat',None);x.setdefault('lng',None); names={f.get('nombre','') for f in x.get('fuentes',[])}; x['fuente_oficial_confirmada']=any(n in {'spartan_deka_oficial','spartan_oficial','ironman_oficial','organizador_oficial'} for n in names); x['curada_organizacion']=not x['fuente_oficial_confirmada']
         out.append(x)
     print(f'curados: {len(out)}');return out
@@ -566,7 +569,8 @@ def apply_official_curations(out, previous_visible, previous_full):
     cfg = json.load(open(path)) if os.path.exists(path) else {'entries': [], 'exclude': []}
     exclusions = cfg['exclude']
     def excluded(r):
-        return any(all(r.get(k) == v for k, v in e.items()) for e in exclusions)
+        # Coincidencia tolerante: las fuentes renombran carreras entre ediciones.
+        return is_excluded(r, exclusions)
     by_id = {r['id']: r for r in out if not excluded(r)}
     retained = {r['id']: r for r in previous_visible}
     retained.update({r['id']: r for r in previous_full if r['id'] in cfg.get('preserve_ids', [])})
@@ -637,6 +641,10 @@ def main():
     if len(merged2) < len(merged):
         print(f'dedupe post-geocode: {len(merged)} -> {len(merged2)}')
         merged = merged2
+    prior_uc = {}
+    for prev in list(previous_visible) + list(previous_full):
+        if prev.get('id') and prev.get('ultima_comprobacion'):
+            prior_uc.setdefault(prev['id'], prev['ultima_comprobacion'])
     out = []
     for r in merged:
         noms = {f['nombre'] for f in r['fuentes']}
@@ -652,7 +660,8 @@ def main():
             'precio': r.get('precio'), 'precio_texto': ('desde ' + str(r['precio']) + ' €') if r.get('precio') else None,
             'web_oficial': limpia_url(r.get('web_oficial')), 'ubicacion_aproximada': r.get('ubicacion_aproximada', False),
             'fuentes': r['fuentes'], 'nivel_validacion': nv,
-            'ultima_comprobacion': HOY.isoformat(),
+            # La fecha confirmatoria se conserva: solo filas nuevas la inician hoy.
+            'ultima_comprobacion': prior_uc.get(rid, HOY.isoformat()),
         })
     out, public_ids = apply_official_curations(out, previous_visible, previous_full)
     apply_titles(out)

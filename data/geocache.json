@@ -1649,7 +1649,6 @@
   "provincia": "Ávila",
   "ccaa": "Castilla y León"
  },
- "gandie|": null,
  "medina de las torres|": {
   "lat": 38.3414278,
   "lng": -6.4118371,
@@ -1661,5 +1660,60 @@
   "lng": 0.706957,
   "provincia": "Tarragona",
   "ccaa": "Cataluña"
- }
+ },
+ "villanueva de la torre|guadalajara": {
+  "lat": 40.5926539,
+  "lng": -3.3040213,
+  "provincia": "Guadalajara",
+  "ccaa": "Castilla-La Mancha"
+ },
+ "alovera|guadalajara": {
+  "lat": 40.5953571,
+  "lng": -3.2487763,
+  "provincia": "Guadalajara",
+  "ccaa": "Castilla-La Mancha"
+ },
+ "navalmoral de la mata|caceres": {
+  "lat": 39.8915481,
+  "lng": -5.540719,
+  "provincia": "Cáceres",
+  "ccaa": "Extremadura"
+ },
+ "san mateo de gallego|zaragoza": {
+  "lat": 41.8316282,
+  "lng": -0.7656157,
+  "provincia": "Zaragoza",
+  "ccaa": "Aragón"
+ },
+ "monreal del campo|teruel": {
+  "lat": 40.7749459,
+  "lng": -1.3493715,
+  "provincia": "Teruel",
+  "ccaa": "Aragón"
+ },
+ "carinena|zaragoza": {
+  "lat": 41.3382122,
+  "lng": -1.2263149,
+  "provincia": "Zaragoza",
+  "ccaa": "Aragón"
+ },
+ "teruel|zaragoza": {
+  "lat": 41.6490088,
+  "lng": -0.8979269,
+  "provincia": "Zaragoza",
+  "ccaa": "Aragón"
+ },
+ "fraga|zaragoza": {
+  "lat": 42.6124832,
+  "lng": -0.9980064,
+  "provincia": "Zaragoza",
+  "ccaa": "Aragón"
+ },
+ "benasque|huesca": {
+  "lat": 42.6052663,
+  "lng": 0.5237318,
+  "provincia": "Huesca",
+  "ccaa": "Aragón"
+ },
+ "gandie|": null
 }
