@@ -1,687 +1,6 @@
 {
- "generado": "2026-10-20T12:32:06",
+ "generado": "2026-11-01T11:57:07",
  "carreras": [
-  {
-   "id": "947a68fee2ff",
-   "nombre": "Arrankudiga-zolloko Mendi Maratoi Erdia - Maratón",
-   "modalidad": "maraton",
-   "fecha": "2026-10-24",
-   "fecha_confirmada": false,
-   "ciudad": "Arrankudiaga-Zollo",
-   "provincia": "Bizkaia",
-   "ccaa": "País Vasco",
-   "lat": 43.1766868,
-   "lng": -2.9345437,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "carreraspopulares",
-     "url": "https://carreraspopulares.com/carrera/arrankudiaga-zolloko-mendi-maratoi-erdia"
-    }
-   ],
-   "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-20"
-  },
-  {
-   "id": "64d103776633",
-   "nombre": "Bestial Race El Hierro",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-24",
-   "fecha_confirmada": true,
-   "ciudad": "El Pinar de El Hierro",
-   "provincia": "Santa Cruz de Tenerife",
-   "ccaa": "Canarias",
-   "lat": 27.6850443,
-   "lng": -18.0016356,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://ocrbestial.com/bestial-race-el-hierro/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://ocrbestial.com/bestial-race-el-hierro/"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
-  },
-  {
-   "id": "010efcfcb341",
-   "nombre": "Challenge Barcelona Triathlon - Triatlón sprint",
-   "modalidad": "triatlon_sprint",
-   "fecha": "2026-10-24",
-   "fecha_confirmada": false,
-   "ciudad": "Barcelona",
-   "provincia": "Barcelona",
-   "ccaa": "Cataluña",
-   "lat": 41.3754487,
-   "lng": 2.1492186,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/challenge-barcelona-triathlon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16"
-  },
-  {
-   "id": "c70efe2a16eb",
-   "nombre": "Challenge Barcelona Triathlon - Triatlón olímpico",
-   "modalidad": "triatlon_olimpico",
-   "fecha": "2026-10-24",
-   "fecha_confirmada": true,
-   "ciudad": "Barcelona",
-   "provincia": "Barcelona",
-   "ccaa": "Cataluña",
-   "lat": 41.3850639,
-   "lng": 2.1734035,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.triathlon.barcelona/ca/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/challenge-barcelona-triathlon"
-    },
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://www.triathlon.barcelona/ca/"
-    },
-    {
-     "nombre": "triathlons_descubrimiento",
-     "url": "https://www.triathlons.com/fr/events/challenge-barcelona-triathlon_hhKRk"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "d9f696ffc21e",
-   "nombre": "DEKA FIT Guadalajara",
-   "modalidad": "hibrida",
-   "fecha": "2026-10-24",
-   "fecha_confirmada": true,
-   "ciudad": "Guadalajara",
-   "provincia": "Guadalajara",
-   "ccaa": "Castilla-La Mancha",
-   "lat": 40.6326979,
-   "lng": -3.1646067,
-   "precio": 60,
-   "precio_texto": "desde 60 €",
-   "web_oficial": "https://es.spartan.com/es/races/deka-guadalajara",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "spartan_deka_oficial",
-     "url": "https://es.spartan.com/es/races/deka-guadalajara"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
-  },
-  {
-   "id": "b3c0e6383229",
-   "nombre": "Fast Triatlón Canal Olímpic de Catalunya - Triatlón sprint",
-   "modalidad": "triatlon_sprint",
-   "fecha": "2026-10-24",
-   "fecha_confirmada": false,
-   "ciudad": "Castelldefels",
-   "provincia": "Barcelona",
-   "ccaa": "Cataluña",
-   "lat": 41.2861022,
-   "lng": 1.9824173,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/fast-triatlon-canal-olimpic-de-catalunya"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16"
-  },
-  {
-   "id": "e72f4223a276",
-   "nombre": "Hyatlón La Nucía",
-   "modalidad": "hibrida",
-   "fecha": "2026-10-24",
-   "fecha_confirmada": true,
-   "ciudad": "La Nucía",
-   "provincia": "Alicante",
-   "ccaa": "Comunitat Valenciana",
-   "lat": 38.6133727,
-   "lng": -0.1257319,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://hyatlon.org/event/la-nucia",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "hyatlon_oficial",
-     "url": "https://hyatlon.org/event/la-nucia"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "2cc76a969805",
-   "nombre": "Ibiza Trail Maratón",
-   "modalidad": "maraton",
-   "fecha": "2026-10-24",
-   "fecha_confirmada": false,
-   "ciudad": "Sant Antoni de Portmany - Ibiza",
-   "provincia": "Illes Balears",
-   "ccaa": "Illes Balears",
-   "lat": 38.9830568,
-   "lng": 1.3009485,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "carreraspopulares",
-     "url": "https://carreraspopulares.com/carrera"
-    }
-   ],
-   "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-20"
-  },
-  {
-   "id": "9d52ccc4c3b3",
-   "nombre": "Survivor Madrid Quijorna",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-24",
-   "fecha_confirmada": true,
-   "ciudad": "Quijorna",
-   "provincia": "Madrid",
-   "ccaa": "Comunidad de Madrid",
-   "lat": 40.4290833,
-   "lng": -4.0565378,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://survivor-race.com/carreras/survivor-madrid-quijorna/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://survivor-race.com/carreras/survivor-madrid-quijorna/"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
-  },
-  {
-   "id": "169544b72120",
-   "nombre": "Triatlón Playas de Mazagón - Triatlón sprint",
-   "modalidad": "triatlon_sprint",
-   "fecha": "2026-10-24",
-   "fecha_confirmada": false,
-   "ciudad": "Mazagón",
-   "provincia": "Huelva",
-   "ccaa": "Andalucía",
-   "lat": 37.1367416,
-   "lng": -6.8278349,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/triatlon-playas-de-mazagon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16"
-  },
-  {
-   "id": "489d9ede960e",
-   "nombre": "15 km Donostia - San Sebastián - 5K",
-   "modalidad": "5k",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": true,
-   "ciudad": "Saint-Sébastien",
-   "provincia": "Gipuzkoa",
-   "ccaa": "País Vasco",
-   "lat": 43.318334,
-   "lng": -1.9812313,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://15ksansebastian.com/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/15-km-de-san-sebastian"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
-  },
-  {
-   "id": "cc728437c714",
-   "nombre": "Badajoz Race Hybrid Calamonte",
-   "modalidad": "hibrida",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": true,
-   "ciudad": "Calamonte",
-   "provincia": "Badajoz",
-   "ccaa": "Extremadura",
-   "lat": 38.8749753,
-   "lng": -6.3826203,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.dip-badajoz.es/badajozrace/eventos/12872",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://www.dip-badajoz.es/badajozrace/eventos/12872"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
-  },
-  {
-   "id": "94bd296718fa",
-   "nombre": "Beer Runners - 5K",
-   "modalidad": "5k",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": false,
-   "ciudad": "Barcelona",
-   "provincia": "Barcelona",
-   "ccaa": "Cataluña",
-   "lat": 41.3850639,
-   "lng": 2.1734035,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://beerrunners.es/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/beer-runners"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "24487c250f81",
-   "nombre": "Beer Runners - 10K",
-   "modalidad": "10k",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": false,
-   "ciudad": "Barcelona",
-   "provincia": "Barcelona",
-   "ccaa": "Cataluña",
-   "lat": 41.3850639,
-   "lng": 2.1734035,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://beerrunners.es/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/beer-runners"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "add6e6b99c29",
-   "nombre": "Carreira Pedestre Popular de Santiago - 10K",
-   "modalidad": "10k",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": false,
-   "ciudad": "Santiago de Compostela",
-   "provincia": "A Coruña",
-   "ccaa": "Galicia",
-   "lat": 42.88052,
-   "lng": -8.54569,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://eventos.emesports.es/inscripcion/46-carreira-pedestre-popular-de-santiago/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/carreira-pedestre-popular-de-santiago"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
-   "web_estado": "caida"
-  },
-  {
-   "id": "fdbc1867970c",
-   "nombre": "Challenge Barcelona Triathlon - Triatlón media",
-   "modalidad": "triatlon_media",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": true,
-   "ciudad": "Barcelona",
-   "provincia": "Barcelona",
-   "ccaa": "Cataluña",
-   "lat": 41.3850639,
-   "lng": 2.1734035,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.triathlon.barcelona/ca/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://www.triathlon.barcelona/ca/"
-    },
-    {
-     "nombre": "triathlons_descubrimiento",
-     "url": "https://www.triathlons.com/fr/events/challenge-barcelona-triathlon_hhKRk"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "347aa1d84f27",
-   "nombre": "Desafío Rincón de la Victoria",
-   "modalidad": "obstaculos",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": true,
-   "ciudad": "Rincón de la Victoria",
-   "provincia": "Málaga",
-   "ccaa": "Andalucía",
-   "lat": 36.7162109,
-   "lng": -4.2793767,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-malaga",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "organizador_oficial",
-     "url": "https://www.desafiodeguerreros.com.es/carreras/p/desafio-malaga"
-    },
-    {
-     "nombre": "running.life_lead",
-     "url": "https://running.life/carreras-obstaculos/espana"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
-  },
-  {
-   "id": "fa282b733de9",
-   "nombre": "II Media Maratón Rural y I 11K Rural Villanueva de la Torre",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": false,
-   "ciudad": "Villanueva de la Torre",
-   "provincia": "Guadalajara",
-   "ccaa": "Castilla-La Mancha",
-   "lat": 40.5926539,
-   "lng": -3.3040213,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "carreraspopulares",
-     "url": "https://carreraspopulares.com/carrera/media-maraton-rural"
-    }
-   ],
-   "nivel_validacion": "por_verificar",
-   "ultima_comprobacion": "2026-10-20"
-  },
-  {
-   "id": "18c2b207b5ee",
-   "nombre": "Ibiza Half Triathlon",
-   "modalidad": "triatlon_media",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": false,
-   "ciudad": "Ibiza",
-   "provincia": "Illes Balears",
-   "ccaa": "Illes Balears",
-   "lat": 38.9743901,
-   "lng": 1.4197463,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/ibiza-half-triathlon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16"
-  },
-  {
-   "id": "d836ce7a1efc",
-   "nombre": "Ironman 70.3 Marbella",
-   "modalidad": "triatlon_media",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": false,
-   "ciudad": "Marbella",
-   "provincia": "Málaga",
-   "ccaa": "Andalucía",
-   "lat": 36.5074781,
-   "lng": -4.8047219,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": null,
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/ironman-70-3-marbella"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16"
-  },
-  {
-   "id": "e607525fcf94",
-   "nombre": "Jerez Half Marathon",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": false,
-   "ciudad": "Jerez de la Frontera",
-   "provincia": "Cádiz",
-   "ccaa": "Andalucía",
-   "lat": 36.6850064,
-   "lng": -6.126074399999999,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.runnink.com/evento/xxviii-medio-maraton-de-jerez/19",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/jerez-half-marathon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "8d490d2b5c42",
-   "nombre": "Lleida Marathon - 5K",
-   "modalidad": "5k",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": false,
-   "ciudad": "Lérida",
-   "provincia": "Lleida",
-   "ccaa": "Cataluña",
-   "lat": 41.61674,
-   "lng": 0.62218,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://maratolleida.org/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/lleida-marathon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
-   "web_estado": "caida"
-  },
-  {
-   "id": "9c795f65816c",
-   "nombre": "Lleida Marathon",
-   "modalidad": "maraton",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": false,
-   "ciudad": "Lérida",
-   "provincia": "Lleida",
-   "ccaa": "Cataluña",
-   "lat": 41.61674,
-   "lng": 0.62218,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://maratolleida.org/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/lleida-marathon"
-    }
-   ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
-   "web_estado": "caida"
-  },
-  {
-   "id": "bac35e13682d",
-   "nombre": "Medio Maratón Valencia",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": true,
-   "ciudad": "Valencia",
-   "provincia": "Valencia",
-   "ccaa": "Comunitat Valenciana",
-   "lat": 39.4699075,
-   "lng": -0.3762881,
-   "precio": 19,
-   "precio_texto": "desde 19 €",
-   "web_oficial": "https://www.valenciaciudaddelrunning.com/en/half/half-marathon/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "carreraspopulares",
-     "url": "https://carreraspopulares.com/carrera/medio-maraton-valencia"
-    },
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/valencia-half-marathon"
-    },
-    {
-     "nombre": "runnea",
-     "url": "https://www.runnea.com/carreras-populares/medio-maraton-valencia/"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
-  },
-  {
-   "id": "3f9a3a7aff3a",
-   "nombre": "Valencia Half Marathon",
-   "modalidad": "medio_maraton",
-   "fecha": "2026-10-25",
-   "fecha_confirmada": true,
-   "ciudad": "Valencia",
-   "provincia": "Valencia",
-   "ccaa": "Comunitat Valenciana",
-   "lat": 39.4699075,
-   "lng": -0.3762881,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://www.valenciaciudaddelrunning.com/en/half/half-marathon/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/valencia-half-marathon"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
-  },
-  {
-   "id": "ced2b11ae0f9",
-   "nombre": "DEKA FIT Alicante",
-   "modalidad": "hibrida",
-   "fecha": "2026-10-31",
-   "fecha_confirmada": true,
-   "ciudad": "Alicante",
-   "provincia": "Alicante",
-   "ccaa": "Comunitat Valenciana",
-   "lat": 38.3436365,
-   "lng": -0.4881708,
-   "precio": 80,
-   "precio_texto": "desde 80 €",
-   "web_oficial": "https://es.spartan.com/es/races/deka-alicante",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "spartan_deka_oficial",
-     "url": "https://es.spartan.com/es/races/deka-alicante"
-    }
-   ],
-   "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
-  },
   {
    "id": "560cb149c6ff",
    "nombre": "Cursa de les caves - 10K",
@@ -728,7 +47,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -777,7 +96,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -802,7 +121,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1085,7 +404,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1143,8 +462,8 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa",
    "ultimo_intento_tecnico": "2026-10-20"
   },
   {
@@ -1194,7 +513,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -1220,7 +539,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -1249,7 +568,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1278,7 +597,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1307,7 +626,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1332,7 +651,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1358,6 +677,35 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "bdf9b31e3064",
+   "nombre": "Mitja marató & 10 K de Gandía",
+   "modalidad": "10k",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": true,
+   "ciudad": "Gandia",
+   "provincia": "Valencia",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 38.968032,
+   "lng": -0.1844671,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://mitjagandia.org/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "carreraspopulares",
+     "url": "https://carreraspopulares.com/carrera/10k-ciutat-de-gandia"
+    },
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/gandia-half-marathon"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1386,7 +734,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1411,7 +759,32 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa"
+  },
+  {
+   "id": "c7fc3fdc6cd2",
+   "nombre": "The Great Mediterranean Race 21K",
+   "modalidad": "medio_maraton",
+   "fecha": "2026-11-08",
+   "fecha_confirmada": true,
+   "ciudad": "Alicante",
+   "provincia": "Alicante",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 38.3459963,
+   "lng": -0.4906855,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.lagrancarreradelmediterraneo21k.com/en/v-gran-carrera-del-mediterraneo-21k/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/the-grand-mediterranean-21k-run"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1523,7 +896,7 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida",
+   "web_estado": "activa_sin_fecha",
    "ultimo_intento_tecnico": "2026-10-20"
   },
   {
@@ -1669,7 +1042,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1723,7 +1096,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1837,7 +1210,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1866,7 +1239,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1891,7 +1264,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -1917,7 +1290,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -1943,7 +1316,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -1969,7 +1342,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -2031,7 +1404,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2060,7 +1433,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2085,7 +1458,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2110,7 +1483,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2139,7 +1512,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2276,7 +1649,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2305,7 +1678,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2330,7 +1703,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2438,7 +1811,7 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
+   "web_estado": "activa_sin_fecha"
   },
   {
    "id": "041d4dca19be",
@@ -2550,7 +1923,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2655,7 +2028,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -2728,7 +2101,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2753,7 +2126,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2778,7 +2151,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2803,7 +2176,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2832,7 +2205,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -2862,8 +2235,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
-   "web_estado": "caida"
+   "web_estado": "activa_sin_fecha"
   },
   {
    "id": "802c8c98065a",
@@ -3009,7 +2381,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3171,7 +2543,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3196,7 +2568,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3221,7 +2593,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3246,7 +2618,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3275,7 +2647,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3300,7 +2672,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3325,7 +2697,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3375,7 +2747,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -3400,7 +2772,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3425,7 +2797,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3450,7 +2822,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3549,7 +2921,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3625,7 +2997,7 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-16",
-   "web_estado": "caida",
+   "web_estado": "activa_sin_fecha",
    "ultimo_intento_tecnico": "2026-10-20"
   },
   {
@@ -3703,7 +3075,7 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
+   "web_estado": "activa_sin_fecha"
   },
   {
    "id": "3caefd55f985",
@@ -3732,7 +3104,7 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
+   "web_estado": "activa_sin_fecha"
   },
   {
    "id": "1ab560f12a4a",
@@ -3938,7 +3310,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -3963,7 +3335,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4066,7 +3438,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4152,7 +3524,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4306,7 +3678,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4331,7 +3703,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4429,7 +3801,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4554,7 +3926,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4579,7 +3951,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4681,7 +4053,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4731,7 +4103,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4809,7 +4181,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4858,7 +4230,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4888,7 +4260,7 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
+   "web_estado": "activa_sin_fecha"
   },
   {
    "id": "a38546bd4155",
@@ -4920,7 +4292,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4949,7 +4321,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -4974,7 +4346,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -5097,7 +4469,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -5172,7 +4544,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -5345,7 +4717,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -5374,7 +4746,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -5449,7 +4821,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -5503,7 +4875,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -5532,7 +4904,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -5679,7 +5051,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -5704,7 +5076,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -5729,7 +5101,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -5755,7 +5127,8 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
+   "web_estado": "caida",
+   "ultimo_intento_tecnico": "2026-11-01"
   },
   {
    "id": "56edbaa12cb4",
@@ -5783,7 +5156,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -5929,7 +5302,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -5979,7 +5352,34 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "web_estado": "caida",
+   "ultimo_intento_tecnico": "2026-11-01"
+  },
+  {
+   "id": "94ea6c513e39",
+   "nombre": "HYROX Málaga",
+   "modalidad": "hyrox",
+   "fecha": "2027-04-15",
+   "fecha_confirmada": true,
+   "ciudad": "Málaga",
+   "provincia": "Málaga",
+   "ccaa": "Andalucía",
+   "lat": 36.7647913,
+   "lng": -4.4422005,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://hyrox.com/event/hyrox-malaga/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "hyrox_oficial",
+     "url": "https://hyrox.com/event/hyrox-malaga/"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-11-01",
+   "ultimo_intento_tecnico": "2026-11-01",
+   "web_estado": "caida"
   },
   {
    "id": "f30763fddfcc",
@@ -6028,7 +5428,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -6054,7 +5454,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -6080,7 +5480,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -6133,7 +5533,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -6303,7 +5703,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -6502,7 +5902,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -6527,7 +5927,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -6552,7 +5952,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -6862,7 +6262,8 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "ultimo_intento_tecnico": "2026-11-01",
+   "web_estado": "caida"
   },
   {
    "id": "7cc756e65d5d",
@@ -7156,7 +6557,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -7406,7 +6807,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -7431,7 +6832,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -7627,7 +7028,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -7656,7 +7057,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -7681,7 +7082,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -7706,7 +7107,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -7731,7 +7132,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -7941,7 +7342,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -8681,7 +8082,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -8905,7 +8306,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -9076,7 +8477,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -10067,7 +9468,7 @@
    ],
    "nivel_validacion": "confirmada_web_oficial",
    "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa"
+   "web_estado": "activa_sin_fecha"
   },
   {
    "id": "c5c635bfa22e",
@@ -10238,7 +9639,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -10898,7 +10299,7 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -10948,7 +10349,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -11589,7 +10990,7 @@
    "nombre": "Estepona Garden of the Costa del Sol Marathon",
    "modalidad": "maraton",
    "fecha": "2027-10-10",
-   "fecha_confirmada": false,
+   "fecha_confirmada": true,
    "ciudad": "Estepona",
    "provincia": "Málaga",
    "ccaa": "Andalucía",
@@ -11597,7 +10998,7 @@
    "lng": -5.14589,
    "precio": null,
    "precio_texto": null,
-   "web_oficial": "https://web.rockthesport.com/fr/event/maratonestepona",
+   "web_oficial": "https://www.maratoncostadelsol.com",
    "ubicacion_aproximada": false,
    "fuentes": [
     {
@@ -11605,9 +11006,9 @@
      "url": "https://www.finishers.com/event/estepona-coast-of-the-sun-garden-marathon"
     }
    ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-16",
-   "web_estado": "activa_sin_fecha"
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa"
   },
   {
    "id": "fe13aeb88cbd",
@@ -11681,7 +11082,7 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-16",
-   "ultimo_intento_tecnico": "2026-10-20",
+   "ultimo_intento_tecnico": "2026-11-01",
    "web_estado": "caida"
   },
   {
@@ -11811,7 +11212,7 @@
    "nombre": "Bilbao Night Running Fest - 10K",
    "modalidad": "10k",
    "fecha": "2027-10-16",
-   "fecha_confirmada": false,
+   "fecha_confirmada": true,
    "ciudad": "Bilbao",
    "provincia": "Bizkaia",
    "ccaa": "País Vasco",
@@ -11827,16 +11228,16 @@
      "url": "https://www.finishers.com/event/bilbao-night-running-fest"
     }
    ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa_sin_fecha"
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa"
   },
   {
    "id": "8e9960a3684f",
    "nombre": "Bilbao Night Running Fest - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2027-10-16",
-   "fecha_confirmada": false,
+   "fecha_confirmada": true,
    "ciudad": "Bilbao",
    "provincia": "Bizkaia",
    "ccaa": "País Vasco",
@@ -11852,9 +11253,9 @@
      "url": "https://www.finishers.com/event/bilbao-night-running-fest"
     }
    ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa_sin_fecha"
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa"
   },
   {
    "id": "469c262cea0e",
@@ -11981,7 +11382,7 @@
    "nombre": "Palma de Mallorca Marathon - 10K",
    "modalidad": "10k",
    "fecha": "2027-10-17",
-   "fecha_confirmada": false,
+   "fecha_confirmada": true,
    "ciudad": "Palma de Mallorca",
    "provincia": "Illes Balears",
    "ccaa": "Illes Balears",
@@ -11997,16 +11398,16 @@
      "url": "https://www.finishers.com/event/palma-de-mallorca-marathon"
     }
    ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa_sin_fecha"
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa"
   },
   {
    "id": "bad4afc334d7",
    "nombre": "Palma de Mallorca Marathon - Media maratón",
    "modalidad": "medio_maraton",
    "fecha": "2027-10-17",
-   "fecha_confirmada": false,
+   "fecha_confirmada": true,
    "ciudad": "Palma de Mallorca",
    "provincia": "Illes Balears",
    "ccaa": "Illes Balears",
@@ -12022,16 +11423,16 @@
      "url": "https://www.finishers.com/event/palma-de-mallorca-marathon"
     }
    ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa_sin_fecha"
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa"
   },
   {
    "id": "2d79acb652b4",
    "nombre": "Palma de Mallorca Marathon",
    "modalidad": "maraton",
    "fecha": "2027-10-17",
-   "fecha_confirmada": false,
+   "fecha_confirmada": true,
    "ciudad": "Palma de Mallorca",
    "provincia": "Illes Balears",
    "ccaa": "Illes Balears",
@@ -12047,33 +11448,8 @@
      "url": "https://www.finishers.com/event/palma-de-mallorca-marathon"
     }
    ],
-   "nivel_validacion": "fecha_estimada",
-   "ultima_comprobacion": "2026-10-20",
-   "web_estado": "activa_sin_fecha"
-  },
-  {
-   "id": "a3a4ded84708",
-   "nombre": "Pontevedra Half-Marathon - 10K",
-   "modalidad": "10k",
-   "fecha": "2027-10-17",
-   "fecha_confirmada": true,
-   "ciudad": "Pontevedra",
-   "provincia": "Pontevedra",
-   "ccaa": "Galicia",
-   "lat": 42.431,
-   "lng": -8.64435,
-   "precio": null,
-   "precio_texto": null,
-   "web_oficial": "https://mediasmaratones.com/carreras/media-maraton-pontevedra/",
-   "ubicacion_aproximada": false,
-   "fuentes": [
-    {
-     "nombre": "finishers",
-     "url": "https://www.finishers.com/event/pontevedra-half-marathon"
-    }
-   ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -12098,32 +11474,32 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
-   "id": "8b4f1cf053a0",
-   "nombre": "Quijote Marathon Ciudad Real - Media maratón",
-   "modalidad": "medio_maraton",
+   "id": "a3a4ded84708",
+   "nombre": "Pontevedra Half-Marathon - 10K",
+   "modalidad": "10k",
    "fecha": "2027-10-17",
    "fecha_confirmada": true,
-   "ciudad": "Ciudad Real",
-   "provincia": "Ciudad Real",
-   "ccaa": "Castilla-La Mancha",
-   "lat": 38.98626,
-   "lng": -3.92907,
+   "ciudad": "Pontevedra",
+   "provincia": "Pontevedra",
+   "ccaa": "Galicia",
+   "lat": 42.431,
+   "lng": -8.64435,
    "precio": null,
    "precio_texto": null,
-   "web_oficial": "https://quijotemaraton.com/maraton/",
+   "web_oficial": "https://mediasmaratones.com/carreras/media-maraton-pontevedra/",
    "ubicacion_aproximada": false,
    "fuentes": [
     {
      "nombre": "finishers",
-     "url": "https://www.finishers.com/event/quijote-marathon-ciudad-real"
+     "url": "https://www.finishers.com/event/pontevedra-half-marathon"
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -12148,7 +11524,32 @@
     }
    ],
    "nivel_validacion": "confirmada_web_oficial",
-   "ultima_comprobacion": "2026-10-20",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa"
+  },
+  {
+   "id": "8b4f1cf053a0",
+   "nombre": "Quijote Marathon Ciudad Real - Media maratón",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-10-17",
+   "fecha_confirmada": true,
+   "ciudad": "Ciudad Real",
+   "provincia": "Ciudad Real",
+   "ccaa": "Castilla-La Mancha",
+   "lat": 38.98626,
+   "lng": -3.92907,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://quijotemaraton.com/maraton/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/quijote-marathon-ciudad-real"
+    }
+   ],
+   "nivel_validacion": "confirmada_web_oficial",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa"
   },
   {
@@ -12298,6 +11699,404 @@
    ],
    "nivel_validacion": "fecha_estimada",
    "ultima_comprobacion": "2026-10-20",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "7e5a5a35d844",
+   "nombre": "Challenge Barcelona Triathlon - Triatlón sprint",
+   "modalidad": "triatlon_sprint",
+   "fecha": "2027-10-23",
+   "fecha_confirmada": false,
+   "ciudad": "Barcelona",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 41.3754487,
+   "lng": 2.1492186,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/challenge-barcelona-triathlon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01"
+  },
+  {
+   "id": "71a6018c9d71",
+   "nombre": "Challenge Barcelona Triathlon - Triatlón olímpico",
+   "modalidad": "triatlon_olimpico",
+   "fecha": "2027-10-23",
+   "fecha_confirmada": false,
+   "ciudad": "Barcelona",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 41.3754487,
+   "lng": 2.1492186,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/challenge-barcelona-triathlon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01"
+  },
+  {
+   "id": "2f6af878fd8f",
+   "nombre": "Fast Triatlón Canal Olímpic de Catalunya - Triatlón sprint",
+   "modalidad": "triatlon_sprint",
+   "fecha": "2027-10-23",
+   "fecha_confirmada": false,
+   "ciudad": "Castelldefels",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 41.2861022,
+   "lng": 1.9824173,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/fast-triatlon-canal-olimpic-de-catalunya"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01"
+  },
+  {
+   "id": "b0938c53e022",
+   "nombre": "Triatlón Playas de Mazagón - Triatlón sprint",
+   "modalidad": "triatlon_sprint",
+   "fecha": "2027-10-23",
+   "fecha_confirmada": false,
+   "ciudad": "Mazagón",
+   "provincia": "Huelva",
+   "ccaa": "Andalucía",
+   "lat": 37.1367416,
+   "lng": -6.8278349,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/triatlon-playas-de-mazagon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01"
+  },
+  {
+   "id": "33d0b18ffbc1",
+   "nombre": "15 km Donostia - San Sebastián - 5K",
+   "modalidad": "5k",
+   "fecha": "2027-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Saint-Sébastien",
+   "provincia": "Gipuzkoa",
+   "ccaa": "País Vasco",
+   "lat": 43.318334,
+   "lng": -1.9812313,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://15ksansebastian.com/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/15-km-de-san-sebastian"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "02f227d4f079",
+   "nombre": "Beer Runners - 5K",
+   "modalidad": "5k",
+   "fecha": "2027-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Barcelona",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 41.3850639,
+   "lng": 2.1734035,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://beerrunners.es/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/beer-runners"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "7ef8ba156f2a",
+   "nombre": "Beer Runners - 10K",
+   "modalidad": "10k",
+   "fecha": "2027-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Barcelona",
+   "provincia": "Barcelona",
+   "ccaa": "Cataluña",
+   "lat": 41.3850639,
+   "lng": 2.1734035,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://beerrunners.es/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/beer-runners"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "d37f14c08d86",
+   "nombre": "Carabanchel 10km",
+   "modalidad": "10k",
+   "fecha": "2027-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Madrid",
+   "provincia": "Madrid",
+   "ccaa": "Comunidad de Madrid",
+   "lat": 40.4167754,
+   "lng": -3.7037902,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.10kcarabanchel.es/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/carabanchel-10km"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "f34451bdc441",
+   "nombre": "Carreira Pedestre Popular de Santiago - 10K",
+   "modalidad": "10k",
+   "fecha": "2027-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Santiago de Compostela",
+   "provincia": "A Coruña",
+   "ccaa": "Galicia",
+   "lat": 42.88052,
+   "lng": -8.54569,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://eventos.emesports.es/inscripcion/46-carreira-pedestre-popular-de-santiago/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/carreira-pedestre-popular-de-santiago"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01",
+   "ultimo_intento_tecnico": "2026-11-01",
+   "web_estado": "caida"
+  },
+  {
+   "id": "b87738b42ca8",
+   "nombre": "Ibiza Half Triathlon",
+   "modalidad": "triatlon_media",
+   "fecha": "2027-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Ibiza",
+   "provincia": "Illes Balears",
+   "ccaa": "Illes Balears",
+   "lat": 38.9743901,
+   "lng": 1.4197463,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/ibiza-half-triathlon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01"
+  },
+  {
+   "id": "14477713cf25",
+   "nombre": "Ironman 70.3 Marbella",
+   "modalidad": "triatlon_media",
+   "fecha": "2027-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Marbella",
+   "provincia": "Málaga",
+   "ccaa": "Andalucía",
+   "lat": 36.5074781,
+   "lng": -4.8047219,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": null,
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/ironman-70-3-marbella"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01"
+  },
+  {
+   "id": "9eacf83bae56",
+   "nombre": "Jerez Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Jerez de la Frontera",
+   "provincia": "Cádiz",
+   "ccaa": "Andalucía",
+   "lat": 36.6850064,
+   "lng": -6.126074399999999,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.runnink.com/evento/xxviii-medio-maraton-de-jerez/19",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/jerez-half-marathon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01",
+   "web_estado": "activa_sin_fecha"
+  },
+  {
+   "id": "8848a82083fc",
+   "nombre": "Lleida Marathon - 5K",
+   "modalidad": "5k",
+   "fecha": "2027-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Lérida",
+   "provincia": "Lleida",
+   "ccaa": "Cataluña",
+   "lat": 41.61674,
+   "lng": 0.62218,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://maratolleida.org/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/lleida-marathon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01",
+   "ultimo_intento_tecnico": "2026-11-01",
+   "web_estado": "caida"
+  },
+  {
+   "id": "a4304a1cb3de",
+   "nombre": "Lleida Marathon - 10K",
+   "modalidad": "10k",
+   "fecha": "2027-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Lérida",
+   "provincia": "Lleida",
+   "ccaa": "Cataluña",
+   "lat": 41.61674,
+   "lng": 0.62218,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://maratolleida.org/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/lleida-marathon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01",
+   "ultimo_intento_tecnico": "2026-11-01",
+   "web_estado": "caida"
+  },
+  {
+   "id": "4857e066d642",
+   "nombre": "Lleida Marathon",
+   "modalidad": "maraton",
+   "fecha": "2027-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Lérida",
+   "provincia": "Lleida",
+   "ccaa": "Cataluña",
+   "lat": 41.61674,
+   "lng": 0.62218,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://maratolleida.org/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/lleida-marathon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01",
+   "ultimo_intento_tecnico": "2026-11-01",
+   "web_estado": "caida"
+  },
+  {
+   "id": "fdbaaa389a29",
+   "nombre": "Valencia Half Marathon",
+   "modalidad": "medio_maraton",
+   "fecha": "2027-10-24",
+   "fecha_confirmada": false,
+   "ciudad": "Valencia",
+   "provincia": "Valencia",
+   "ccaa": "Comunitat Valenciana",
+   "lat": 39.4699075,
+   "lng": -0.3762881,
+   "precio": null,
+   "precio_texto": null,
+   "web_oficial": "https://www.valenciaciudaddelrunning.com/en/half/half-marathon/",
+   "ubicacion_aproximada": false,
+   "fuentes": [
+    {
+     "nombre": "finishers",
+     "url": "https://www.finishers.com/event/valencia-half-marathon"
+    }
+   ],
+   "nivel_validacion": "fecha_estimada",
+   "ultima_comprobacion": "2026-11-01",
    "web_estado": "activa_sin_fecha"
   }
  ]
